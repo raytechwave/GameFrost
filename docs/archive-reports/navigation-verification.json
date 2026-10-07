@@ -1,0 +1,11 @@
+{
+  "date": "2026-09-30T15:18:28.100Z",
+  "serverRenderedPages": 87,
+  "linkedPageAndQueryStates": 102,
+  "internalLinkTargets": 201,
+  "imageAssets": 27,
+  "allPageAndImageResponses": "Passed",
+  "navigation": "Shared links use native document navigation; no client RSC interception.",
+  "browserClickValidation": "Unavailable: browser-control skill is not installed.",
+  "generatedImages": "Three 1536 x 1024 HD editorial assets, each with 768px and 1536px WebP versions."
+}

@@ -1,0 +1,11 @@
+{
+  "scope": "Built Worker, isolated D1/R2, loopback-only QA mock identity; actual production dispatch login not exercised.",
+  "checks": [
+    "Actual product edit: save leaves independent visitor unchanged, normalized save shows clean state, publish reaches independent visitor.",
+    "Actual FAQ edit and publish reach an independent browser session.",
+    "Actual hosted checkout submits a quote request with no payment or reservation claim.",
+    "Owner queue receives the customer submission and an actual status edit reaches the customer account.",
+    "Anonymous browser cannot open the owner editor or merchant queue."
+  ],
+  "errors": []
+}

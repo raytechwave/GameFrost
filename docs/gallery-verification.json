@@ -1,0 +1,9 @@
+{
+  "httpGallery": true,
+  "mp4DurationsSeconds": [
+    36.52,
+    29.6
+  ],
+  "viewportControls": true,
+  "localFileDirectCheck": "Cloud Chromium policy blocks file:// navigation; plain HTML is designed for local opening, HTTP path verified."
+}

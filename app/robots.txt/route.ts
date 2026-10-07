@@ -1,0 +1,1 @@
+export function GET(){return new Response('User-agent: *\nDisallow: /\n# Private preview: enable indexing only after live stock and trading details are approved.\n',{headers:{'Content-Type':'text/plain'}})}

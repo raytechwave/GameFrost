@@ -1,0 +1,51 @@
+GAMEFROST — WOLVERINE 3D ATTACK PREVIEW
+
+VIEW ON YOUR COMPUTER
+1. Extract this ZIP (right-click > Extract All on Windows).
+2. Double-click index.html. Open it in Chrome, Edge, Firefox, or Safari.
+3. Click Play attack. Use the slider to inspect any moment. On desktop,
+   scrolling over the character also moves through the sequence.
+The preview includes its model, textures, and JavaScript and works offline.
+A browser with WebGL support is required.
+
+NETLIFY
+Drop the netlify-drop folder onto Netlify Drop. This publishes only the
+Wolverine review preview, not the full GAMEFROST store.
+
+INCLUDED
+index.html — self-contained interactive preview
+netlify-drop/index.html — same preview, ready for static hosting
+Wolverine-Claw-Attack.glb — reusable character with a baked 4.8-second attack
+source/ — readable animation code, embedded assets, and original model
+
+The movement was restaged against the supplied crouching and leaping references:
+wide low guard, deeper loading pose, forward torso lean, raised leading knee,
+trailing bent leg, airborne diagonal strike, landing compression, and recovery.
+The character lands ahead of the starting position; Replay resets the sequence.
+Brow, eyelid, and cheek bones provide facial tension. The original model has
+no jaw control. Original suit textures are retained with adjusted roughness.
+
+The oversized screen scratches, detached sparks, and text over the character
+have been removed. Only a short, faint motion echo follows the real blade tips
+at the fastest part of the swipe. This browser effect is not part of the GLB.
+
+SOURCE BUILD
+The readable app-source.js uses external texture/FBX paths during development.
+app-offline.js is the self-contained entry and imports assets.json.
+Install the locked dependencies with npm ci inside source, then bundle:
+  npx esbuild app-offline.js --bundle --format=esm --minify --outfile=app.js
+The root index.html contains this bundle directly in its final script tag.
+
+MODEL CREDIT
+"Wolverine | Rigged | Deadpool And Wolverine" by K Animator.
+Additional model credits: 3D MODELS and The Armacham Technology Corporation.
+https://sketchfab.com/3d-models/c761841ad2d5456ebf0a923682a20bbf
+Listed license: Creative Commons Attribution 4.0
+https://creativecommons.org/licenses/by/4.0/
+Changes: texture relinking, material finish adjustments, new jump-attack and facial animation,
+claw extension, browser presentation, and export of animated GLB.
+Three.js: MIT license (included in source).
+fflate: MIT license, copyright Arjun Barrett.
+
+STATUS
+Separate review preview. The existing GAMEFROST website has not been updated.

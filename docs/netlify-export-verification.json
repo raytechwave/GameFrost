@@ -1,0 +1,13 @@
+{
+  "date": "2026-10-07T04:16:19.715Z",
+  "serverRenderedPageRoutes": 88,
+  "pageAndQueryStatesChecked": 104,
+  "internalLinkTargetsChecked": 204,
+  "imageAssetsChecked": 27,
+  "exportedHTMLPages": 90,
+  "staticAdminPage": "Direct /admin entry included with a loading screen",
+  "netlifyClient": "Same React interface with device-local IndexedDB cart, drafts and uploads",
+  "routing": "All named pages prerendered; Prerendered direct paths and query filters; missing URLs serve 404",
+  "fonts": "Self-hosted compressed Google Fonts, licenses included",
+  "browserValidation": "See current browser-verification.json; this exporter checks server output only."
+}

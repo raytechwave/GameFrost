@@ -1,0 +1,10 @@
+import {createRequire} from 'node:module';
+import {realpathSync,writeFileSync} from 'node:fs';
+import {fileURLToPath} from 'node:url';
+import {join} from 'node:path';
+const root=fileURLToPath(new URL('../',import.meta.url));
+const require=createRequire(realpathSync(join(root,'node_modules/wrangler/package.json')));
+const {build}=require('esbuild');
+const compiled=await build({entryPoints:[join(root,'lib/cms-default.ts')],bundle:true,write:false,format:'esm',platform:'node',tsconfig:join(root,'tsconfig.json')});
+const {defaultDocument}=await import('data:text/javascript;base64,'+Buffer.from(compiled.outputFiles[0].text).toString('base64'));
+writeFileSync(process.argv[2]||join(root,'public/store-content.json'),JSON.stringify(defaultDocument));

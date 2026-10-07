@@ -1,0 +1,13 @@
+{
+  "date": "2026-10-07T04:11:46.880Z",
+  "requests": 28,
+  "checks": [
+    "Owner queue rejects guests and other identities.",
+    "Private drafts stay out of the queue; submitted quote requests persist with server-calculated totals and idempotent retries.",
+    "Customer sessions are isolated; submitted requests cannot be deleted through the private-draft endpoint.",
+    "Owner status updates appear to the customer; stale updates are rejected.",
+    "Duplicate product lines, nonexistent products, and newly sold-out products cannot create a request; a received request remains retryable.",
+    "Trade-in and service submissions use the same durable queue; impossible appointment dates are rejected."
+  ],
+  "scope": "Built Worker with isolated local D1/R2; no live orders, messages or payments."
+}

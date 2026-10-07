@@ -1,0 +1,24 @@
+{
+  "scope": "Actual final packaged application, stable Chromium viewport, software WebGL. Loading wait may be shortened in presentation MP4; animation speed unchanged.",
+  "recordings": [
+    {
+      "viewport": "desktop",
+      "loadStartedSeconds": 11.841,
+      "modelReadySeconds": 35.852,
+      "mp4LoadingWaitTrim": [
+        13.841,
+        35.252
+      ]
+    },
+    {
+      "viewport": "mobile",
+      "loadStartedSeconds": 4.87,
+      "modelReadySeconds": 19.722,
+      "mp4LoadingWaitTrim": [
+        6.87,
+        19.122
+      ]
+    }
+  ],
+  "errors": []
+}

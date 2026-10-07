@@ -1,0 +1,14 @@
+{
+  "date": "2026-10-07T04:11:43.181Z",
+  "apiAndRenderRequests": 33,
+  "checks": [
+    "Anonymous visitors and other signed-in users cannot read drafts, publish changes or access the media editor.",
+    "Draft changes survive separate requests and leave the public storefront unchanged.",
+    "Published prices, product pages, copy, FAQs, metadata, new pages and sitemap update immediately; stale saves and unsafe links are rejected.",
+    "Order totals use published CMS prices; a client cannot spoof prices, and sold-out products cannot be added.",
+    "A published version restores to a draft and does not unexpectedly overwrite the live store.",
+    "Owner uploads persist in R2 and load with immutable caching; executable SVG uploads are rejected.",
+    "The hosted admin page checks owner identity before rendering the editor."
+  ],
+  "browserQA": "See hosted-browser-verification.json. This suite uses built Worker/D1/R2 requests; no physical phone FPS or field Web Vitals claim."
+}

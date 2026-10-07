@@ -1,0 +1,13 @@
+{
+  "widths": [
+    320,
+    360,
+    390,
+    430,
+    768,
+    1024,
+    1440
+  ],
+  "overflow": false,
+  "cause": "Grid min-content sizing on review preview badges; constrained cards and used minmax(0,1fr)."
+}

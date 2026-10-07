@@ -1,0 +1,64 @@
+{
+  "created": "2026-09-30",
+  "generator": "Built-in imagegen",
+  "use": "Editorial and brand imagery. Not evidence of actual stock, actual unit seals, customer reviews or store premises.",
+  "assets": [
+    {
+      "name": "lounge",
+      "prompt": "Cinematic luxury gaming lounge, glacier-inspired lighting, empty seat, midnight/cyan/amber palette; no consoles, text or logos.",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "e03f58c7ade68c904547f242ab483d97127cfe67286b27b087213abc49703d87",
+      "output": [
+        {
+          "url": "/images/editorial/lounge-768.webp",
+          "width": 768,
+          "bytes": 82950
+        },
+        {
+          "url": "/images/editorial/lounge-1536.webp",
+          "width": 1536,
+          "bytes": 282748
+        }
+      ]
+    },
+    {
+      "name": "services",
+      "prompt": "Editorial controller diagnostic workbench with gloved hands, tidy precision tools and cyan work light; no console internals, seals, logos or text.",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "f9fdd57e0a047254c83148e9cdf6a8ab37efdc340ebfce3d4ee570b9b04beff9",
+      "output": [
+        {
+          "url": "/images/editorial/services-768.webp",
+          "width": 768,
+          "bytes": 74952
+        },
+        {
+          "url": "/images/editorial/services-1536.webp",
+          "width": 1536,
+          "bytes": 220248
+        }
+      ]
+    },
+    {
+      "name": "retro",
+      "prompt": "Premium nostalgic still life with vintage CRT, generic controller and plain cartridges; amber and cyan light, no proprietary art, logos or text.",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "d0e4682b0997eee30d0439f4ec016d0293aff427948e2010c2563522b682ed53",
+      "output": [
+        {
+          "url": "/images/editorial/retro-768.webp",
+          "width": 768,
+          "bytes": 81968
+        },
+        {
+          "url": "/images/editorial/retro-1536.webp",
+          "width": 1536,
+          "bytes": 256340
+        }
+      ]
+    }
+  ]
+}

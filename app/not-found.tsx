@@ -1,0 +1,2 @@
+import Link from '@/components/game-frost/link';
+export default function NotFound(){return <main id="main" className="shell section"><div className="empty-state"><div className="eyebrow">404 / Wrong checkpoint</div><h1 style={{fontSize:'2rem'}}>Let’s get you back in the game.</h1><p style={{margin:'20px auto'}}>That page isn’t in the lineup.</p><Link className="btn cyan" href="/shop">Explore the shop</Link></div></main>}

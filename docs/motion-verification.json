@@ -1,0 +1,94 @@
+{
+  "scope": "Actual optimized GLB in packaged storefront, headless Chromium software WebGL; no physical phone FPS claim",
+  "checks": [
+    "desktop: normal playback, forward/reverse seeking, explicit reset, viewport resizing and offscreen pause; one canvas.",
+    "mobile: normal playback, forward/reverse seeking, explicit reset, viewport resizing and offscreen pause; one canvas.",
+    "Reduced motion keeps a composed poster until explicitly loaded; playback disabled, pose inspection remains available.",
+    "Failed model download preserves the actual-rig poster and shopping navigation.",
+    "WebGL context loss disposes the canvas and restores the poster.",
+    "200% root text size at a phone viewport leaves key routes without horizontal overflow."
+  ],
+  "poses": [
+    {
+      "viewport": "desktop",
+      "time": 0,
+      "file": "wolverine-desktop-pose-0.png"
+    },
+    {
+      "viewport": "desktop",
+      "time": 0.8,
+      "file": "wolverine-desktop-pose-1.png"
+    },
+    {
+      "viewport": "desktop",
+      "time": 1.35,
+      "file": "wolverine-desktop-pose-2.png"
+    },
+    {
+      "viewport": "desktop",
+      "time": 1.65,
+      "file": "wolverine-desktop-pose-3.png"
+    },
+    {
+      "viewport": "desktop",
+      "time": 1.94,
+      "file": "wolverine-desktop-pose-4.png"
+    },
+    {
+      "viewport": "desktop",
+      "time": 2.35,
+      "file": "wolverine-desktop-pose-5.png"
+    },
+    {
+      "viewport": "desktop",
+      "time": 3.5,
+      "file": "wolverine-desktop-pose-6.png"
+    },
+    {
+      "viewport": "desktop",
+      "time": 4.8,
+      "file": "wolverine-desktop-pose-7.png"
+    },
+    {
+      "viewport": "mobile",
+      "time": 0,
+      "file": "wolverine-mobile-pose-0.png"
+    },
+    {
+      "viewport": "mobile",
+      "time": 0.8,
+      "file": "wolverine-mobile-pose-1.png"
+    },
+    {
+      "viewport": "mobile",
+      "time": 1.35,
+      "file": "wolverine-mobile-pose-2.png"
+    },
+    {
+      "viewport": "mobile",
+      "time": 1.65,
+      "file": "wolverine-mobile-pose-3.png"
+    },
+    {
+      "viewport": "mobile",
+      "time": 1.94,
+      "file": "wolverine-mobile-pose-4.png"
+    },
+    {
+      "viewport": "mobile",
+      "time": 2.35,
+      "file": "wolverine-mobile-pose-5.png"
+    },
+    {
+      "viewport": "mobile",
+      "time": 3.5,
+      "file": "wolverine-mobile-pose-6.png"
+    },
+    {
+      "viewport": "mobile",
+      "time": 4.8,
+      "file": "wolverine-mobile-pose-7.png"
+    }
+  ],
+  "errors": []
+}

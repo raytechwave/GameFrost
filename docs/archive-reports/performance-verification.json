@@ -1,0 +1,39 @@
+{
+  "date": "2026-10-01T07:17:04.896Z",
+  "distribution": "Prebuilt Netlify browser app",
+  "baseline": {
+    "entryRaw": 593533,
+    "entryGzip": 177281,
+    "automaticScriptsGzip": 367093
+  },
+  "optimized": {
+    "entryRaw": 337642,
+    "entryGzip": 104874,
+    "automaticHomeJavaScriptGzip": 156158,
+    "automaticHomeScriptFiles": [
+      "assets/index-DHWzSHHM.js",
+      "assets/home-9RmZsW6N.js",
+      "assets/common-DxDUsxce.js",
+      "assets/editorial-image-DsB4o2X6.js",
+      "assets/games-common-ro8pKLBF.js",
+      "assets/camera-De1OANub.js",
+      "assets/compass-CVarvZbR.js",
+      "assets/settings-2-D8-NEc0s.js",
+      "assets/local-store-BYP2Vj3q.js",
+      "assets/catalog-HuNEGnzE.js",
+      "assets/types-B2Nazfb3.js"
+    ]
+  },
+  "entryGzipReductionPercent": 40.8,
+  "automaticHomeJavaScriptReductionPercent": 57.5,
+  "changes": [
+    "Route-specific loading, including a separate admin bundle",
+    "3D loads only on entry by default; automatic mode is optional",
+    "Native scrolling and IntersectionObserver replace automatic GSAP/Lenis downloads",
+    "Balanced WebGL removes the extra reflection pass and caps background rendering at 30 fps",
+    "Uploaded images are resized to 1600 px and converted to compressed WebP",
+    "Published content is server-rendered, and static exports include a separate content file",
+    "Immutable asset/font/media caching; cart-only requests omit customer draft history"
+  ],
+  "limits": "These are compressed build sizes and rendering settings, not measured browser page-speed, LCP or FPS results."
+}

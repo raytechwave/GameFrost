@@ -1,0 +1,1844 @@
+{
+  "environment": "Headless Chromium on Linux; emulated viewports, not a physical phone",
+  "routes": [
+    {
+      "width": 1440,
+      "path": "/",
+      "h1": "Go beyond your limits.",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "width": 1440,
+      "path": "/shop",
+      "h1": "Your next game starts here.",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "width": 1440,
+      "path": "/services",
+      "h1": "Let\u2019s get you back in the game.",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "width": 1440,
+      "path": "/jailbreak",
+      "h1": "Your console, loaded and ready.",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "width": 1440,
+      "path": "/trade-in",
+      "h1": "What\u2019s your console worth?",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "width": 1440,
+      "path": "/reviews",
+      "h1": "Real gamers. Real reviews.",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "width": 1440,
+      "path": "/why-the-seal-matters",
+      "h1": "Original seal. Real peace of mind.",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "width": 1440,
+      "path": "/new-games",
+      "h1": "One more game. Always.",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "width": 1440,
+      "path": "/about",
+      "h1": "One shop. A lot of next levels.",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "width": 1440,
+      "path": "/guides",
+      "h1": "Play informed.",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "width": 1440,
+      "path": "/faq",
+      "h1": "Let\u2019s clear that up.",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "width": 1440,
+      "path": "/visit",
+      "h1": "Karachi. Come talk gaming.",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "width": 1440,
+      "path": "/cart",
+      "h1": "Your next level, lined up.",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "width": 1440,
+      "path": "/checkout",
+      "h1": "Make it your next setup.",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "width": 1440,
+      "path": "/account",
+      "h1": "Your GAME FROST requests.",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "width": 1440,
+      "path": "/brand",
+      "h1": "Cold confidence. Warm welcome.",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "width": 1440,
+      "path": "/policies",
+      "h1": "Clear terms. No surprises.",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "width": 1440,
+      "path": "/showroom",
+      "h1": "Your next world\nstarts here.",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "width": 1440,
+      "path": "/admin",
+      "h1": "Your store, in your hands.",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "width": 1440,
+      "path": "/shop/playstation/ps5-slim-disc",
+      "h1": "PlayStation 5 Slim Disc",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "width": 1440,
+      "path": "/shop/playstation/ps4-slim",
+      "h1": "PlayStation 4 Slim",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "width": 1440,
+      "path": "/shop/xbox/xbox-series-s",
+      "h1": "Xbox Series S",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "width": 1440,
+      "path": "/shop/nintendo/nintendo-switch-oled",
+      "h1": "Nintendo Switch OLED",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "width": 1440,
+      "path": "/shop/meta/meta-quest-3",
+      "h1": "Meta Quest 3",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "width": 1440,
+      "path": "/shop/logitech/logitech-g29",
+      "h1": "Logitech G29 Racing Wheel",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "width": 1440,
+      "path": "/shop/pc-handhelds/steam-deck-oled",
+      "h1": "Steam Deck OLED",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "width": 1440,
+      "path": "/shop/playstation/dualsense-white",
+      "h1": "DualSense Wireless Controller",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "width": 1440,
+      "path": "/shop/playstation/ps5-pro",
+      "h1": "PS5 Pro",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "width": 1440,
+      "path": "/shop/playstation/ps5-digital",
+      "h1": "PS5 Digital",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "width": 1440,
+      "path": "/shop/playstation/ps5-disc",
+      "h1": "PS5 Disc",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "width": 1440,
+      "path": "/shop/playstation/ps5-slim-digital",
+      "h1": "PS5 Slim Digital",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "width": 1440,
+      "path": "/shop/playstation/playstation-portal",
+      "h1": "PlayStation Portal",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "width": 1440,
+      "path": "/shop/playstation/ps4-pro",
+      "h1": "PS4 Pro",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "width": 1440,
+      "path": "/shop/playstation/ps4-fat",
+      "h1": "PS4 Fat",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "width": 1440,
+      "path": "/shop/playstation/ps3",
+      "h1": "PS3",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "width": 1440,
+      "path": "/shop/playstation/ps2",
+      "h1": "PS2",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "width": 1440,
+      "path": "/shop/playstation/ps1",
+      "h1": "PS1",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "width": 1440,
+      "path": "/shop/playstation/psp",
+      "h1": "PSP",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "width": 1440,
+      "path": "/shop/playstation/ps-vita",
+      "h1": "PS Vita",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "width": 1440,
+      "path": "/shop/xbox/xbox-series-x",
+      "h1": "Xbox Series X",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "width": 1440,
+      "path": "/shop/xbox/rog-xbox-ally",
+      "h1": "ROG Xbox Ally",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "width": 1440,
+      "path": "/shop/xbox/xbox-one-x",
+      "h1": "Xbox One X",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "width": 1440,
+      "path": "/shop/xbox/xbox-one-s",
+      "h1": "Xbox One S",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "width": 1440,
+      "path": "/shop/xbox/xbox-360",
+      "h1": "Xbox 360",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "width": 1440,
+      "path": "/shop/xbox/original-xbox",
+      "h1": "Original Xbox",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "width": 1440,
+      "path": "/shop/nintendo/nintendo-switch-2",
+      "h1": "Nintendo Switch 2",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "width": 1440,
+      "path": "/shop/nintendo/nintendo-switch",
+      "h1": "Nintendo Switch",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "width": 1440,
+      "path": "/shop/nintendo/nintendo-switch-lite",
+      "h1": "Nintendo Switch Lite",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "width": 1440,
+      "path": "/shop/nintendo/nintendo-wii-u",
+      "h1": "Nintendo Wii U",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "width": 1440,
+      "path": "/shop/nintendo/nintendo-wii",
+      "h1": "Nintendo Wii",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "width": 1440,
+      "path": "/shop/nintendo/nintendo-gamecube",
+      "h1": "Nintendo GameCube",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "width": 1440,
+      "path": "/shop/nintendo/nintendo-64",
+      "h1": "Nintendo 64",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "width": 1440,
+      "path": "/shop/nintendo/super-nintendo-snes",
+      "h1": "Super Nintendo SNES",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "width": 1440,
+      "path": "/shop/nintendo/nintendo-nes",
+      "h1": "Nintendo NES",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "width": 1440,
+      "path": "/shop/nintendo/nintendo-3ds",
+      "h1": "Nintendo 3DS",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "width": 1440,
+      "path": "/shop/nintendo/nintendo-2ds",
+      "h1": "Nintendo 2DS",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "width": 1440,
+      "path": "/shop/nintendo/nintendo-ds",
+      "h1": "Nintendo DS",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "width": 1440,
+      "path": "/shop/nintendo/game-boy",
+      "h1": "Game Boy",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "width": 1440,
+      "path": "/shop/nintendo/game-boy-color",
+      "h1": "Game Boy Color",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "width": 1440,
+      "path": "/shop/nintendo/game-boy-advance",
+      "h1": "Game Boy Advance",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "width": 1440,
+      "path": "/shop/pc-handhelds/steam-deck-lcd",
+      "h1": "Steam Deck LCD",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "width": 1440,
+      "path": "/shop/pc-handhelds/rog-ally",
+      "h1": "ROG Ally",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "width": 1440,
+      "path": "/shop/pc-handhelds/lenovo-legion-go",
+      "h1": "Lenovo Legion Go",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "width": 1440,
+      "path": "/shop/meta/meta-quest-3s",
+      "h1": "Meta Quest 3S",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "width": 1440,
+      "path": "/shop/meta/ray-ban-meta",
+      "h1": "Ray-Ban Meta",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "width": 1440,
+      "path": "/shop/vr-xr/playstation-vr2",
+      "h1": "PlayStation VR2",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "width": 1440,
+      "path": "/shop/vr-xr/apple-vision-pro",
+      "h1": "Apple Vision Pro",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "width": 1440,
+      "path": "/shop/vr-xr/valve-index",
+      "h1": "Valve Index",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "width": 1440,
+      "path": "/shop/vr-xr/xreal-smart-glasses",
+      "h1": "XREAL smart glasses",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "width": 1440,
+      "path": "/shop/accessories/logitech-g923",
+      "h1": "Logitech G923",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "width": 1440,
+      "path": "/shop/accessories/thrustmaster-racing-wheels",
+      "h1": "Thrustmaster racing wheels",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "width": 1440,
+      "path": "/shop/accessories/fanatec-racing-wheels",
+      "h1": "Fanatec racing wheels",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "width": 1440,
+      "path": "/shop/accessories/pedals-and-shifters",
+      "h1": "Pedals and shifters",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "width": 1440,
+      "path": "/shop/accessories/racing-cockpits",
+      "h1": "Racing cockpits",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "width": 1440,
+      "path": "/shop/accessories/gaming-headsets",
+      "h1": "Gaming headsets",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "width": 1440,
+      "path": "/shop/accessories/charging-docks",
+      "h1": "Charging docks",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "width": 1440,
+      "path": "/shop/accessories/hdmi-and-usb-cables",
+      "h1": "HDMI and USB cables",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "width": 1440,
+      "path": "/shop/accessories/console-cases",
+      "h1": "Console cases",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "width": 1440,
+      "path": "/games/gta-vi",
+      "h1": "Grand Theft Auto VI",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "width": 1440,
+      "path": "/games/ea-sports-fc-27",
+      "h1": "EA SPORTS FC 27",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "width": 1440,
+      "path": "/games/007-first-light",
+      "h1": "007 First Light",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "width": 1440,
+      "path": "/games/resident-evil-requiem",
+      "h1": "Resident Evil Requiem",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "width": 1440,
+      "path": "/games/ghost-of-yotei",
+      "h1": "Ghost of Y\u014dtei",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "width": 1440,
+      "path": "/games/spider-man-2",
+      "h1": "Marvel\u2019s Spider-Man 2",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "width": 1440,
+      "path": "/games/god-of-war-ragnarok",
+      "h1": "God of War Ragnar\u00f6k",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "width": 1440,
+      "path": "/games/gran-turismo-7",
+      "h1": "Gran Turismo 7",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "width": 1440,
+      "path": "/guides/ps5-price-pakistan",
+      "h1": "PS5 in Pakistan: new or pre-owned?",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "width": 1440,
+      "path": "/guides/original-seal-vs-opened-console",
+      "h1": "An original seal. An informed choice.",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "width": 1440,
+      "path": "/guides/first-racing-wheel-guide",
+      "h1": "Your first racing wheel, without the guesswork.",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "width": 390,
+      "path": "/",
+      "h1": "Go beyond your limits.",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "width": 390,
+      "path": "/shop",
+      "h1": "Your next game starts here.",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "width": 390,
+      "path": "/services",
+      "h1": "Let\u2019s get you back in the game.",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "width": 390,
+      "path": "/jailbreak",
+      "h1": "Your console, loaded and ready.",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "width": 390,
+      "path": "/trade-in",
+      "h1": "What\u2019s your console worth?",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "width": 390,
+      "path": "/reviews",
+      "h1": "Real gamers. Real reviews.",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "width": 390,
+      "path": "/why-the-seal-matters",
+      "h1": "Original seal. Real peace of mind.",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "width": 390,
+      "path": "/new-games",
+      "h1": "One more game. Always.",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "width": 390,
+      "path": "/about",
+      "h1": "One shop. A lot of next levels.",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "width": 390,
+      "path": "/guides",
+      "h1": "Play informed.",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "width": 390,
+      "path": "/faq",
+      "h1": "Let\u2019s clear that up.",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "width": 390,
+      "path": "/visit",
+      "h1": "Karachi. Come talk gaming.",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "width": 390,
+      "path": "/cart",
+      "h1": "Your next level, lined up.",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "width": 390,
+      "path": "/checkout",
+      "h1": "Make it your next setup.",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "width": 390,
+      "path": "/account",
+      "h1": "Your GAME FROST requests.",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "width": 390,
+      "path": "/brand",
+      "h1": "Cold confidence. Warm welcome.",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "width": 390,
+      "path": "/policies",
+      "h1": "Clear terms. No surprises.",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "width": 390,
+      "path": "/showroom",
+      "h1": "Your next world\nstarts here.",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "width": 390,
+      "path": "/admin",
+      "h1": "Your store, in your hands.",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "width": 390,
+      "path": "/shop/playstation/ps5-slim-disc",
+      "h1": "PlayStation 5 Slim Disc",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "width": 390,
+      "path": "/shop/playstation/ps4-slim",
+      "h1": "PlayStation 4 Slim",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "width": 390,
+      "path": "/shop/xbox/xbox-series-s",
+      "h1": "Xbox Series S",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "width": 390,
+      "path": "/shop/nintendo/nintendo-switch-oled",
+      "h1": "Nintendo Switch OLED",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "width": 390,
+      "path": "/shop/meta/meta-quest-3",
+      "h1": "Meta Quest 3",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "width": 390,
+      "path": "/shop/logitech/logitech-g29",
+      "h1": "Logitech G29 Racing Wheel",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "width": 390,
+      "path": "/shop/pc-handhelds/steam-deck-oled",
+      "h1": "Steam Deck OLED",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "width": 390,
+      "path": "/shop/playstation/dualsense-white",
+      "h1": "DualSense Wireless Controller",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "width": 390,
+      "path": "/shop/playstation/ps5-pro",
+      "h1": "PS5 Pro",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "width": 390,
+      "path": "/shop/playstation/ps5-digital",
+      "h1": "PS5 Digital",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "width": 390,
+      "path": "/shop/playstation/ps5-disc",
+      "h1": "PS5 Disc",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "width": 390,
+      "path": "/shop/playstation/ps5-slim-digital",
+      "h1": "PS5 Slim Digital",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "width": 390,
+      "path": "/shop/playstation/playstation-portal",
+      "h1": "PlayStation Portal",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "width": 390,
+      "path": "/shop/playstation/ps4-pro",
+      "h1": "PS4 Pro",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "width": 390,
+      "path": "/shop/playstation/ps4-fat",
+      "h1": "PS4 Fat",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "width": 390,
+      "path": "/shop/playstation/ps3",
+      "h1": "PS3",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "width": 390,
+      "path": "/shop/playstation/ps2",
+      "h1": "PS2",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "width": 390,
+      "path": "/shop/playstation/ps1",
+      "h1": "PS1",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "width": 390,
+      "path": "/shop/playstation/psp",
+      "h1": "PSP",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "width": 390,
+      "path": "/shop/playstation/ps-vita",
+      "h1": "PS Vita",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "width": 390,
+      "path": "/shop/xbox/xbox-series-x",
+      "h1": "Xbox Series X",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "width": 390,
+      "path": "/shop/xbox/rog-xbox-ally",
+      "h1": "ROG Xbox Ally",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "width": 390,
+      "path": "/shop/xbox/xbox-one-x",
+      "h1": "Xbox One X",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "width": 390,
+      "path": "/shop/xbox/xbox-one-s",
+      "h1": "Xbox One S",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "width": 390,
+      "path": "/shop/xbox/xbox-360",
+      "h1": "Xbox 360",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "width": 390,
+      "path": "/shop/xbox/original-xbox",
+      "h1": "Original Xbox",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "width": 390,
+      "path": "/shop/nintendo/nintendo-switch-2",
+      "h1": "Nintendo Switch 2",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "width": 390,
+      "path": "/shop/nintendo/nintendo-switch",
+      "h1": "Nintendo Switch",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "width": 390,
+      "path": "/shop/nintendo/nintendo-switch-lite",
+      "h1": "Nintendo Switch Lite",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "width": 390,
+      "path": "/shop/nintendo/nintendo-wii-u",
+      "h1": "Nintendo Wii U",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "width": 390,
+      "path": "/shop/nintendo/nintendo-wii",
+      "h1": "Nintendo Wii",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "width": 390,
+      "path": "/shop/nintendo/nintendo-gamecube",
+      "h1": "Nintendo GameCube",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "width": 390,
+      "path": "/shop/nintendo/nintendo-64",
+      "h1": "Nintendo 64",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "width": 390,
+      "path": "/shop/nintendo/super-nintendo-snes",
+      "h1": "Super Nintendo SNES",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "width": 390,
+      "path": "/shop/nintendo/nintendo-nes",
+      "h1": "Nintendo NES",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "width": 390,
+      "path": "/shop/nintendo/nintendo-3ds",
+      "h1": "Nintendo 3DS",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "width": 390,
+      "path": "/shop/nintendo/nintendo-2ds",
+      "h1": "Nintendo 2DS",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "width": 390,
+      "path": "/shop/nintendo/nintendo-ds",
+      "h1": "Nintendo DS",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "width": 390,
+      "path": "/shop/nintendo/game-boy",
+      "h1": "Game Boy",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "width": 390,
+      "path": "/shop/nintendo/game-boy-color",
+      "h1": "Game Boy Color",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "width": 390,
+      "path": "/shop/nintendo/game-boy-advance",
+      "h1": "Game Boy Advance",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "width": 390,
+      "path": "/shop/pc-handhelds/steam-deck-lcd",
+      "h1": "Steam Deck LCD",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "width": 390,
+      "path": "/shop/pc-handhelds/rog-ally",
+      "h1": "ROG Ally",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "width": 390,
+      "path": "/shop/pc-handhelds/lenovo-legion-go",
+      "h1": "Lenovo Legion Go",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "width": 390,
+      "path": "/shop/meta/meta-quest-3s",
+      "h1": "Meta Quest 3S",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "width": 390,
+      "path": "/shop/meta/ray-ban-meta",
+      "h1": "Ray-Ban Meta",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "width": 390,
+      "path": "/shop/vr-xr/playstation-vr2",
+      "h1": "PlayStation VR2",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "width": 390,
+      "path": "/shop/vr-xr/apple-vision-pro",
+      "h1": "Apple Vision Pro",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "width": 390,
+      "path": "/shop/vr-xr/valve-index",
+      "h1": "Valve Index",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "width": 390,
+      "path": "/shop/vr-xr/xreal-smart-glasses",
+      "h1": "XREAL smart glasses",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "width": 390,
+      "path": "/shop/accessories/logitech-g923",
+      "h1": "Logitech G923",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "width": 390,
+      "path": "/shop/accessories/thrustmaster-racing-wheels",
+      "h1": "Thrustmaster racing wheels",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "width": 390,
+      "path": "/shop/accessories/fanatec-racing-wheels",
+      "h1": "Fanatec racing wheels",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "width": 390,
+      "path": "/shop/accessories/pedals-and-shifters",
+      "h1": "Pedals and shifters",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "width": 390,
+      "path": "/shop/accessories/racing-cockpits",
+      "h1": "Racing cockpits",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "width": 390,
+      "path": "/shop/accessories/gaming-headsets",
+      "h1": "Gaming headsets",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "width": 390,
+      "path": "/shop/accessories/charging-docks",
+      "h1": "Charging docks",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "width": 390,
+      "path": "/shop/accessories/hdmi-and-usb-cables",
+      "h1": "HDMI and USB cables",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "width": 390,
+      "path": "/shop/accessories/console-cases",
+      "h1": "Console cases",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "width": 390,
+      "path": "/games/gta-vi",
+      "h1": "Grand Theft Auto VI",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "width": 390,
+      "path": "/games/ea-sports-fc-27",
+      "h1": "EA SPORTS FC 27",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "width": 390,
+      "path": "/games/007-first-light",
+      "h1": "007 First Light",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "width": 390,
+      "path": "/games/resident-evil-requiem",
+      "h1": "Resident Evil Requiem",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "width": 390,
+      "path": "/games/ghost-of-yotei",
+      "h1": "Ghost of Y\u014dtei",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "width": 390,
+      "path": "/games/spider-man-2",
+      "h1": "Marvel\u2019s Spider-Man 2",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "width": 390,
+      "path": "/games/god-of-war-ragnarok",
+      "h1": "God of War Ragnar\u00f6k",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "width": 390,
+      "path": "/games/gran-turismo-7",
+      "h1": "Gran Turismo 7",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "width": 390,
+      "path": "/guides/ps5-price-pakistan",
+      "h1": "PS5 in Pakistan: new or pre-owned?",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "width": 390,
+      "path": "/guides/original-seal-vs-opened-console",
+      "h1": "An original seal. An informed choice.",
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "width": 390,
+      "path": "/guides/first-racing-wheel-guide",
+      "h1": "Your first racing wheel, without the guesswork.",
+      "overflow": false,
+      "brokenImages": []
+    }
+  ],
+  "layouts": [
+    {
+      "width": 320,
+      "path": "/",
+      "overflow": false
+    },
+    {
+      "width": 320,
+      "path": "/shop",
+      "overflow": false
+    },
+    {
+      "width": 320,
+      "path": "/shop/playstation/ps5-slim-disc",
+      "overflow": false
+    },
+    {
+      "width": 320,
+      "path": "/trade-in",
+      "overflow": false
+    },
+    {
+      "width": 320,
+      "path": "/services",
+      "overflow": false
+    },
+    {
+      "width": 320,
+      "path": "/checkout",
+      "overflow": false
+    },
+    {
+      "width": 320,
+      "path": "/account",
+      "overflow": false
+    },
+    {
+      "width": 320,
+      "path": "/new-games",
+      "overflow": false
+    },
+    {
+      "width": 320,
+      "path": "/reviews",
+      "overflow": false
+    },
+    {
+      "width": 320,
+      "path": "/about",
+      "overflow": false
+    },
+    {
+      "width": 320,
+      "path": "/visit",
+      "overflow": false
+    },
+    {
+      "width": 320,
+      "path": "/guides",
+      "overflow": false
+    },
+    {
+      "width": 320,
+      "path": "/faq",
+      "overflow": false
+    },
+    {
+      "width": 320,
+      "path": "/policies",
+      "overflow": false
+    },
+    {
+      "width": 320,
+      "path": "/admin",
+      "overflow": false
+    },
+    {
+      "width": 360,
+      "path": "/",
+      "overflow": false
+    },
+    {
+      "width": 360,
+      "path": "/shop",
+      "overflow": false
+    },
+    {
+      "width": 360,
+      "path": "/shop/playstation/ps5-slim-disc",
+      "overflow": false
+    },
+    {
+      "width": 360,
+      "path": "/trade-in",
+      "overflow": false
+    },
+    {
+      "width": 360,
+      "path": "/services",
+      "overflow": false
+    },
+    {
+      "width": 360,
+      "path": "/checkout",
+      "overflow": false
+    },
+    {
+      "width": 360,
+      "path": "/account",
+      "overflow": false
+    },
+    {
+      "width": 360,
+      "path": "/new-games",
+      "overflow": false
+    },
+    {
+      "width": 360,
+      "path": "/reviews",
+      "overflow": false
+    },
+    {
+      "width": 360,
+      "path": "/about",
+      "overflow": false
+    },
+    {
+      "width": 360,
+      "path": "/visit",
+      "overflow": false
+    },
+    {
+      "width": 360,
+      "path": "/guides",
+      "overflow": false
+    },
+    {
+      "width": 360,
+      "path": "/faq",
+      "overflow": false
+    },
+    {
+      "width": 360,
+      "path": "/policies",
+      "overflow": false
+    },
+    {
+      "width": 360,
+      "path": "/admin",
+      "overflow": false
+    },
+    {
+      "width": 390,
+      "path": "/",
+      "overflow": false
+    },
+    {
+      "width": 390,
+      "path": "/shop",
+      "overflow": false
+    },
+    {
+      "width": 390,
+      "path": "/shop/playstation/ps5-slim-disc",
+      "overflow": false
+    },
+    {
+      "width": 390,
+      "path": "/trade-in",
+      "overflow": false
+    },
+    {
+      "width": 390,
+      "path": "/services",
+      "overflow": false
+    },
+    {
+      "width": 390,
+      "path": "/checkout",
+      "overflow": false
+    },
+    {
+      "width": 390,
+      "path": "/account",
+      "overflow": false
+    },
+    {
+      "width": 390,
+      "path": "/new-games",
+      "overflow": false
+    },
+    {
+      "width": 390,
+      "path": "/reviews",
+      "overflow": false
+    },
+    {
+      "width": 390,
+      "path": "/about",
+      "overflow": false
+    },
+    {
+      "width": 390,
+      "path": "/visit",
+      "overflow": false
+    },
+    {
+      "width": 390,
+      "path": "/guides",
+      "overflow": false
+    },
+    {
+      "width": 390,
+      "path": "/faq",
+      "overflow": false
+    },
+    {
+      "width": 390,
+      "path": "/policies",
+      "overflow": false
+    },
+    {
+      "width": 390,
+      "path": "/admin",
+      "overflow": false
+    },
+    {
+      "width": 430,
+      "path": "/",
+      "overflow": false
+    },
+    {
+      "width": 430,
+      "path": "/shop",
+      "overflow": false
+    },
+    {
+      "width": 430,
+      "path": "/shop/playstation/ps5-slim-disc",
+      "overflow": false
+    },
+    {
+      "width": 430,
+      "path": "/trade-in",
+      "overflow": false
+    },
+    {
+      "width": 430,
+      "path": "/services",
+      "overflow": false
+    },
+    {
+      "width": 430,
+      "path": "/checkout",
+      "overflow": false
+    },
+    {
+      "width": 430,
+      "path": "/account",
+      "overflow": false
+    },
+    {
+      "width": 430,
+      "path": "/new-games",
+      "overflow": false
+    },
+    {
+      "width": 430,
+      "path": "/reviews",
+      "overflow": false
+    },
+    {
+      "width": 430,
+      "path": "/about",
+      "overflow": false
+    },
+    {
+      "width": 430,
+      "path": "/visit",
+      "overflow": false
+    },
+    {
+      "width": 430,
+      "path": "/guides",
+      "overflow": false
+    },
+    {
+      "width": 430,
+      "path": "/faq",
+      "overflow": false
+    },
+    {
+      "width": 430,
+      "path": "/policies",
+      "overflow": false
+    },
+    {
+      "width": 430,
+      "path": "/admin",
+      "overflow": false
+    },
+    {
+      "width": 768,
+      "path": "/",
+      "overflow": false
+    },
+    {
+      "width": 768,
+      "path": "/shop",
+      "overflow": false
+    },
+    {
+      "width": 768,
+      "path": "/shop/playstation/ps5-slim-disc",
+      "overflow": false
+    },
+    {
+      "width": 768,
+      "path": "/trade-in",
+      "overflow": false
+    },
+    {
+      "width": 768,
+      "path": "/services",
+      "overflow": false
+    },
+    {
+      "width": 768,
+      "path": "/checkout",
+      "overflow": false
+    },
+    {
+      "width": 768,
+      "path": "/account",
+      "overflow": false
+    },
+    {
+      "width": 768,
+      "path": "/new-games",
+      "overflow": false
+    },
+    {
+      "width": 768,
+      "path": "/reviews",
+      "overflow": false
+    },
+    {
+      "width": 768,
+      "path": "/about",
+      "overflow": false
+    },
+    {
+      "width": 768,
+      "path": "/visit",
+      "overflow": false
+    },
+    {
+      "width": 768,
+      "path": "/guides",
+      "overflow": false
+    },
+    {
+      "width": 768,
+      "path": "/faq",
+      "overflow": false
+    },
+    {
+      "width": 768,
+      "path": "/policies",
+      "overflow": false
+    },
+    {
+      "width": 768,
+      "path": "/admin",
+      "overflow": false
+    },
+    {
+      "width": 1024,
+      "path": "/",
+      "overflow": false
+    },
+    {
+      "width": 1024,
+      "path": "/shop",
+      "overflow": false
+    },
+    {
+      "width": 1024,
+      "path": "/shop/playstation/ps5-slim-disc",
+      "overflow": false
+    },
+    {
+      "width": 1024,
+      "path": "/trade-in",
+      "overflow": false
+    },
+    {
+      "width": 1024,
+      "path": "/services",
+      "overflow": false
+    },
+    {
+      "width": 1024,
+      "path": "/checkout",
+      "overflow": false
+    },
+    {
+      "width": 1024,
+      "path": "/account",
+      "overflow": false
+    },
+    {
+      "width": 1024,
+      "path": "/new-games",
+      "overflow": false
+    },
+    {
+      "width": 1024,
+      "path": "/reviews",
+      "overflow": false
+    },
+    {
+      "width": 1024,
+      "path": "/about",
+      "overflow": false
+    },
+    {
+      "width": 1024,
+      "path": "/visit",
+      "overflow": false
+    },
+    {
+      "width": 1024,
+      "path": "/guides",
+      "overflow": false
+    },
+    {
+      "width": 1024,
+      "path": "/faq",
+      "overflow": false
+    },
+    {
+      "width": 1024,
+      "path": "/policies",
+      "overflow": false
+    },
+    {
+      "width": 1024,
+      "path": "/admin",
+      "overflow": false
+    },
+    {
+      "width": 1440,
+      "path": "/",
+      "overflow": false
+    },
+    {
+      "width": 1440,
+      "path": "/shop",
+      "overflow": false
+    },
+    {
+      "width": 1440,
+      "path": "/shop/playstation/ps5-slim-disc",
+      "overflow": false
+    },
+    {
+      "width": 1440,
+      "path": "/trade-in",
+      "overflow": false
+    },
+    {
+      "width": 1440,
+      "path": "/services",
+      "overflow": false
+    },
+    {
+      "width": 1440,
+      "path": "/checkout",
+      "overflow": false
+    },
+    {
+      "width": 1440,
+      "path": "/account",
+      "overflow": false
+    },
+    {
+      "width": 1440,
+      "path": "/new-games",
+      "overflow": false
+    },
+    {
+      "width": 1440,
+      "path": "/reviews",
+      "overflow": false
+    },
+    {
+      "width": 1440,
+      "path": "/about",
+      "overflow": false
+    },
+    {
+      "width": 1440,
+      "path": "/visit",
+      "overflow": false
+    },
+    {
+      "width": 1440,
+      "path": "/guides",
+      "overflow": false
+    },
+    {
+      "width": 1440,
+      "path": "/faq",
+      "overflow": false
+    },
+    {
+      "width": 1440,
+      "path": "/policies",
+      "overflow": false
+    },
+    {
+      "width": 1440,
+      "path": "/admin",
+      "overflow": false
+    },
+    {
+      "width": 844,
+      "height": 390,
+      "path": "/",
+      "overflow": false
+    },
+    {
+      "width": 844,
+      "height": 390,
+      "path": "/shop",
+      "overflow": false
+    },
+    {
+      "width": 844,
+      "height": 390,
+      "path": "/admin",
+      "overflow": false
+    },
+    {
+      "width": 844,
+      "height": 390,
+      "path": "/services",
+      "overflow": false
+    }
+  ],
+  "functional": [
+    "Mobile menu and search open, keyboard Escape closes them, and product search returns matching products.",
+    "Product \u2192 persistent cart \u2192 quantity 2 \u2192 validated local checkout \u2192 private account draft, total PKR 290000, with no submission/payment claim.",
+    "Search URLs, empty results, confirmed contact details and a real HTTP 404 work.",
+    "Local admin scene controls, draft preview, draft/public separation, stale-save HTTP 409, and local apply work; an independent visitor remains unchanged as advertised.",
+    "The actual browser admin Netlify export downloads a ZIP."
+  ],
+  "errors": [],
+  "screenshots": [
+    "home-1440.png",
+    "shop-1440.png",
+    "services-1440.png",
+    "trade-in-1440.png",
+    "reviews-1440.png",
+    "new-games-1440.png",
+    "about-1440.png",
+    "guides-1440.png",
+    "faq-1440.png",
+    "visit-1440.png",
+    "checkout-1440.png",
+    "account-1440.png",
+    "policies-1440.png",
+    "admin-1440.png",
+    "shop-playstation-ps5-slim-disc-1440.png",
+    "home-390.png",
+    "shop-390.png",
+    "services-390.png",
+    "trade-in-390.png",
+    "reviews-390.png",
+    "new-games-390.png",
+    "about-390.png",
+    "guides-390.png",
+    "faq-390.png",
+    "visit-390.png",
+    "checkout-390.png",
+    "account-390.png",
+    "policies-390.png",
+    "admin-390.png",
+    "shop-playstation-ps5-slim-disc-390.png"
+  ],
+  "layoutFailures": [],
+  "routeFailures": []
+}

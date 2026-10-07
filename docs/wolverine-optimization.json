@@ -1,0 +1,80 @@
+{
+  "originalBytes": 12475700,
+  "deliveryBytes": 6866136,
+  "deliveryGzipBytes": 1653406,
+  "method": "EXT_texture_webp, quality 92, at most 1536 px; geometry, skins, hierarchy and animation unchanged",
+  "textures": [
+    {
+      "originalDimensions": [
+        256,
+        256
+      ],
+      "deliveryDimensions": [
+        256,
+        256
+      ],
+      "originalBytes": 75976,
+      "deliveryBytes": 8914
+    },
+    {
+      "originalDimensions": [
+        512,
+        512
+      ],
+      "deliveryDimensions": [
+        512,
+        512
+      ],
+      "originalBytes": 355924,
+      "deliveryBytes": 40306
+    },
+    {
+      "originalDimensions": [
+        256,
+        256
+      ],
+      "deliveryDimensions": [
+        256,
+        256
+      ],
+      "originalBytes": 80756,
+      "deliveryBytes": 9394
+    },
+    {
+      "originalDimensions": [
+        512,
+        128
+      ],
+      "deliveryDimensions": [
+        512,
+        128
+      ],
+      "originalBytes": 76620,
+      "deliveryBytes": 8014
+    },
+    {
+      "originalDimensions": [
+        512,
+        512
+      ],
+      "deliveryDimensions": [
+        512,
+        512
+      ],
+      "originalBytes": 372500,
+      "deliveryBytes": 155290
+    },
+    {
+      "originalDimensions": [
+        2048,
+        2048
+      ],
+      "deliveryDimensions": [
+        1536,
+        1536
+      ],
+      "originalBytes": 5174812,
+      "deliveryBytes": 304280
+    }
+  ]
+}

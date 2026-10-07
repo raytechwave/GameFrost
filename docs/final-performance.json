@@ -1,0 +1,300 @@
+{
+  "date": "2026-10-07T04:16:20.067Z",
+  "initialJavaScriptGzipBytes": 155121,
+  "allJavaScriptGzipBytes": 399202,
+  "initial": [
+    {
+      "file": "assets/index-BfYxVjum.js",
+      "raw": 338603,
+      "gzip": 105193
+    },
+    {
+      "file": "assets/home-ykJ2HOIA.js",
+      "raw": 17255,
+      "gzip": 5696
+    },
+    {
+      "file": "assets/common-BAz13rce.js",
+      "raw": 69831,
+      "gzip": 23297
+    },
+    {
+      "file": "assets/chevron-up-IcytojXy.js",
+      "raw": 193,
+      "gzip": 164
+    },
+    {
+      "file": "assets/editorial-image-CE7CNizo.js",
+      "raw": 879,
+      "gzip": 547
+    },
+    {
+      "file": "assets/games-common-eCEKRWw0.js",
+      "raw": 2196,
+      "gzip": 1065
+    },
+    {
+      "file": "assets/scenes-CbJ79yqx.js",
+      "raw": 1891,
+      "gzip": 838
+    },
+    {
+      "file": "assets/camera-BH5D2c3_.js",
+      "raw": 326,
+      "gzip": 243
+    },
+    {
+      "file": "assets/rotate-ccw-BdFxDH9B.js",
+      "raw": 552,
+      "gzip": 341
+    },
+    {
+      "file": "assets/settings-2-DhWA30l2.js",
+      "raw": 242,
+      "gzip": 186
+    },
+    {
+      "file": "assets/local-store-D5mpT7AE.js",
+      "raw": 5272,
+      "gzip": 2534
+    },
+    {
+      "file": "assets/catalog-CLY2Sh8N.js",
+      "raw": 4998,
+      "gzip": 2181
+    },
+    {
+      "file": "assets/types-11J6_siM.js",
+      "raw": 56492,
+      "gzip": 12836
+    }
+  ],
+  "all": [
+    {
+      "file": "assets/admin-BiGhrlsB.js",
+      "raw": 116519,
+      "gzip": 32883
+    },
+    {
+      "file": "assets/character-stage-DNG-5dOI.js",
+      "raw": 49945,
+      "gzip": 15356
+    },
+    {
+      "file": "assets/flows-XyeSF-XV.js",
+      "raw": 32874,
+      "gzip": 10229
+    },
+    {
+      "file": "assets/home-ykJ2HOIA.js",
+      "raw": 17255,
+      "gzip": 5696
+    },
+    {
+      "file": "assets/pages-G4nSpt4e.js",
+      "raw": 26638,
+      "gzip": 8054
+    },
+    {
+      "file": "assets/shop-DA-3-Cfr.js",
+      "raw": 32988,
+      "gzip": 10692
+    },
+    {
+      "file": "assets/showroom-scene-C7znkz3X.js",
+      "raw": 13776,
+      "gzip": 5695
+    },
+    {
+      "file": "assets/showroom-C-cUhaII.js",
+      "raw": 14516,
+      "gzip": 5082
+    },
+    {
+      "file": "assets/cms-validation-DUv7Th0Y.js",
+      "raw": 3681,
+      "gzip": 1772
+    },
+    {
+      "file": "assets/camera-BH5D2c3_.js",
+      "raw": 326,
+      "gzip": 243
+    },
+    {
+      "file": "assets/catalog-CLY2Sh8N.js",
+      "raw": 4998,
+      "gzip": 2181
+    },
+    {
+      "file": "assets/checkbox-mJ_yn2gn.js",
+      "raw": 4600,
+      "gzip": 1933
+    },
+    {
+      "file": "assets/chevron-up-IcytojXy.js",
+      "raw": 193,
+      "gzip": 164
+    },
+    {
+      "file": "assets/common-BAz13rce.js",
+      "raw": 69831,
+      "gzip": 23297
+    },
+    {
+      "file": "assets/compass-C-X0Z4P9.js",
+      "raw": 241,
+      "gzip": 198
+    },
+    {
+      "file": "assets/dist-CWNVWZpy.js",
+      "raw": 4125,
+      "gzip": 1819
+    },
+    {
+      "file": "assets/editorial-image-CE7CNizo.js",
+      "raw": 879,
+      "gzip": 547
+    },
+    {
+      "file": "assets/games-common-eCEKRWw0.js",
+      "raw": 2196,
+      "gzip": 1065
+    },
+    {
+      "file": "assets/rotate-ccw-BdFxDH9B.js",
+      "raw": 552,
+      "gzip": 341
+    },
+    {
+      "file": "assets/scenes-CbJ79yqx.js",
+      "raw": 1891,
+      "gzip": 838
+    },
+    {
+      "file": "assets/settings-2-DhWA30l2.js",
+      "raw": 242,
+      "gzip": 186
+    },
+    {
+      "file": "assets/tabs-Df9_TB-K.js",
+      "raw": 5206,
+      "gzip": 1914
+    },
+    {
+      "file": "assets/three.module-C7qkKk_s.js",
+      "raw": 585855,
+      "gzip": 144720
+    },
+    {
+      "file": "assets/types-11J6_siM.js",
+      "raw": 56492,
+      "gzip": 12836
+    },
+    {
+      "file": "assets/upload-BxR69TgZ.js",
+      "raw": 585,
+      "gzip": 309
+    },
+    {
+      "file": "assets/export-package-Bweh9Urf.js",
+      "raw": 5381,
+      "gzip": 2436
+    },
+    {
+      "file": "assets/index-BfYxVjum.js",
+      "raw": 338603,
+      "gzip": 105193
+    },
+    {
+      "file": "assets/local-store-D5mpT7AE.js",
+      "raw": 5272,
+      "gzip": 2534
+    },
+    {
+      "file": "assets/media-backup-COU4IcpM.js",
+      "raw": 1718,
+      "gzip": 989
+    }
+  ],
+  "character": {
+    "originalBytes": 12475700,
+    "deliveryBytes": 6866136,
+    "deliveryGzipBytes": 1653406,
+    "method": "EXT_texture_webp, quality 92, at most 1536 px; geometry, skins, hierarchy and animation unchanged",
+    "textures": [
+      {
+        "originalDimensions": [
+          256,
+          256
+        ],
+        "deliveryDimensions": [
+          256,
+          256
+        ],
+        "originalBytes": 75976,
+        "deliveryBytes": 8914
+      },
+      {
+        "originalDimensions": [
+          512,
+          512
+        ],
+        "deliveryDimensions": [
+          512,
+          512
+        ],
+        "originalBytes": 355924,
+        "deliveryBytes": 40306
+      },
+      {
+        "originalDimensions": [
+          256,
+          256
+        ],
+        "deliveryDimensions": [
+          256,
+          256
+        ],
+        "originalBytes": 80756,
+        "deliveryBytes": 9394
+      },
+      {
+        "originalDimensions": [
+          512,
+          128
+        ],
+        "deliveryDimensions": [
+          512,
+          128
+        ],
+        "originalBytes": 76620,
+        "deliveryBytes": 8014
+      },
+      {
+        "originalDimensions": [
+          512,
+          512
+        ],
+        "deliveryDimensions": [
+          512,
+          512
+        ],
+        "originalBytes": 372500,
+        "deliveryBytes": 155290
+      },
+      {
+        "originalDimensions": [
+          2048,
+          2048
+        ],
+        "deliveryDimensions": [
+          1536,
+          1536
+        ],
+        "originalBytes": 5174812,
+        "deliveryBytes": 304280
+      }
+    ]
+  },
+  "limits": "Build compression sizes, not load-time or physical-phone FPS evidence. Total optional-feature JavaScript exceeds the original 250 KB total budget; the initial non-3D shell is measured separately. GLB gzip delivery depends on hosting compression."
+}

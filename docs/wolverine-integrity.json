@@ -1,0 +1,15 @@
+{
+  "preservedDefinitions": [
+    "nodes",
+    "skins",
+    "animations",
+    "meshes",
+    "accessors",
+    "scenes"
+  ],
+  "nonImageBufferViewsByteIdentical": 112,
+  "skins": 2,
+  "animationChannels": 41,
+  "originalSHA256": "ad6b6417bc18d6486b57467543cb1297abab79a41d0ad725b057642c7f7af3ce",
+  "optimizedSHA256": "34a252e2db544f567a9d9aa67967c8c5d6c95ca136ff37cff02c7a083f412a38"
+}

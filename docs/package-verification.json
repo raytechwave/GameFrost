@@ -1,0 +1,181 @@
+{
+  "checks": [
+    "fresh source build: 17 important mobile routes, real 404 and independently served GLB rendering pass.",
+    "fresh Drop archive: 17 important mobile routes, real 404 and independently served GLB rendering pass.",
+    "Both ZIPs pass CRC validation and exclude dependency directories, Git metadata and secret environment files."
+  ],
+  "errors": [],
+  "routes": [
+    {
+      "edition": "fresh source build",
+      "path": "/",
+      "status": 200
+    },
+    {
+      "edition": "fresh source build",
+      "path": "/shop",
+      "status": 200
+    },
+    {
+      "edition": "fresh source build",
+      "path": "/shop/playstation/ps5-slim-disc",
+      "status": 200
+    },
+    {
+      "edition": "fresh source build",
+      "path": "/cart",
+      "status": 200
+    },
+    {
+      "edition": "fresh source build",
+      "path": "/checkout",
+      "status": 200
+    },
+    {
+      "edition": "fresh source build",
+      "path": "/trade-in",
+      "status": 200
+    },
+    {
+      "edition": "fresh source build",
+      "path": "/services",
+      "status": 200
+    },
+    {
+      "edition": "fresh source build",
+      "path": "/reviews",
+      "status": 200
+    },
+    {
+      "edition": "fresh source build",
+      "path": "/new-games",
+      "status": 200
+    },
+    {
+      "edition": "fresh source build",
+      "path": "/about",
+      "status": 200
+    },
+    {
+      "edition": "fresh source build",
+      "path": "/visit",
+      "status": 200
+    },
+    {
+      "edition": "fresh source build",
+      "path": "/guides",
+      "status": 200
+    },
+    {
+      "edition": "fresh source build",
+      "path": "/faq",
+      "status": 200
+    },
+    {
+      "edition": "fresh source build",
+      "path": "/policies",
+      "status": 200
+    },
+    {
+      "edition": "fresh source build",
+      "path": "/account",
+      "status": 200
+    },
+    {
+      "edition": "fresh source build",
+      "path": "/admin",
+      "status": 200
+    },
+    {
+      "edition": "fresh source build",
+      "path": "/showroom",
+      "status": 200
+    },
+    {
+      "edition": "fresh Drop archive",
+      "path": "/",
+      "status": 200
+    },
+    {
+      "edition": "fresh Drop archive",
+      "path": "/shop",
+      "status": 200
+    },
+    {
+      "edition": "fresh Drop archive",
+      "path": "/shop/playstation/ps5-slim-disc",
+      "status": 200
+    },
+    {
+      "edition": "fresh Drop archive",
+      "path": "/cart",
+      "status": 200
+    },
+    {
+      "edition": "fresh Drop archive",
+      "path": "/checkout",
+      "status": 200
+    },
+    {
+      "edition": "fresh Drop archive",
+      "path": "/trade-in",
+      "status": 200
+    },
+    {
+      "edition": "fresh Drop archive",
+      "path": "/services",
+      "status": 200
+    },
+    {
+      "edition": "fresh Drop archive",
+      "path": "/reviews",
+      "status": 200
+    },
+    {
+      "edition": "fresh Drop archive",
+      "path": "/new-games",
+      "status": 200
+    },
+    {
+      "edition": "fresh Drop archive",
+      "path": "/about",
+      "status": 200
+    },
+    {
+      "edition": "fresh Drop archive",
+      "path": "/visit",
+      "status": 200
+    },
+    {
+      "edition": "fresh Drop archive",
+      "path": "/guides",
+      "status": 200
+    },
+    {
+      "edition": "fresh Drop archive",
+      "path": "/faq",
+      "status": 200
+    },
+    {
+      "edition": "fresh Drop archive",
+      "path": "/policies",
+      "status": 200
+    },
+    {
+      "edition": "fresh Drop archive",
+      "path": "/account",
+      "status": 200
+    },
+    {
+      "edition": "fresh Drop archive",
+      "path": "/admin",
+      "status": 200
+    },
+    {
+      "edition": "fresh Drop archive",
+      "path": "/showroom",
+      "status": 200
+    }
+  ],
+  "scope": "Fresh-folder extraction, source locked reinstall/rebuild and Chromium visits to independent loopback servers."
+}

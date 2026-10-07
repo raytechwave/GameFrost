@@ -1,0 +1,21 @@
+'use client';
+import {useEffect,useState} from 'react';
+import {money} from '@/lib/catalog-helpers';
+type RecordItem={id:string;kind:string;status:string;created:string;payload:Record<string,any>};
+export function MerchantQueue({local}:{local:boolean}){
+ const[records,setRecords]=useState<RecordItem[]>([]),[error,setError]=useState(''),[busy,setBusy]=useState(''),[filter,setFilter]=useState('all'),[next,setNext]=useState<string|null>(null);
+ async function load(more=false){setBusy('load');setError('');try{const response=await fetch('/api/admin/requests'+(more&&next?'?before='+encodeURIComponent(next):''));const data:any=await response.json();if(!response.ok)throw new Error(data.error);setRecords(old=>more?[...old,...data.records]:data.records);setNext(data.next)}catch(e){setError((e as Error).message)}finally{setBusy('')}}
+ useEffect(()=>{if(!local)void load()},[local]);
+ if(local)return <div className="cms-card"><h2>Customer requests need the hosted backend.</h2><p>This static Netlify editor only changes this browser. Customers’ local drafts are private to their device and are never sent to an owner queue. Use the hosted D1/R2 edition for shared content and submitted requests.</p></div>;
+ const statuses=['submitted','reviewing','quoted','closed','cancelled'];
+ return <><div className="cms-page-head"><div><h1>Every next move, in one place.</h1><p>Explicitly submitted customer requests. Status updates do not send messages, take payment, reserve stock or confirm appointments.</p></div><button className="btn secondary" disabled={!!busy} onClick={()=>void load()}>Refresh queue</button></div>
+ <div className="cms-card"><label htmlFor="queue-status">Request status</label><select id="queue-status" value={filter} onChange={e=>setFilter(e.target.value)}><option value="all">All statuses</option>{statuses.map(s=><option key={s}>{s}</option>)}</select></div>
+ {error&&<p className="cms-error" role="alert">{error}</p>}
+ {!records.length&&!busy&&<div className="cms-card"><h3>No submitted requests yet.</h3><p>Customer drafts stay private until the customer explicitly submits them.</p></div>}
+ {records.filter(r=>filter==='all'||r.status===filter).map(r=><article className="cms-card" key={r.id}><div className="cms-card-actions"><span className="cms-field-tag">{r.kind.toUpperCase()} · GF-{r.id.slice(0,8).toUpperCase()}</span><span>{r.status}</span></div><h3>{r.payload.name||'Customer inquiry'}</h3><p>{r.payload.phone} · {r.payload.city} · {new Date(r.created).toLocaleString('en-GB',{timeZone:'Asia/Karachi'})}</p>{r.payload.address&&<p>{r.payload.address}</p>}
+ {r.payload.items&&<><ul>{r.payload.items.map((item:any)=><li key={item.id}>{item.name} × {item.qty} · {money(item.price*item.qty)}</li>)}</ul><p><strong>Catalog subtotal: {money(r.payload.total)}</strong> · {r.payload.sample?'Illustrative prices':'Published prices'} · Delivery requires a quote.</p></>}
+ {r.payload.model&&<p>{r.payload.model} · {r.payload.condition} · {r.payload.seal}</p>}{r.payload.serviceName&&<p>{r.payload.serviceName} · {r.payload.device} · Preferred date: {r.payload.date}</p>}{(r.payload.notes||r.payload.message)&&<p>{r.payload.notes||r.payload.message}</p>}
+ {r.payload.photos?.length>0&&<div className="upload-list">{r.payload.photos.map((id:string)=><a key={id} href={'/api/admin/requests?request='+r.id+'&photo='+id} target="_blank" rel="noreferrer"><img alt="Submitted console condition" src={'/api/admin/requests?request='+r.id+'&photo='+id}/></a>)}</div>}
+ <label htmlFor={'status-'+r.id}>Owner workflow status</label><select id={'status-'+r.id} value={r.status} disabled={!!busy} onChange={async e=>{const status=e.target.value;setBusy(r.id);setError('');try{const response=await fetch('/api/admin/requests',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({id:r.id,previous:r.status,status})});const data:any=await response.json();if(!response.ok)throw new Error(data.error);setRecords(old=>old.map(x=>x.id===r.id?{...x,status}:x))}catch(e){setError((e as Error).message)}finally{setBusy('')}}}>{statuses.map(s=><option value={s} disabled={s==='submitted'} key={s}>{s}</option>)}</select>
+ </article>)}{next&&<button className="btn secondary" disabled={!!busy} onClick={()=>void load(true)}>Load earlier requests</button>}{busy==='load'&&<p role="status">Loading requests…</p>}</>
+}

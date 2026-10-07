@@ -1,0 +1,1 @@
+ALTER TABLE `gf_cms` ADD `write_id` text DEFAULT '' NOT NULL;

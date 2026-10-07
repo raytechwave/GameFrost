@@ -1,0 +1,24 @@
+{
+  "date": "2026-10-01T07:26:18.941053+00:00",
+  "checks": [
+    {
+      "mode": "Local editor",
+      "entries": 178,
+      "zipCRC": "Passed",
+      "contentPrice": "Passed",
+      "newPageAndSitemap": "Passed",
+      "uploadedImageFile": "Passed",
+      "routingHeadersAndAdmin": "Passed"
+    },
+    {
+      "mode": "Hosted kit",
+      "entries": 178,
+      "zipCRC": "Passed",
+      "contentPrice": "Passed",
+      "newPageAndSitemap": "Passed",
+      "uploadedImageFile": "Passed",
+      "routingHeadersAndAdmin": "Passed"
+    }
+  ],
+  "method": "Actual TypeScript export module executed under Node; output archives independently checked with Python zipfile. This does not replace visual browser testing."
+}

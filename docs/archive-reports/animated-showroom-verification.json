@@ -1,0 +1,97 @@
+{
+  "date": "2026-10-01T05:16:42.049Z",
+  "rooms": 6,
+  "walkingStepsChecked": 2500,
+  "cameraTargets": "Passed for all departments",
+  "catalogAssets": "All linked showroom models and images exist",
+  "staticCartAndDraftValidation": "Quantity, model, duplicate item, server-independent catalog totals, consent, date and trade-model checks passed",
+  "typecheck": "Passed",
+  "browserInteractionAndWebGLVisualQA": "Not run: the required control-browser skill is unavailable.",
+  "motion": "User-controlled pause, OS reduced-motion, touch controls, image fallback and visibility-aware rendering implemented.",
+  "headlineMetricChecks": [
+    {
+      "viewport": 320,
+      "titleFontPx": 28,
+      "availableWidthPx": 276,
+      "allTitleLinesFit": true
+    },
+    {
+      "viewport": 375,
+      "titleFontPx": 30.8,
+      "availableWidthPx": 331,
+      "allTitleLinesFit": true
+    },
+    {
+      "viewport": 390,
+      "titleFontPx": 32.0,
+      "availableWidthPx": 346,
+      "allTitleLinesFit": true
+    },
+    {
+      "viewport": 600,
+      "titleFontPx": 49.2,
+      "availableWidthPx": 556,
+      "allTitleLinesFit": true
+    },
+    {
+      "viewport": 760,
+      "titleFontPx": 55,
+      "availableWidthPx": 716,
+      "allTitleLinesFit": true
+    },
+    {
+      "viewport": 768,
+      "titleFontPx": 40,
+      "availableWidthPx": 445.4,
+      "allTitleLinesFit": true
+    },
+    {
+      "viewport": 900,
+      "titleFontPx": 41.9,
+      "availableWidthPx": 522.0,
+      "allTitleLinesFit": true
+    },
+    {
+      "viewport": 1024,
+      "titleFontPx": 47.6,
+      "availableWidthPx": 560,
+      "allTitleLinesFit": true
+    },
+    {
+      "viewport": 1100,
+      "titleFontPx": 51.1,
+      "availableWidthPx": 560,
+      "allTitleLinesFit": true
+    },
+    {
+      "viewport": 1280,
+      "titleFontPx": 53.8,
+      "availableWidthPx": 588.8,
+      "allTitleLinesFit": true
+    },
+    {
+      "viewport": 1440,
+      "titleFontPx": 60.5,
+      "availableWidthPx": 600,
+      "allTitleLinesFit": true
+    },
+    {
+      "viewport": 1600,
+      "titleFontPx": 66,
+      "availableWidthPx": 736.0,
+      "allTitleLinesFit": true
+    },
+    {
+      "viewport": 1920,
+      "titleFontPx": 78.7,
+      "availableWidthPx": 850,
+      "allTitleLinesFit": true
+    },
+    {
+      "viewport": 2560,
+      "titleFontPx": 86,
+      "availableWidthPx": 850,
+      "allTitleLinesFit": true
+    }
+  ]
+}

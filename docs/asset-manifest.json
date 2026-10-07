@@ -1,0 +1,511 @@
+{
+  "project": "GAME FROST",
+  "date": "2026-10-07",
+  "assets": [
+    {
+      "url": "/brand/favicon.svg",
+      "source": "Supplied Optimized CMS Complete website archive",
+      "bytes": 404,
+      "sha256": "32961e34147c2e4f886131e518dd0559aa18fa79c23c766483ef48300ca5b51f"
+    },
+    {
+      "url": "/brand/game-frost-animated.svg",
+      "source": "Supplied Optimized CMS Complete website archive",
+      "bytes": 6790,
+      "sha256": "43aff8c0889274e05fab7d8fc218f2bac352db98ae7281d01dcca58940458af9"
+    },
+    {
+      "url": "/brand/game-frost-horizontal-dark.svg",
+      "source": "Supplied Optimized CMS Complete website archive",
+      "bytes": 6161,
+      "sha256": "16968f7e292c840961d4892bd574ed5a5c9e0ec924412c3cbb119b0fc3e4b08b"
+    },
+    {
+      "url": "/brand/game-frost-horizontal-light.svg",
+      "source": "Supplied Optimized CMS Complete website archive",
+      "bytes": 6161,
+      "sha256": "3ff08870fe2ab8efe2a81e61834dae07fea3e7a805c89ddae8864b135416b2a3"
+    },
+    {
+      "url": "/brand/game-frost-icon.svg",
+      "source": "Supplied Optimized CMS Complete website archive",
+      "bytes": 973,
+      "sha256": "b8acb17f67a705d0b3e85130588d889b232eb7bbe489a41b5c665751b05fd5ab"
+    },
+    {
+      "url": "/brand/game-frost-mono-dark.svg",
+      "source": "Supplied Optimized CMS Complete website archive",
+      "bytes": 6161,
+      "sha256": "0c13ffdc88df75c57028fa123140edf7f603d936bf55ab118113e8510e758a94"
+    },
+    {
+      "url": "/brand/game-frost-mono-light.svg",
+      "source": "Supplied Optimized CMS Complete website archive",
+      "bytes": 6161,
+      "sha256": "2abc5767a462d18bd79a0a56631d7d2291805e90ecdbaf4d57a6b90b4091812e"
+    },
+    {
+      "url": "/brand/game-frost-profile.svg",
+      "source": "Supplied Optimized CMS Complete website archive",
+      "bytes": 1048,
+      "sha256": "1a8ca9e1f17344abbbf4bc8317f6498b479481aca672baa637a23fb91ef5ab71"
+    },
+    {
+      "url": "/brand/game-frost-stacked.svg",
+      "source": "Supplied Optimized CMS Complete website archive",
+      "bytes": 6836,
+      "sha256": "8a3a9832a39d52074053c3b2904bd3143595ca0c34755774f0056c24e908d444"
+    },
+    {
+      "url": "/characters/wolverine-attack.glb",
+      "source": "Supplied Wolverine 3D Complete, latest GLB; optimized delivery copy and poster rendered from that copy",
+      "bytes": 6866136,
+      "sha256": "34a252e2db544f567a9d9aa67967c8c5d6c95ca136ff37cff02c7a083f412a38",
+      "character": "Wolverine",
+      "reviewStatus": "Integrated; current motion QA report governs validation",
+      "credits": "K Animator; 3D MODELS; The Armacham Technology Corporation; CC BY 4.0 as listed by supplied package"
+    },
+    {
+      "url": "/characters/wolverine-poster.webp",
+      "source": "Supplied Wolverine 3D Complete, latest GLB; optimized delivery copy and poster rendered from that copy",
+      "bytes": 31242,
+      "sha256": "a90974ea1b3d00f151b07adb683512bbf6146ccc0f60d42e12f2c4b69d79f63c",
+      "dimensions": [
+        801,
+        901
+      ],
+      "transparency": true,
+      "character": "Wolverine",
+      "reviewStatus": "Integrated; current motion QA report governs validation",
+      "credits": "K Animator; 3D MODELS; The Armacham Technology Corporation; CC BY 4.0 as listed by supplied package"
+    },
+    {
+      "url": "/favicon.svg",
+      "source": "Supplied Optimized CMS Complete website archive",
+      "bytes": 404,
+      "sha256": "32961e34147c2e4f886131e518dd0559aa18fa79c23c766483ef48300ca5b51f"
+    },
+    {
+      "url": "/file.svg",
+      "source": "Supplied Optimized CMS Complete website archive",
+      "bytes": 392,
+      "sha256": "1e0ae4d1a1ddfa36752988647b731e4abf150c414d069ec83c96fb0aaeff0307"
+    },
+    {
+      "url": "/fonts/font-1e8edb2fc100.woff2",
+      "source": "Supplied Optimized CMS Complete website archive",
+      "bytes": 18748,
+      "sha256": "71d5ee93cc1e9f1d520a3a8b66456de18c7879d8df09d57fcd2eaff75fef0075"
+    },
+    {
+      "url": "/fonts/font-37809322a538.woff2",
+      "source": "Supplied Optimized CMS Complete website archive",
+      "bytes": 118348,
+      "sha256": "845e1c9fe2e9a7bfbedfeb447fbeba4bc1b5ecd6246277910ccdaad35a7a532c"
+    },
+    {
+      "url": "/fonts/font-4c2d4a14f23a.woff2",
+      "source": "Supplied Optimized CMS Complete website archive",
+      "bytes": 10252,
+      "sha256": "5c66f9e07e90c6d4ac4922cc68d60de26c17b1858e677fb5e603fce3952b3ff2"
+    },
+    {
+      "url": "/fonts/font-699bf2310701.woff2",
+      "source": "Supplied Optimized CMS Complete website archive",
+      "bytes": 13884,
+      "sha256": "aa6b9cba3768a781df88a462a85ca40c6644662bb7d59ab4375ad1ff64f51251"
+    },
+    {
+      "url": "/fonts/font-6b5e37b52d26.woff2",
+      "source": "Supplied Optimized CMS Complete website archive",
+      "bytes": 1640,
+      "sha256": "62213be8a78b42f1e29d1452d91e2f8b3e745572a9dd98d3941e39fa00b37d76"
+    },
+    {
+      "url": "/fonts/font-6d0a674525fe.woff2",
+      "source": "Supplied Optimized CMS Complete website archive",
+      "bytes": 11232,
+      "sha256": "6e9e020a25f9b56d418f2c085b1d3c09725a4da23fe693a5b463064606732190"
+    },
+    {
+      "url": "/fonts/font-95b9ea830580.woff2",
+      "source": "Supplied Optimized CMS Complete website archive",
+      "bytes": 25960,
+      "sha256": "ca157063339ac4ad418f214f3abfed119b0798ab4d377386ce5c9e5a7a435ebd"
+    },
+    {
+      "url": "/fonts/font-99e400330f36.woff2",
+      "source": "Supplied Optimized CMS Complete website archive",
+      "bytes": 6836,
+      "sha256": "0a557721b1f8b36d3f3f84442689a71ca4a744300abcb46a1953f51bfc663b66"
+    },
+    {
+      "url": "/fonts/font-9b3963915707.woff2",
+      "source": "Supplied Optimized CMS Complete website archive",
+      "bytes": 50904,
+      "sha256": "22f9b928aa3928a896340422b54d690fbb5875c30eae4c106f029c61f2289fd6"
+    },
+    {
+      "url": "/fonts/font-a19d936814f1.woff2",
+      "source": "Supplied Optimized CMS Complete website archive",
+      "bytes": 31424,
+      "sha256": "e30bf6a6063b6a47232bbd657e24c7cf4fdaf76fc2c50d92d9ee63e2ad2087cf"
+    },
+    {
+      "url": "/fonts/font-a5df16d8135b.woff2",
+      "source": "Supplied Optimized CMS Complete website archive",
+      "bytes": 1840,
+      "sha256": "f25c38d28da3d57b68419590e7165c382e99bab3548baf4a498af93f87d3e518"
+    },
+    {
+      "url": "/fonts/font-a9d11b3ffe7a.woff2",
+      "source": "Supplied Optimized CMS Complete website archive",
+      "bytes": 85068,
+      "sha256": "34b9c504cab7a73e37b746343a449132e56cf7b5481af2cb81dc74dcff25c956"
+    },
+    {
+      "url": "/fonts/font-b19c2080652a.woff2",
+      "source": "Supplied Optimized CMS Complete website archive",
+      "bytes": 11624,
+      "sha256": "db5ff4db83e580426280e9337a58dc57d3a83784a1b03ad80914651594441d52"
+    },
+    {
+      "url": "/fonts/font-c4064400db37.woff2",
+      "source": "Supplied Optimized CMS Complete website archive",
+      "bytes": 5888,
+      "sha256": "c89b9cc0bc6262bd4f8d8494b6961601f3aefa829d08c2e3635f4d501d3a47c2"
+    },
+    {
+      "url": "/fonts/font-cc27b3047125.woff2",
+      "source": "Supplied Optimized CMS Complete website archive",
+      "bytes": 31432,
+      "sha256": "83c005d49d8a6a50474c73a5a36ac0468076e9c4a29da7bdb14995d80560a5be"
+    },
+    {
+      "url": "/fonts/font-dbc85b0dfbaa.woff2",
+      "source": "Supplied Optimized CMS Complete website archive",
+      "bytes": 18996,
+      "sha256": "1be3448e292fbf05ffe176fe1e43f135013d50b1e7d324ad1a558f623d3bb6f6"
+    },
+    {
+      "url": "/fonts/font-e3237528af75.woff2",
+      "source": "Supplied Optimized CMS Complete website archive",
+      "bytes": 48256,
+      "sha256": "3100e775e8616cd2611beecfa23a4263d7037586789b43f035236a2e6fbd4c62"
+    },
+    {
+      "url": "/fonts/font-eb83d8d40af4.woff2",
+      "source": "Supplied Optimized CMS Complete website archive",
+      "bytes": 8872,
+      "sha256": "e17cfd15fb96909d64095015f958207063a0c07191da3512df7d560a781aebdf"
+    },
+    {
+      "url": "/fonts/fonts.css",
+      "source": "Supplied Optimized CMS Complete website archive",
+      "bytes": 22004,
+      "sha256": "389ee8b4d51527f8093071ba787a1e49272733b370df6059fc882cd440ca48a3"
+    },
+    {
+      "url": "/fonts/inter-OFL.txt",
+      "source": "Supplied Optimized CMS Complete website archive",
+      "bytes": 4377,
+      "sha256": "5b9321a4298cfeb6b34354164a1c3afc3db114569984c502b9b35d988fd58c57"
+    },
+    {
+      "url": "/fonts/jetbrainsmono-OFL.txt",
+      "source": "Supplied Optimized CMS Complete website archive",
+      "bytes": 4399,
+      "sha256": "b2fe5e8987594e9ffd1d2ca52a2f5d73eb8335243893c5d6254b5ad69269591d"
+    },
+    {
+      "url": "/fonts/unbounded-OFL.txt",
+      "source": "Supplied Optimized CMS Complete website archive",
+      "bytes": 4392,
+      "sha256": "31e5d4e83955e7103c34570dd49b0570ef490800bd65b42923c0dd02445263b3"
+    },
+    {
+      "url": "/globe.svg",
+      "source": "Supplied Optimized CMS Complete website archive",
+      "bytes": 1036,
+      "sha256": "d051a8c47936990a9085693d307bb7cea1bc1b6d7ed956bcbaacf674f4ec96b9"
+    },
+    {
+      "url": "/images/007-first-light.webp",
+      "source": "Supplied Optimized CMS Complete website archive",
+      "bytes": 34556,
+      "sha256": "b5918c8789e71c4e614fbcb60c2faa0de41692bdc55a8119a5928a5d2f6a9ceb",
+      "dimensions": [
+        650,
+        650
+      ],
+      "transparency": false
+    },
+    {
+      "url": "/images/dualsense-white.webp",
+      "source": "Supplied Optimized CMS Complete website archive",
+      "bytes": 30522,
+      "sha256": "9737f23b77104696b9ea4d0a989ce43cca1440812e7aa04e0d1d21f2e4d119c4",
+      "dimensions": [
+        650,
+        457
+      ],
+      "transparency": true
+    },
+    {
+      "url": "/images/ea-sports-fc-27.webp",
+      "source": "Supplied Optimized CMS Complete website archive",
+      "bytes": 102438,
+      "sha256": "5a2c0cc6f11f5e2a5c4cfab984dcfb4e7e9d745fcc3401c15728ec0a4c9feb43",
+      "dimensions": [
+        650,
+        650
+      ],
+      "transparency": false
+    },
+    {
+      "url": "/images/editorial/lounge-1536.webp",
+      "source": "Supplied Optimized CMS Complete website archive",
+      "bytes": 282748,
+      "sha256": "682fbce40d20a8a1458c05bc59c2f561e30e0b121b0e62641ed2034f992cfc40",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "transparency": false
+    },
+    {
+      "url": "/images/editorial/lounge-768.webp",
+      "source": "Supplied Optimized CMS Complete website archive",
+      "bytes": 82950,
+      "sha256": "24f2a0a5c88b1fdeb3262a97f95e01acfa449fdfb4bc347f589d845861924bf9",
+      "dimensions": [
+        768,
+        512
+      ],
+      "transparency": false
+    },
+    {
+      "url": "/images/editorial/retro-1536.webp",
+      "source": "Supplied Optimized CMS Complete website archive",
+      "bytes": 256340,
+      "sha256": "00558aa65f2d57f20534b434f4366ac2a0b3a6160c549b41bc5ca1214cbcd609",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "transparency": false
+    },
+    {
+      "url": "/images/editorial/retro-768.webp",
+      "source": "Supplied Optimized CMS Complete website archive",
+      "bytes": 81968,
+      "sha256": "585f317338a1dc6884cff291b1535f62fa46d96a9a46e595bc4c095c9ee21648",
+      "dimensions": [
+        768,
+        512
+      ],
+      "transparency": false
+    },
+    {
+      "url": "/images/editorial/services-1536.webp",
+      "source": "Supplied Optimized CMS Complete website archive",
+      "bytes": 220248,
+      "sha256": "a22f3e696ce8b3f33c13e99a5e8456a1bcb7cc3a239e856d4cd650363b77a418",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "transparency": false
+    },
+    {
+      "url": "/images/editorial/services-768.webp",
+      "source": "Supplied Optimized CMS Complete website archive",
+      "bytes": 74952,
+      "sha256": "5aac2bcee15c254da48ae570e69fe432b871f81cc4b580c15dc2aa2072f8f920",
+      "dimensions": [
+        768,
+        512
+      ],
+      "transparency": false
+    },
+    {
+      "url": "/images/ghost-of-yotei.webp",
+      "source": "Supplied Optimized CMS Complete website archive",
+      "bytes": 91260,
+      "sha256": "d31f2a5302431eeee4cad38dff13a54b10185796a27fbc2badbd2d95c949eb54",
+      "dimensions": [
+        650,
+        650
+      ],
+      "transparency": false
+    },
+    {
+      "url": "/images/god-of-war-ragnarok.webp",
+      "source": "Supplied Optimized CMS Complete website archive",
+      "bytes": 78156,
+      "sha256": "1d958a953d45ab92ad5f9ece010ebef1fe337aa5c89457f1f8e6f23a1d23d208",
+      "dimensions": [
+        650,
+        650
+      ],
+      "transparency": false
+    },
+    {
+      "url": "/images/gran-turismo-7.webp",
+      "source": "Supplied Optimized CMS Complete website archive",
+      "bytes": 67342,
+      "sha256": "d5334661ee9dacc49c5aad12f00829fcd967a43fd79a7c37963e3af05eecc706",
+      "dimensions": [
+        650,
+        650
+      ],
+      "transparency": false
+    },
+    {
+      "url": "/images/gta-vi.webp",
+      "source": "Supplied Optimized CMS Complete website archive",
+      "bytes": 107272,
+      "sha256": "af43f6162473812a595348e32376244b5d80e3ba1c26f576da8b2ca32505f7d5",
+      "dimensions": [
+        650,
+        650
+      ],
+      "transparency": false
+    },
+    {
+      "url": "/images/logitech-g29.webp",
+      "source": "Supplied Optimized CMS Complete website archive",
+      "bytes": 21788,
+      "sha256": "cb4d3ff329312b37da4cfa065027e1982ca72d649417c8690d5c1600e81d63ee",
+      "dimensions": [
+        462,
+        264
+      ],
+      "transparency": true
+    },
+    {
+      "url": "/images/meta-quest-3-cutout.webp",
+      "source": "Supplied Optimized CMS Complete website archive",
+      "bytes": 38204,
+      "sha256": "78570dc3d4b440ff2e13683d92568f299e660c934658c2c8bdfe8dbcffa12277",
+      "dimensions": [
+        650,
+        455
+      ],
+      "transparency": true
+    },
+    {
+      "url": "/images/nintendo-switch-oled.webp",
+      "source": "Supplied Optimized CMS Complete website archive",
+      "bytes": 13458,
+      "sha256": "37de7002ca18a02d10acb45d081583966241c0e7b26734ed5f490c05c5daf496",
+      "dimensions": [
+        650,
+        366
+      ],
+      "transparency": false
+    },
+    {
+      "url": "/images/ps4-slim.webp",
+      "source": "Supplied Optimized CMS Complete website archive",
+      "bytes": 22466,
+      "sha256": "02e6d3d93b9282967aefda70649c0f17837cde8247cb980ca0b3c649b2350a3a",
+      "dimensions": [
+        650,
+        608
+      ],
+      "transparency": true
+    },
+    {
+      "url": "/images/ps5-slim-disc.webp",
+      "source": "Supplied Optimized CMS Complete website archive",
+      "bytes": 50802,
+      "sha256": "9bce3fd0db27ffe71582f1d5a6cba2f33475e43fed6c352b4cd47624593835c4",
+      "dimensions": [
+        1000,
+        1100
+      ],
+      "transparency": true
+    },
+    {
+      "url": "/images/resident-evil-requiem.webp",
+      "source": "Supplied Optimized CMS Complete website archive",
+      "bytes": 103864,
+      "sha256": "e82f73cde3d7fd21b74cfc9f363b55c7181df54032cd7a5c36d6d81063a032c9",
+      "dimensions": [
+        650,
+        650
+      ],
+      "transparency": false
+    },
+    {
+      "url": "/images/spider-man-2.webp",
+      "source": "Supplied Optimized CMS Complete website archive",
+      "bytes": 38484,
+      "sha256": "3fdf0acadc7ad8872cd7688771a3f61b011c56ac529f21a9d7a91beefd64d916",
+      "dimensions": [
+        650,
+        650
+      ],
+      "transparency": false
+    },
+    {
+      "url": "/images/steam-deck-oled-front.webp",
+      "source": "Supplied Optimized CMS Complete website archive",
+      "bytes": 16552,
+      "sha256": "1ad0e1343f7e5f5f023f021bb73824c8392581120bda111446e616e8df39edc9",
+      "dimensions": [
+        650,
+        198
+      ],
+      "transparency": true
+    },
+    {
+      "url": "/images/xbox-series-s.webp",
+      "source": "Supplied Optimized CMS Complete website archive",
+      "bytes": 25902,
+      "sha256": "6e86016e0e74bb7f5acee3930313766cdc0a864d90ba26084a9f40667a2149e3",
+      "dimensions": [
+        650,
+        519
+      ],
+      "transparency": true
+    },
+    {
+      "url": "/store-content.json",
+      "source": "Supplied Optimized CMS Complete website archive",
+      "bytes": 56038,
+      "sha256": "7b76ec72b29540647dccbc9a21b400da616a8d00165555ce6c9dd9d81603a5be"
+    },
+    {
+      "url": "/window.svg",
+      "source": "Supplied Optimized CMS Complete website archive",
+      "bytes": 386,
+      "sha256": "decf1cf7bb22b5c99c4857cfcd5718ce5465c4454166317589c83fc73df74b66"
+    }
+  ],
+  "missingCharacters": [
+    {
+      "character": "Goku Ultra Instinct",
+      "status": "blocked",
+      "reason": "Required accepted artwork and completed performance not present in the supplied archives; no robot or torn raster puppet substituted"
+    },
+    {
+      "character": "Spider-Man",
+      "status": "blocked",
+      "reason": "Required accepted artwork and completed performance not present in the supplied archives; no robot or torn raster puppet substituted"
+    },
+    {
+      "character": "Harry Potter",
+      "status": "blocked",
+      "reason": "Required accepted artwork and completed performance not present in the supplied archives; no robot or torn raster puppet substituted"
+    },
+    {
+      "character": "Ronaldo",
+      "status": "blocked",
+      "reason": "Required accepted artwork and completed performance not present in the supplied archives; no robot or torn raster puppet substituted"
+    }
+  ],
+  "preservedProvenance": "archive-reports/recovered-asset-manifest.json; original assets retained in references/ in the source package",
+  "licenseNotes": "Product imagery and marks retain the supplied archive provenance; store reference renders are not actual-unit condition evidence."
+}

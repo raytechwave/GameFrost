@@ -1,0 +1,1136 @@
+{
+  "project": "GAME FROST",
+  "verified_as_of": "2026-09-30",
+  "description": "Official original product renders and cover artwork downloaded for storefront design. No generated/drawn product imagery. All recommended files visually inspected.",
+  "reuse_caveat": "Artwork, logos and product renders remain copyrighted/trademarked by their respective owners. Public download or inclusion in a press kit is not confirmation of a commercial retail reuse license. No independent commercial-use permission was verified in this task; retain source provenance and use an applicable retailer/manufacturer license for production.",
+  "source_type": "official manufacturer/publisher/platform product pages only",
+  "recommended_assets": [
+    {
+      "target": "ps5-slim-disc",
+      "title": "PlayStation 5 Console (slim, disc drive)",
+      "asset_id": "ps5-slim-disc",
+      "path": "/workspace/scratch/58483bfdc488/game-frost-assets/ps5-slim-disc.png",
+      "notes": "Best hero asset: native transparent rendering with disc-drive slim console and white DualSense. Vertical stand is pictured; do not infer that it is included in the sold bundle."
+    },
+    {
+      "target": "ps4-slim",
+      "title": "PlayStation 4 Slim",
+      "asset_id": "ps4-slim",
+      "path": "/workspace/scratch/58483bfdc488/game-frost-assets/ps4-slim.png",
+      "notes": "Native transparent render of black PS4 Slim and DualShock 4."
+    },
+    {
+      "target": "xbox-series-s",
+      "title": "Xbox Series S",
+      "asset_id": "xbox-series-s",
+      "path": "/workspace/scratch/58483bfdc488/game-frost-assets/xbox-series-s.png",
+      "notes": "Native transparent render of white Xbox Series S and controller. Storage capacity is not established by the image."
+    },
+    {
+      "target": "nintendo-switch-oled",
+      "title": "Nintendo Switch – OLED Model White set",
+      "asset_id": "switch-oled-dock-white",
+      "path": "/workspace/scratch/58483bfdc488/game-frost-assets/switch-oled-dock-white.jpg",
+      "notes": "Official white-background full console, dock and Joy-Con grip product image."
+    },
+    {
+      "target": "meta-quest-3",
+      "title": "Meta Quest 3",
+      "asset_id": "meta-quest-3-cutout",
+      "path": "/workspace/scratch/58483bfdc488/game-frost-assets/meta-quest-3-cutout.png",
+      "notes": "Native transparent headset-only product image from the official page’s structured product data; controllers are not pictured."
+    },
+    {
+      "target": "logitech-g29",
+      "title": "Logitech G29 Driving Force",
+      "asset_id": "logitech-g29",
+      "path": "/workspace/scratch/58483bfdc488/game-frost-assets/logitech-g29.png",
+      "notes": "Native transparency in a paletted PNG; includes wheel and pedal set. G29 is the PlayStation/PC variant; do not label as Xbox-compatible G920."
+    },
+    {
+      "target": "steam-deck-oled",
+      "title": "Steam Deck OLED",
+      "asset_id": "steam-deck-oled-front",
+      "path": "/workspace/scratch/58483bfdc488/game-frost-assets/steam-deck-oled-front.png",
+      "notes": "Native transparent OLED front render supplied in Valve’s official press kit."
+    },
+    {
+      "target": "dualsense",
+      "title": "DualSense Wireless Controller – White",
+      "asset_id": "dualsense-white",
+      "path": "/workspace/scratch/58483bfdc488/game-frost-assets/dualsense-white.png",
+      "notes": "Native transparent white standard DualSense front render."
+    },
+    {
+      "target": "spider-man-2",
+      "title": "Marvel’s Spider-Man 2",
+      "asset_id": "spider-man-2-cover",
+      "path": "/workspace/scratch/58483bfdc488/game-frost-assets/spider-man-2-cover.jpg",
+      "notes": "Official square digital cover artwork."
+    },
+    {
+      "target": "gran-turismo-7",
+      "title": "Gran Turismo 7",
+      "asset_id": "gran-turismo-7-standard-cover",
+      "path": "/workspace/scratch/58483bfdc488/game-frost-assets/gran-turismo-7-standard-cover.jpg",
+      "notes": "Clean official standard cover; prefer this over the alternate anniversary/750,000-credit artwork."
+    },
+    {
+      "target": "god-of-war-ragnarok",
+      "title": "God of War Ragnarök",
+      "asset_id": "god-of-war-ragnarok-cover",
+      "path": "/workspace/scratch/58483bfdc488/game-frost-assets/god-of-war-ragnarok-cover.jpg",
+      "notes": "Official current square cover includes a God of War 20th Anniversary mark. It is still Ragnarök artwork, not a newly released sequel."
+    },
+    {
+      "target": "ghost-of-yotei",
+      "title": "Ghost of Yōtei",
+      "asset_id": "ghost-of-yotei-standard-cover",
+      "path": "/workspace/scratch/58483bfdc488/game-frost-assets/ghost-of-yotei-standard-cover.jpg",
+      "notes": "Clean original Standard Edition square cover. A separate official physical PS5 packshot is available as ghost-of-yotei.png."
+    },
+    {
+      "target": "resident-evil-requiem",
+      "title": "Resident Evil Requiem",
+      "asset_id": "resident-evil-requiem-cover",
+      "path": "/workspace/scratch/58483bfdc488/game-frost-assets/resident-evil-requiem-cover.jpg",
+      "notes": "Official square digital cover artwork."
+    },
+    {
+      "target": "ea-sports-fc-27",
+      "title": "EA SPORTS FC 27",
+      "asset_id": "fc-27-cover",
+      "path": "/workspace/scratch/58483bfdc488/game-frost-assets/fc-27-cover.jpg",
+      "notes": "Current Standard Edition artwork. FC 27 released on 2026-09-25; do not label as FC 26."
+    },
+    {
+      "target": "gta-vi",
+      "title": "Grand Theft Auto VI",
+      "asset_id": "gta-vi-standard-cover",
+      "path": "/workspace/scratch/58483bfdc488/game-frost-assets/gta-vi-standard-cover.jpg",
+      "notes": "Clean official square artwork without the Ultimate Edition banner. Upcoming as of 2026-09-30."
+    },
+    {
+      "target": "007-first-light",
+      "title": "007 First Light",
+      "asset_id": "007-first-light-standard-cover",
+      "path": "/workspace/scratch/58483bfdc488/game-frost-assets/007-first-light-standard-cover.jpg",
+      "notes": "Clean official square cover without the alternate TACSİM update banner."
+    }
+  ],
+  "game_release_facts": [
+    {
+      "id": "spider-man-2",
+      "title": "Marvel’s Spider-Man 2",
+      "release_date": "2023-10-20",
+      "platforms_verified": [
+        "PS5"
+      ],
+      "status": "released",
+      "release_source": "https://www.playstation.com/en-us/games/marvels-spider-man-2/",
+      "notes": "Date applies to the PS5 release. PC edition exists, but its release date is not needed for this PS5 storefront card."
+    },
+    {
+      "id": "gran-turismo-7",
+      "title": "Gran Turismo 7",
+      "release_date": "2022-03-04",
+      "platforms_verified": [
+        "PS4",
+        "PS5"
+      ],
+      "status": "released",
+      "release_source": "https://www.playstation.com/en-us/games/gran-turismo-7/"
+    },
+    {
+      "id": "god-of-war-ragnarok",
+      "title": "God of War Ragnarök",
+      "release_date": "2022-11-09",
+      "platforms_verified": [
+        "PS4",
+        "PS5",
+        "PC"
+      ],
+      "status": "released",
+      "release_source": "https://www.playstation.com/en-us/games/god-of-war-ragnarok/",
+      "notes": "2022-11-09 applies to PS4/PS5; PC launched later. The official page lists all three platforms."
+    },
+    {
+      "id": "ghost-of-yotei",
+      "title": "Ghost of Yōtei",
+      "release_date": "2025-10-02",
+      "platforms_verified": [
+        "PS5"
+      ],
+      "status": "released",
+      "release_source": "https://www.playstation.com/en-us/games/ghost-of-yotei/",
+      "notes": "Date is original Standard Edition launch from official FAQ. Current page promotes Complete Edition. Echoes of Sekigahara and Most Wanted content is stated available 2026-10-01 globally (2026-10-02 in some territories), so do not conflate that with original game launch."
+    },
+    {
+      "id": "resident-evil-requiem",
+      "title": "Resident Evil Requiem",
+      "release_date": "2026-02-27",
+      "platforms_verified": [
+        "PS5"
+      ],
+      "status": "released",
+      "release_source": "https://www.playstation.com/en-us/games/resident-evil-requiem/",
+      "notes": "PS5 listing verified directly. Other platform availability not exhaustively verified in this bounded asset task."
+    },
+    {
+      "id": "ea-sports-fc-27",
+      "title": "EA SPORTS FC 27",
+      "release_date": "2026-09-25",
+      "early_access_date": "2026-09-18",
+      "platforms_verified": [
+        "PS4",
+        "PS5",
+        "Xbox One",
+        "Xbox Series X|S",
+        "Nintendo Switch",
+        "Nintendo Switch 2",
+        "PC"
+      ],
+      "status": "released",
+      "release_source": "https://www.ea.com/games/ea-sports-fc/fc-27/news/fc-27-editions-and-release-dates",
+      "notes": "Standard/global launch is September 25; September 18 is Ultimate early access. Current official page has FC 27, not FC 26."
+    },
+    {
+      "id": "gta-vi",
+      "title": "Grand Theft Auto VI",
+      "release_date": "2026-11-19",
+      "platforms_verified": [
+        "PS5",
+        "Xbox Series X|S"
+      ],
+      "status": "upcoming",
+      "release_source": "https://www.rockstargames.com/newswire/article/ak3ak31a49a221/grand-theft-auto-vi-is-now-set-to-launch-november-19-2026",
+      "additional_sources": [
+        "https://www.playstation.com/en-us/games/grand-theft-auto-vi/",
+        "https://www.rockstargames.com/newswire/article/5171972o3ak5oa/pre-order-grand-theft-auto-vi-on-june-25"
+      ],
+      "notes": "Official Rockstar date and PlayStation FAQ agree. Do not use the superseded May 26, 2026 date, label as available now, or claim PS4 availability."
+    },
+    {
+      "id": "007-first-light",
+      "title": "007 First Light",
+      "release_date": "2026-05-27",
+      "platforms_verified": [
+        "PS5",
+        "Xbox Series X|S",
+        "PC"
+      ],
+      "status": "released",
+      "release_source": "https://ioi.dk/007firstlightgame/news/2026/007-first-light-launches-globally",
+      "additional_sources": [
+        "https://ioi.dk/007firstlightgame/faq",
+        "https://www.playstation.com/en-us/games/007-first-light/"
+      ],
+      "notes": "Nintendo Switch 2 was separately announced for summer 2026; exact Switch 2 launch not verified here. Do not reuse superseded March 2026 date."
+    }
+  ],
+  "assets": [
+    {
+      "id": "ps5-slim-disc",
+      "title": "PlayStation 5 Console (slim, disc drive)",
+      "kind": "product",
+      "path": "/workspace/scratch/58483bfdc488/game-frost-assets/ps5-slim-disc.png",
+      "source_page": "https://www.playstation.com/en-us/ps5/",
+      "image_url": "https://gmedia.playstation.com/is/image/SIEPDC/ps5-slim-edition-left-image-block-01-en-24jun24?$1600px--t$",
+      "width": 1600,
+      "height": 1781,
+      "mode": "RGBA",
+      "bytes": 1274833,
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "native_transparency": true,
+      "visible_bounds_px": [
+        7,
+        23,
+        1580,
+        1753
+      ],
+      "sha256": "c8fb91bf040858fd661270d97249d789773ebde1b57e33d3c628274c46c13a2a",
+      "original_download_unedited": true,
+      "recommended": true,
+      "file_name": "ps5-slim-disc.png",
+      "target": "ps5-slim-disc",
+      "usage_notes": "Best hero asset: native transparent rendering with disc-drive slim console and white DualSense. Vertical stand is pictured; do not infer that it is included in the sold bundle."
+    },
+    {
+      "id": "ps4-slim",
+      "title": "PlayStation 4 Slim",
+      "kind": "product",
+      "path": "/workspace/scratch/58483bfdc488/game-frost-assets/ps4-slim.png",
+      "source_page": "https://www.playstation.com/en-us/ps4/",
+      "image_url": "https://gmedia.playstation.com/is/image/SIEPDC/ps4-slim-image-block-01-en-24jul20?$1600px--t$",
+      "width": 1600,
+      "height": 1600,
+      "mode": "RGBA",
+      "bytes": 1034109,
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "native_transparency": true,
+      "visible_bounds_px": [
+        0,
+        180,
+        1483,
+        1568
+      ],
+      "sha256": "f25298c31c4fe65a00a852cfac15a6b45715e7f03151553b4c1f60cb6dc81350",
+      "original_download_unedited": true,
+      "recommended": true,
+      "file_name": "ps4-slim.png",
+      "target": "ps4-slim",
+      "usage_notes": "Native transparent render of black PS4 Slim and DualShock 4."
+    },
+    {
+      "id": "dualsense-white",
+      "title": "DualSense Wireless Controller – White",
+      "kind": "product",
+      "path": "/workspace/scratch/58483bfdc488/game-frost-assets/dualsense-white.png",
+      "source_page": "https://www.playstation.com/en-us/accessories/dualsense-wireless-controller/",
+      "image_url": "https://gmedia.playstation.com/is/image/SIEPDC/dualsense-controller-product-thumbnail-03-en-29may23?$1600px--t$",
+      "width": 1600,
+      "height": 900,
+      "mode": "RGBA",
+      "bytes": 667937,
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "native_transparency": true,
+      "visible_bounds_px": [
+        316,
+        125,
+        1284,
+        805
+      ],
+      "sha256": "f7a6091f50010114059487fafaca6183bfbf2679143e6fbef5c99020c26cf035",
+      "original_download_unedited": true,
+      "recommended": true,
+      "file_name": "dualsense-white.png",
+      "target": "dualsense",
+      "usage_notes": "Native transparent white standard DualSense front render."
+    },
+    {
+      "id": "xbox-series-s",
+      "title": "Xbox Series S",
+      "kind": "product",
+      "path": "/workspace/scratch/58483bfdc488/game-frost-assets/xbox-series-s.png",
+      "source_page": "https://www.xbox.com/en-US/consoles/xbox-series-s",
+      "image_url": "https://assets.xboxservices.com/assets/97/d3/97d3bf27-1a7d-4db6-85bc-929f2badf14e.png?n=389964_Buy-Box-0_857x676_01.png",
+      "width": 857,
+      "height": 676,
+      "mode": "RGBA",
+      "bytes": 211370,
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "native_transparency": true,
+      "visible_bounds_px": [
+        0,
+        18,
+        728,
+        599
+      ],
+      "sha256": "15932f9267bd0009d88eeb1c18a62ce4a53338897f66497fe4a4f28ff35a5736",
+      "original_download_unedited": true,
+      "recommended": true,
+      "file_name": "xbox-series-s.png",
+      "target": "xbox-series-s",
+      "usage_notes": "Native transparent render of white Xbox Series S and controller. Storage capacity is not established by the image."
+    },
+    {
+      "id": "switch-oled",
+      "title": "switch-oled",
+      "kind": "product",
+      "path": "/workspace/scratch/58483bfdc488/game-frost-assets/switch-oled.jpg",
+      "source_page": "https://www.nintendo.com/us/gaming-systems/switch/oled-model/",
+      "image_url": "https://assets.nintendo.com/image/upload/f_auto/q_auto/dpr_1.5/ncom/en_US/switch/site-design-update/features-hardware-oled",
+      "width": 600,
+      "height": 548,
+      "mode": "RGB",
+      "bytes": 60619,
+      "alpha_extrema": null,
+      "native_transparency": false,
+      "visible_bounds_px": [
+        0,
+        0,
+        600,
+        548
+      ],
+      "sha256": "717d2d5e3a801be659fc796f7c130a816abb59d04799aa7e13f4b9d2a8b4ec29",
+      "original_download_unedited": true,
+      "recommended": false,
+      "file_name": "switch-oled.jpg"
+    },
+    {
+      "id": "logitech-g29",
+      "title": "Logitech G29 Driving Force",
+      "kind": "product",
+      "path": "/workspace/scratch/58483bfdc488/game-frost-assets/logitech-g29.png",
+      "source_page": "https://www.logitechg.com/en-us/shop/p/driving-force-racing-wheel",
+      "image_url": "https://resource.logitechg.com/w_544,h_466,ar_7:6,c_pad,q_auto,f_auto,dpr_1.0/d_transparent.gif/content/dam/gaming/en/products/drivingforce/2025/gallery/g29-playstation-3qtr-angle-gallery-1.png",
+      "width": 544,
+      "height": 466,
+      "mode": "P",
+      "bytes": 46277,
+      "alpha_extrema": null,
+      "native_transparency": true,
+      "visible_bounds_px": [
+        39,
+        109,
+        501,
+        373
+      ],
+      "sha256": "b108d8e64e624ba588e1e8a6c86145f06fea6bfb2ac0d1e11abc6a2c9c69cd50",
+      "original_download_unedited": true,
+      "recommended": true,
+      "file_name": "logitech-g29.png",
+      "target": "logitech-g29",
+      "usage_notes": "Native transparency in a paletted PNG; includes wheel and pedal set. G29 is the PlayStation/PC variant; do not label as Xbox-compatible G920."
+    },
+    {
+      "id": "steam-deck-oled",
+      "title": "steam-deck-oled",
+      "kind": "product",
+      "path": "/workspace/scratch/58483bfdc488/game-frost-assets/steam-deck-oled.png",
+      "source_page": "https://www.steamdeck.com/en/oled",
+      "image_url": "https://cdn.fastly.steamstatic.com/steamdeck/images/oled/oled_deck_top.png",
+      "width": 2560,
+      "height": 628,
+      "mode": "P",
+      "bytes": 224745,
+      "alpha_extrema": null,
+      "native_transparency": true,
+      "visible_bounds_px": [
+        29,
+        122,
+        2522,
+        622
+      ],
+      "sha256": "7d02df3c71d70383f47b9979506f2cc09287dd7f359f9572087ccd8b397539a1",
+      "original_download_unedited": true,
+      "recommended": false,
+      "file_name": "steam-deck-oled.png"
+    },
+    {
+      "id": "meta-quest-3",
+      "title": "meta-quest-3",
+      "kind": "product",
+      "path": "/workspace/scratch/58483bfdc488/game-frost-assets/meta-quest-3.webp",
+      "source_page": "https://www.meta.com/quest/quest-3/",
+      "image_url": "https://lookaside.fbsbx.com/elementpath/media/?media_id=157327897433582&version=1790053480&transcode_extension=webp",
+      "width": 2400,
+      "height": 1254,
+      "mode": "RGB",
+      "bytes": 34766,
+      "alpha_extrema": null,
+      "native_transparency": false,
+      "visible_bounds_px": [
+        0,
+        0,
+        2400,
+        1254
+      ],
+      "sha256": "00a730dcd72cc6896f8a4dfaa2029f519d0d9eaa7add58fb8529fc302560ddd7",
+      "original_download_unedited": true,
+      "recommended": false,
+      "file_name": "meta-quest-3.webp"
+    },
+    {
+      "id": "spider-man-2",
+      "title": "spider-man-2",
+      "kind": "game-cover",
+      "path": "/workspace/scratch/58483bfdc488/game-frost-assets/spider-man-2.jpg",
+      "source_page": "https://www.playstation.com/en-us/games/marvels-spider-man-2/",
+      "image_url": "https://image.api.playstation.com/vulcan/ap/rnd/202306/1219/e66c4ae18c5d8e3986a24599b293162a6f5c9eba22968d2c.jpg",
+      "width": 3840,
+      "height": 2160,
+      "mode": "RGB",
+      "bytes": 502610,
+      "native_transparency": false,
+      "visible_bounds_px": [
+        0,
+        0,
+        3840,
+        2160
+      ],
+      "sha256": "f72f8f3bf40e48aadebb16bea815bc1231d5df875bf1f9c185bd8a9e72c8c31f",
+      "original_download_unedited": true,
+      "recommended": false,
+      "file_name": "spider-man-2.jpg"
+    },
+    {
+      "id": "gran-turismo-7",
+      "title": "gran-turismo-7",
+      "kind": "game-cover",
+      "path": "/workspace/scratch/58483bfdc488/game-frost-assets/gran-turismo-7.jpg",
+      "source_page": "https://www.playstation.com/en-us/games/gran-turismo-7/",
+      "image_url": "https://image.api.playstation.com/vulcan/ap/rnd/202511/0707/c0c7682cdba5bbfc1adacb65a149e44238b24ff6e00d4c88.jpg",
+      "width": 3840,
+      "height": 2160,
+      "mode": "RGB",
+      "bytes": 943832,
+      "native_transparency": false,
+      "visible_bounds_px": [
+        0,
+        0,
+        3840,
+        2160
+      ],
+      "sha256": "566beec922673320348d7bc68f43fa775fd6f68e12265588df4df7c3e903aef7",
+      "original_download_unedited": true,
+      "recommended": false,
+      "file_name": "gran-turismo-7.jpg"
+    },
+    {
+      "id": "god-of-war-ragnarok",
+      "title": "god-of-war-ragnarok",
+      "kind": "game-cover",
+      "path": "/workspace/scratch/58483bfdc488/game-frost-assets/god-of-war-ragnarok.jpg",
+      "source_page": "https://www.playstation.com/en-us/games/god-of-war-ragnarok/",
+      "image_url": "https://image.api.playstation.com/vulcan/ap/rnd/202503/2016/9c66234099a4c6dc39a12c4101746f7dc9d87babbca5efe4.jpg",
+      "width": 3840,
+      "height": 2160,
+      "mode": "RGB",
+      "bytes": 1405844,
+      "native_transparency": false,
+      "visible_bounds_px": [
+        0,
+        0,
+        3840,
+        2160
+      ],
+      "sha256": "590111f3c74c65903d7824c5ee84f3b8cb67841bb03bad6f5ca1c69dfbfbabb6",
+      "original_download_unedited": true,
+      "recommended": false,
+      "file_name": "god-of-war-ragnarok.jpg"
+    },
+    {
+      "id": "ghost-of-yotei",
+      "title": "ghost-of-yotei",
+      "kind": "game-cover",
+      "path": "/workspace/scratch/58483bfdc488/game-frost-assets/ghost-of-yotei.png",
+      "source_page": "https://www.playstation.com/en-us/games/ghost-of-yotei/",
+      "image_url": "https://gmedia.playstation.com/is/image/SIEPDC/ghost-of-yotei-packshot-ps5-01-24jul25?$1600px--t$",
+      "width": 1600,
+      "height": 2017,
+      "mode": "RGBA",
+      "bytes": 3938751,
+      "native_transparency": true,
+      "visible_bounds_px": [
+        77,
+        82,
+        1531,
+        1943
+      ],
+      "sha256": "3f232dc54ffac5762be5c1039299fd135b0278583626fb69466cb7431853a0df",
+      "original_download_unedited": true,
+      "recommended": false,
+      "file_name": "ghost-of-yotei.png"
+    },
+    {
+      "id": "resident-evil-requiem",
+      "title": "resident-evil-requiem",
+      "kind": "game-cover",
+      "path": "/workspace/scratch/58483bfdc488/game-frost-assets/resident-evil-requiem.jpg",
+      "source_page": "https://www.playstation.com/en-us/games/resident-evil-requiem/",
+      "image_url": "https://image.api.playstation.com/vulcan/ap/rnd/202512/1205/74bb57eb10447ae35775f625271f202360bae45cb3572da5.jpg",
+      "width": 3840,
+      "height": 2160,
+      "mode": "RGB",
+      "bytes": 1526512,
+      "native_transparency": false,
+      "visible_bounds_px": [
+        0,
+        0,
+        3840,
+        2160
+      ],
+      "sha256": "28b0fff748a16431d31cf9987381658e9f7f8b37e165010acd093e19b2bd56e9",
+      "original_download_unedited": true,
+      "recommended": false,
+      "file_name": "resident-evil-requiem.jpg"
+    },
+    {
+      "id": "fc-27",
+      "title": "fc-27",
+      "kind": "game-cover",
+      "path": "/workspace/scratch/58483bfdc488/game-frost-assets/fc-27.jpg",
+      "source_page": "https://www.playstation.com/en-us/games/ea-sports-fc/",
+      "image_url": "https://image.api.playstation.com/vulcan/ap/rnd/202607/2321/fa7db8b40ed671bce4046b335beb5a0ab327c33edbca8351.jpg",
+      "width": 3840,
+      "height": 2160,
+      "mode": "RGB",
+      "bytes": 2421062,
+      "native_transparency": false,
+      "visible_bounds_px": [
+        0,
+        0,
+        3840,
+        2160
+      ],
+      "sha256": "c2dfa602554fb609a6b751ff25089783561f73d2139411375e4488ad83f7e39e",
+      "original_download_unedited": true,
+      "recommended": false,
+      "file_name": "fc-27.jpg"
+    },
+    {
+      "id": "spider-man-2-cover",
+      "title": "Marvel’s Spider-Man 2",
+      "kind": "game-cover",
+      "path": "/workspace/scratch/58483bfdc488/game-frost-assets/spider-man-2-cover.jpg",
+      "source_page": "https://www.playstation.com/en-us/games/marvels-spider-man-2/",
+      "image_url": "https://image.api.playstation.com/vulcan/ap/rnd/202306/1219/1c7b75d8ed9271516546560d219ad0b22ee0a263b4537bd8.png",
+      "width": 1024,
+      "height": 1024,
+      "mode": "RGB",
+      "bytes": 114633,
+      "alpha_extrema": [
+        255,
+        255
+      ],
+      "native_transparency": false,
+      "visible_bounds_px": [
+        0,
+        0,
+        1024,
+        1024
+      ],
+      "sha256": "58beaf6e89643cd96a7eff659eeccf09d87797c8100a915c2bf3a4a5039cfa55",
+      "original_download_unedited": true,
+      "recommended": true,
+      "file_name": "spider-man-2-cover.jpg",
+      "target": "spider-man-2",
+      "usage_notes": "Official square digital cover artwork."
+    },
+    {
+      "id": "gran-turismo-7-cover",
+      "title": "gran-turismo-7-cover",
+      "kind": "game-cover",
+      "path": "/workspace/scratch/58483bfdc488/game-frost-assets/gran-turismo-7-cover.jpg",
+      "source_page": "https://www.playstation.com/en-us/games/gran-turismo-7/",
+      "image_url": "https://image.api.playstation.com/vulcan/ap/rnd/202511/0707/303f5701426596a09891f9f33fa93e49ae522d5295b26dce.png",
+      "width": 1024,
+      "height": 1024,
+      "mode": "RGB",
+      "bytes": 203322,
+      "alpha_extrema": [
+        255,
+        255
+      ],
+      "native_transparency": false,
+      "visible_bounds_px": [
+        0,
+        0,
+        1024,
+        1024
+      ],
+      "sha256": "0098f0a109b04b900abd455fc4023dfb75c7ac4548380a8bfd80028af5811018",
+      "original_download_unedited": true,
+      "recommended": false,
+      "file_name": "gran-turismo-7-cover.jpg"
+    },
+    {
+      "id": "god-of-war-ragnarok-cover",
+      "title": "God of War Ragnarök",
+      "kind": "game-cover",
+      "path": "/workspace/scratch/58483bfdc488/game-frost-assets/god-of-war-ragnarok-cover.jpg",
+      "source_page": "https://www.playstation.com/en-us/games/god-of-war-ragnarok/",
+      "image_url": "https://image.api.playstation.com/vulcan/ap/rnd/202503/2016/b69c06fb108299866057126b0d3a0530bdf96a39d2ce1cb9.png",
+      "width": 1024,
+      "height": 1024,
+      "mode": "RGB",
+      "bytes": 215624,
+      "alpha_extrema": [
+        255,
+        255
+      ],
+      "native_transparency": false,
+      "visible_bounds_px": [
+        0,
+        0,
+        1024,
+        1024
+      ],
+      "sha256": "06dbc88985ddecd11b7b1c6e365ef3390fa5d60b6649ec5815b8a17a98013110",
+      "original_download_unedited": true,
+      "recommended": true,
+      "file_name": "god-of-war-ragnarok-cover.jpg",
+      "target": "god-of-war-ragnarok",
+      "usage_notes": "Official current square cover includes a God of War 20th Anniversary mark. It is still Ragnarök artwork, not a newly released sequel."
+    },
+    {
+      "id": "resident-evil-requiem-cover",
+      "title": "Resident Evil Requiem",
+      "kind": "game-cover",
+      "path": "/workspace/scratch/58483bfdc488/game-frost-assets/resident-evil-requiem-cover.jpg",
+      "source_page": "https://www.playstation.com/en-us/games/resident-evil-requiem/",
+      "image_url": "https://image.api.playstation.com/vulcan/ap/rnd/202512/1205/79661d7a2bdb9784749b4e57e1456ca89f7ac7bed8615aee.png",
+      "width": 1024,
+      "height": 1024,
+      "mode": "RGB",
+      "bytes": 276038,
+      "alpha_extrema": [
+        255,
+        255
+      ],
+      "native_transparency": false,
+      "visible_bounds_px": [
+        0,
+        0,
+        1024,
+        1024
+      ],
+      "sha256": "47ddc027612714ecef2e0f431d3db259ba912411eb4ffc2ce2b1491b99eda6d8",
+      "original_download_unedited": true,
+      "recommended": true,
+      "file_name": "resident-evil-requiem-cover.jpg",
+      "target": "resident-evil-requiem",
+      "usage_notes": "Official square digital cover artwork."
+    },
+    {
+      "id": "fc-27-cover",
+      "title": "EA SPORTS FC 27",
+      "kind": "game-cover",
+      "path": "/workspace/scratch/58483bfdc488/game-frost-assets/fc-27-cover.jpg",
+      "source_page": "https://www.playstation.com/en-us/games/ea-sports-fc/",
+      "image_url": "https://image.api.playstation.com/vulcan/ap/rnd/202607/2321/c7c534e1e9b24ccf7ff11c429948f31494ccce402b452647.png",
+      "width": 1024,
+      "height": 1024,
+      "mode": "RGB",
+      "bytes": 269443,
+      "alpha_extrema": [
+        255,
+        255
+      ],
+      "native_transparency": false,
+      "visible_bounds_px": [
+        0,
+        0,
+        1024,
+        1024
+      ],
+      "sha256": "601830968a774359d519d7e677495a5f35209787e6e780c6f74b0486ee19f6fa",
+      "original_download_unedited": true,
+      "recommended": true,
+      "file_name": "fc-27-cover.jpg",
+      "target": "ea-sports-fc-27",
+      "usage_notes": "Current Standard Edition artwork. FC 27 released on 2026-09-25; do not label as FC 26."
+    },
+    {
+      "id": "gta-vi-cover",
+      "title": "gta-vi-cover",
+      "kind": "game-cover",
+      "path": "/workspace/scratch/58483bfdc488/game-frost-assets/gta-vi-cover.jpg",
+      "source_page": "https://www.playstation.com/en-us/games/grand-theft-auto-vi/",
+      "image_url": "https://image.api.playstation.com/vulcan/ap/rnd/202606/1819/f73cd287d6bbf6a95aa5a93f5a294a2614288a00af4dcdba.png",
+      "width": 1024,
+      "height": 1024,
+      "mode": "RGB",
+      "bytes": 256145,
+      "alpha_extrema": [
+        255,
+        255
+      ],
+      "native_transparency": false,
+      "visible_bounds_px": [
+        0,
+        0,
+        1024,
+        1024
+      ],
+      "sha256": "66a2e8564c48f5949e8716c5b63df53fea430fd7dbd9d1b819076b698f897948",
+      "original_download_unedited": true,
+      "recommended": false,
+      "file_name": "gta-vi-cover.jpg"
+    },
+    {
+      "id": "007-first-light-cover",
+      "title": "007-first-light-cover",
+      "kind": "game-cover",
+      "path": "/workspace/scratch/58483bfdc488/game-frost-assets/007-first-light-cover.jpg",
+      "source_page": "https://www.playstation.com/en-us/games/007-first-light/",
+      "image_url": "https://image.api.playstation.com/vulcan/ap/rnd/202607/2312/ecb14ee33763d4dd295dbb4f4207f9961bf3dcd8ea3bba9f.png",
+      "width": 1024,
+      "height": 1024,
+      "mode": "RGB",
+      "bytes": 122736,
+      "alpha_extrema": [
+        255,
+        255
+      ],
+      "native_transparency": false,
+      "visible_bounds_px": [
+        0,
+        0,
+        1024,
+        1024
+      ],
+      "sha256": "4226ee5645e2300da07b455607460345586aeca553c9f440a8e856e1200d4f55",
+      "original_download_unedited": true,
+      "recommended": false,
+      "file_name": "007-first-light-cover.jpg"
+    },
+    {
+      "id": "meta-quest-3-cutout",
+      "title": "Meta Quest 3",
+      "kind": "product",
+      "path": "/workspace/scratch/58483bfdc488/game-frost-assets/meta-quest-3-cutout.png",
+      "source_page": "https://www.meta.com/quest/quest-3/",
+      "image_url": "https://lookaside.fbsbx.com/catalog_manager/media/?image_id=1281293800353972",
+      "width": 960,
+      "height": 960,
+      "mode": "P",
+      "bytes": 84343,
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "native_transparency": true,
+      "visible_bounds_px": [
+        93,
+        243,
+        843,
+        768
+      ],
+      "sha256": "a29a35833a2364fa7c72d6822e1b54e2fdc723c856866b530d5f572d6b90da45",
+      "original_download_unedited": true,
+      "recommended": true,
+      "file_name": "meta-quest-3-cutout.png",
+      "target": "meta-quest-3",
+      "usage_notes": "Native transparent headset-only product image from the official page’s structured product data; controllers are not pictured."
+    },
+    {
+      "id": "switch-oled-full",
+      "title": "switch-oled-full",
+      "kind": "product",
+      "path": "/workspace/scratch/58483bfdc488/game-frost-assets/switch-oled-full.jpg",
+      "source_page": "https://www.nintendo.com/ph/hardware/detail/switch-oled/index.html",
+      "image_url": "https://www.nintendo.com/ph/hardware/detail/switch-oled/img/07-local-lineup/pic_overview_white.jpg",
+      "width": 864,
+      "height": 485,
+      "mode": "RGB",
+      "bytes": 106325,
+      "alpha_extrema": [
+        255,
+        255
+      ],
+      "native_transparency": false,
+      "visible_bounds_px": [
+        0,
+        0,
+        864,
+        485
+      ],
+      "sha256": "07b5bcc0300460707f6859a30ea4423ff491711d12125111e20539350ddd7d80",
+      "original_download_unedited": true,
+      "recommended": false,
+      "file_name": "switch-oled-full.jpg"
+    },
+    {
+      "id": "switch-oled-hero",
+      "title": "switch-oled-hero",
+      "kind": "product",
+      "path": "/workspace/scratch/58483bfdc488/game-frost-assets/switch-oled-hero.png",
+      "source_page": "https://www.nintendo.com/ph/hardware/detail/switch-oled/index.html",
+      "image_url": "https://www.nintendo.com/ph/hardware/detail/switch-oled/img/01-bgdark/main_pic.png",
+      "width": 870,
+      "height": 935,
+      "mode": "RGBA",
+      "bytes": 243092,
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "native_transparency": true,
+      "visible_bounds_px": [
+        168,
+        356,
+        704,
+        774
+      ],
+      "sha256": "f820bd5f31c6f18efe1d6f9cba56a98071811928098e2bda1d9d342722ded787",
+      "original_download_unedited": true,
+      "recommended": false,
+      "file_name": "switch-oled-hero.png"
+    },
+    {
+      "id": "steam-deck-oled-front",
+      "title": "Steam Deck OLED",
+      "kind": "product",
+      "path": "/workspace/scratch/58483bfdc488/game-frost-assets/steam-deck-oled-front.png",
+      "source_page": "https://www.steamdeck.com/en/press",
+      "image_url": "https://cdn.fastly.steamstatic.com/steamdeck/images/press/renderings/press_oled_front_english.png",
+      "width": 2500,
+      "height": 980,
+      "mode": "RGBA",
+      "bytes": 1721155,
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "native_transparency": true,
+      "visible_bounds_px": [
+        0,
+        174,
+        2500,
+        934
+      ],
+      "sha256": "aad7857a1ce4c36a2587a996e9041209de9567127a254a2f9f5d5ae63a436388",
+      "original_download_unedited": true,
+      "recommended": true,
+      "file_name": "steam-deck-oled-front.png",
+      "target": "steam-deck-oled",
+      "usage_notes": "Native transparent OLED front render supplied in Valve’s official press kit."
+    },
+    {
+      "id": "gta-vi-standard-cover",
+      "title": "Grand Theft Auto VI",
+      "kind": "game-cover",
+      "path": "/workspace/scratch/58483bfdc488/game-frost-assets/gta-vi-standard-cover.jpg",
+      "source_page": "https://www.playstation.com/en-us/games/grand-theft-auto-vi/",
+      "image_url": "https://image.api.playstation.com/vulcan/ap/rnd/202606/1818/9f51f0ccdb65bd29c36a0907a738c2902a712f03e2fd6470.png",
+      "width": 1024,
+      "height": 1024,
+      "mode": "RGB",
+      "bytes": 299643,
+      "alpha_extrema": [
+        255,
+        255
+      ],
+      "native_transparency": false,
+      "visible_bounds_px": [
+        0,
+        0,
+        1024,
+        1024
+      ],
+      "sha256": "b801c42e50ce1bb389ed218b5fc67e9a592c588bc56d9053ca7fb8698ca7d89c",
+      "original_download_unedited": true,
+      "recommended": true,
+      "file_name": "gta-vi-standard-cover.jpg",
+      "target": "gta-vi",
+      "usage_notes": "Clean official square artwork without the Ultimate Edition banner. Upcoming as of 2026-09-30."
+    },
+    {
+      "id": "007-first-light-standard-cover",
+      "title": "007 First Light",
+      "kind": "game-cover",
+      "path": "/workspace/scratch/58483bfdc488/game-frost-assets/007-first-light-standard-cover.jpg",
+      "source_page": "https://www.playstation.com/en-us/games/007-first-light/",
+      "image_url": "https://image.api.playstation.com/vulcan/ap/rnd/202507/0215/f98041a10ccc22d45fc2f6eded09eec50abd106d01547a5d.png",
+      "width": 1024,
+      "height": 1024,
+      "mode": "RGB",
+      "bytes": 115173,
+      "alpha_extrema": [
+        255,
+        255
+      ],
+      "native_transparency": false,
+      "visible_bounds_px": [
+        0,
+        0,
+        1024,
+        1024
+      ],
+      "sha256": "9a6222a96344a24a3b51950e407ad7f3b57be85730a20c0df4c917a4de394c04",
+      "original_download_unedited": true,
+      "recommended": true,
+      "file_name": "007-first-light-standard-cover.jpg",
+      "target": "007-first-light",
+      "usage_notes": "Clean official square cover without the alternate TACSİM update banner."
+    },
+    {
+      "id": "switch-oled-white-box",
+      "title": "Nintendo Switch – OLED Model White set",
+      "kind": "product",
+      "path": "/workspace/scratch/58483bfdc488/game-frost-assets/switch-oled-white-box.jpg",
+      "source_page": "https://www.nintendo.com/us/store/products/nintendo-switch-oled-model-115461-3/",
+      "image_url": "https://assets.nintendo.com/image/upload/q_auto:best/f_auto/dpr_2.0/ncom/en_US/products/hardware/nintendo-switch-oled-model-white-set/115461-switch-oled-white-boxart-1200x675",
+      "width": 1200,
+      "height": 675,
+      "mode": "RGB",
+      "bytes": 108688,
+      "alpha_extrema": [
+        255,
+        255
+      ],
+      "native_transparency": false,
+      "visible_bounds_px": [
+        0,
+        0,
+        1200,
+        675
+      ],
+      "sha256": "e5e6e9bec319a5779147eeba510ff687bb0d6275655801649be6b5199d78e002",
+      "original_download_unedited": true,
+      "recommended": false,
+      "file_name": "switch-oled-white-box.jpg",
+      "usage_notes": "Official retail package on white background. Other Nintendo files include a lifestyle shot, a diagram, or separate transparent hero layers; this package is the safest complete-item fallback."
+    },
+    {
+      "id": "switch-oled-display",
+      "title": "switch-oled-display",
+      "kind": "product",
+      "path": "/workspace/scratch/58483bfdc488/game-frost-assets/switch-oled-display.png",
+      "source_page": "https://www.nintendo.com/ph/hardware/detail/switch-oled/index.html",
+      "image_url": "https://www.nintendo.com/ph/hardware/detail/switch-oled/img/01-bgdark/main_pic_display.png",
+      "width": 870,
+      "height": 1186,
+      "mode": "RGBA",
+      "bytes": 420152,
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "native_transparency": true,
+      "visible_bounds_px": [
+        133,
+        0,
+        870,
+        831
+      ],
+      "sha256": "66bbac16abf25a580e9f1312c5deab87162719897eacf65d16995d2310d6c1df",
+      "original_download_unedited": true,
+      "recommended": false,
+      "file_name": "switch-oled-display.png"
+    },
+    {
+      "id": "switch-oled-front",
+      "title": "switch-oled-front",
+      "kind": "product",
+      "path": "/workspace/scratch/58483bfdc488/game-frost-assets/switch-oled-front.png",
+      "source_page": "https://www.nintendo.com/ph/hardware/detail/switch-oled/index.html",
+      "image_url": "https://www.nintendo.com/ph/hardware/detail/switch-oled/img/08-local-specs/body-switch01-front.png",
+      "width": 2244,
+      "height": 1292,
+      "mode": "RGBA",
+      "bytes": 1099869,
+      "alpha_extrema": [
+        255,
+        255
+      ],
+      "native_transparency": false,
+      "visible_bounds_px": [
+        0,
+        0,
+        2244,
+        1292
+      ],
+      "sha256": "a7543360490ca49fe48293b72bf9b401b2dacddb63ddb09522487dcfc060f055",
+      "original_download_unedited": true,
+      "recommended": false,
+      "file_name": "switch-oled-front.png"
+    },
+    {
+      "id": "gran-turismo-7-standard-cover",
+      "title": "Gran Turismo 7",
+      "kind": "game-cover",
+      "path": "/workspace/scratch/58483bfdc488/game-frost-assets/gran-turismo-7-standard-cover.jpg",
+      "source_page": "https://www.playstation.com/en-us/games/gran-turismo-7/",
+      "image_url": "https://image.api.playstation.com/vulcan/ap/rnd/202109/1321/yZ7dpmjtHr1olhutHT57IFRh.png",
+      "width": 1024,
+      "height": 1024,
+      "mode": "RGB",
+      "bytes": 193557,
+      "native_transparency": false,
+      "visible_bounds_px": [
+        0,
+        0,
+        1024,
+        1024
+      ],
+      "sha256": "507c1460e4187d1143eb61c1eadbf640c24d7c597acbe9be3023dcd3514ce70e",
+      "original_download_unedited": true,
+      "recommended": true,
+      "file_name": "gran-turismo-7-standard-cover.jpg",
+      "target": "gran-turismo-7",
+      "usage_notes": "Clean official standard cover; prefer this over the alternate anniversary/750,000-credit artwork."
+    },
+    {
+      "id": "ghost-of-yotei-standard-cover",
+      "title": "Ghost of Yōtei",
+      "kind": "game-cover",
+      "path": "/workspace/scratch/58483bfdc488/game-frost-assets/ghost-of-yotei-standard-cover.jpg",
+      "source_page": "https://www.playstation.com/en-us/games/ghost-of-yotei/",
+      "image_url": "https://image.api.playstation.com/vulcan/ap/rnd/202504/2116/050bb77f895515e0b0e906b0b9d75b6174b37eece097b462.png",
+      "width": 1024,
+      "height": 1024,
+      "mode": "RGB",
+      "bytes": 224522,
+      "native_transparency": false,
+      "visible_bounds_px": [
+        0,
+        0,
+        1024,
+        1024
+      ],
+      "sha256": "8f3f388398059f6853f074f0d4519069108d7c329c48d46c9e1fc849db557253",
+      "original_download_unedited": true,
+      "recommended": true,
+      "file_name": "ghost-of-yotei-standard-cover.jpg",
+      "target": "ghost-of-yotei",
+      "usage_notes": "Clean original Standard Edition square cover. A separate official physical PS5 packshot is available as ghost-of-yotei.png."
+    },
+    {
+      "id": "switch-oled-console-white",
+      "title": "Nintendo Switch – OLED Model White set",
+      "kind": "product",
+      "path": "/workspace/scratch/58483bfdc488/game-frost-assets/switch-oled-console-white.jpg",
+      "source_page": "https://www.nintendo.com/us/store/products/nintendo-switch-oled-model-white-set/",
+      "image_url": "https://assets.nintendo.com/image/upload/ar_16:9,b_auto:border,c_lpad/b_white/f_auto/q_auto/dpr_1.5/ncom/en_US/products/hardware/nintendo-switch-oled-model-white-set/115461-switch-oled-white-console-front-1200x675",
+      "width": 1200,
+      "height": 675,
+      "mode": "RGB",
+      "bytes": 70797,
+      "native_transparency": false,
+      "visible_bounds_px": [
+        0,
+        0,
+        1200,
+        675
+      ],
+      "sha256": "223b593bb3f255283cfdab1ca7097a472d5cca3f629ed8b0f2edb3fa90b384f5",
+      "original_download_unedited": true,
+      "recommended": false,
+      "file_name": "switch-oled-console-white.jpg"
+    },
+    {
+      "id": "switch-oled-dock-white",
+      "title": "Nintendo Switch – OLED Model White set",
+      "kind": "product",
+      "path": "/workspace/scratch/58483bfdc488/game-frost-assets/switch-oled-dock-white.jpg",
+      "source_page": "https://www.nintendo.com/us/store/products/nintendo-switch-oled-model-white-set/",
+      "image_url": "https://assets.nintendo.com/image/upload/ar_16:9,b_auto:border,c_lpad/b_white/f_auto/q_auto/dpr_1.5/ncom/en_US/products/hardware/nintendo-switch-oled-model-white-set/115461-switch-oled-white-console-dock-joy-con-grip-1200x675",
+      "width": 1280,
+      "height": 720,
+      "mode": "RGB",
+      "bytes": 64365,
+      "native_transparency": false,
+      "visible_bounds_px": [
+        0,
+        0,
+        1280,
+        720
+      ],
+      "sha256": "1755c45bb9f53e062de8a2698170a2c257bb518bddbaeea0944a803d543a1f9b",
+      "original_download_unedited": true,
+      "recommended": true,
+      "file_name": "switch-oled-dock-white.jpg",
+      "target": "nintendo-switch-oled",
+      "usage_notes": "Official white-background full console, dock and Joy-Con grip product image. Excellent complete-item card asset."
+    }
+  ],
+  "limitations": [
+    "No merchant inventory, local currency pricing, delivery promises, or warranty facts verified.",
+    "Some alternate game artwork depicts promotional marks or update banners; use recommended assets for consistent cards."
+  ]
+}

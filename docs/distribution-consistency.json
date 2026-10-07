@@ -1,0 +1,7 @@
+{
+  "publicFilesCompared": 185,
+  "differences": [],
+  "sourceInstall": "Frozen lockfile reinstall in an independently extracted source ZIP succeeded, using the same pinned pnpm 11.25.0.",
+  "rebuild": "Complete hosted and static builds from the independently extracted source ZIP succeeded.",
+  "finalCSSRebuild": "Both independent builds include the final text-reflow and native-navigation corrections."
+}
