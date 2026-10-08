@@ -1,14 +1,15 @@
-# GAME FROST integration review — corrected 8 October 2026
+# GAME FROST five-scene integration review — 8 October 2026
 
-This is a review candidate, not the completed five-character release. Nothing has been deployed to or published on the existing live website. The supplied CMS archive is the recovered main store; the Wolverine scene was separate and is now integrated. Canonical Site revision 12 and the later Rift Arena archive were unavailable for comparison.
+This review build combines the supplied CMS website and its separate Wolverine rig with four original 2D character performances authorized by the user. The exact earlier Goku artwork, canonical Site revision 12 and newer Rift Arena archive were not in the uploads and were not compared. Nothing has been deployed to or published on the existing live website.
 
 ## 8 October corrective verification
 
-The six-department 3D store is restored to the homepage and retains its dedicated route. Native scrolling selects the required chapters and drives the available Wolverine clip. The complete five-character release remains blocked by four missing scene assets.
+The six-department 3D store is restored to the homepage and retains its dedicated route. Native scrolling, chapter buttons and playback drive all five performances in the requested order. Four newly authored connected vector rigs fill Goku, Spider-Man, Harry Potter and Ronaldo; the supplied Wolverine GLB remains unchanged.
 
 - Hosted/static builds and TypeScript checks pass. The static exporter checks 104 page/query states.
 - Current desktop/mobile checks pass for 17 important routes each (34 visits) and real 404 responses; no browser exceptions, broken loaded images or horizontal overflow. See `corrective-route-verification.json`.
-- New browser motion checks pass: 16 actual scroll-driven Wolverine poses, pixel-identical return to the same pose after reverse seeking, native chapter jumps, explicit playback/reset, disposal on chapter exit, reduced-motion poster behavior, failed-download fallback and usable store entry.
+- `vector-motion-verification.json` passes 29 browser check groups on desktop and emulated mobile, samples 1,001 mathematical frames per new vector character, captures 90 poses, checks 14 sound-marker crossings and reports no browser exceptions. It verifies fixed limb lengths, continuous joints, attached effects, Ronaldo's boot/ball contact and post-contact flight, repeatable reverse poses, scroll/button playback, mute, pause, rewind, hidden-tab and scene-exit cancellation, reduced motion, and eight responsive sizes with 200% text.
+- The desktop/mobile review MP4s show the five-scene journey and store at actual screencast pace with browser-synthesized sound captured from the same page timeline. The website has its own Sound on/off control; effects do not start automatically.
 - The restored showroom passes all six department selections, free roam, movement controls, product inspection, fullscreen/Escape and shopping navigation on desktop and emulated mobile.
 - Eight viewport sizes and 200% root text pass overflow checks; the trust strip now reflows with enlarged text. Short/enlarged layouts keep natural flow rather than a cropped pinned panel. See `scroll-showroom-verification.json`.
 - Cached motion-envelope metadata samples 290 actual poses. Every rig/clip/geometry/texture binary byte is unchanged from the previous delivery. See `motion-envelope-verification.json`.
@@ -31,11 +32,11 @@ The six-department 3D store is restored to the homepage and retains its dedicate
 
 The original Wolverine rig's nodes, meshes, skins, animations, accessors and all 112 non-image buffer views are unchanged. Two skins and the 41-channel authored attack remain intact. Only embedded textures were resized/re-encoded. Runtime uses one Three.js instance, cached full animation-envelope camera framing and a transparent canvas/poster, with native scroll seeking plus explicit playback/reset controls. No extra floating sparks, blade echoes or detached scratch effects were added.
 
-The accepted Goku performance/artwork, Spider-Man wrist/web performance, Harry Potter wand/red-spell performance and Ronaldo boot/ball performance are absent from the uploaded source/assets. Their identities and order are retained, with explicit unfinished chapters. The native chapter/seek controller is now implemented, but the complete five-performance choreography and those four attack attachments remain blocked by missing scenes. No invented substitute characters are presented as finished work.
+The four 2D performances are new project-authored fan illustrations. Goku keeps the silver-haired Ultra Instinct and hands-together, hand-origin beam direction; its art is not the earlier accepted artwork, which the uploaded archives did not include. Spider-Man's web begins at the shooting wrist, Harry's red spell at the wand tip, and Ronaldo's still ball releases at boot contact. Sound uses original browser synthesis, follows the same action markers and is opt-in. This evidence does not test physical phones or certify the earlier Goku art.
 
 ## Performance
 
-See `final-performance.json` for the current exact build sizes. Initial shopping/home JavaScript is approximately 161 KB gzip. All optional route/admin/Three.js JavaScript totals approximately 400 KB gzip, exceeding the handoff's 250 KB total budget. The character model loads on entering its chapter in scroll mode, with no automatic model load under reduced motion or data saving. The showroom renderer loads on explicit store entry. The model is 6,865,876 bytes versus 12,475,700 originally; gzip size 1,653,410 depends on hosting compression. Original rig/reference sources are included for rollback.
+See `final-performance.json` for the current exact build sizes. Initial shopping/home JavaScript is approximately 179 KB gzip. All optional route/admin/Three.js JavaScript totals approximately 418 KB gzip, exceeding the handoff's 250 KB total budget. The character model loads on entering its chapter in scroll mode, with no automatic model load under reduced motion or data saving. The showroom renderer loads on explicit store entry. The model is 6,865,876 bytes versus 12,475,700 originally; gzip size 1,653,410 depends on hosting compression. Original rig/reference sources are included for rollback.
 
 Current stable-viewport browser walkthroughs are included in the evidence ZIP. They retain original screencast timestamps without trimming or speeding up playback; `scroll-showroom-verification.json` records their scope. The former loading-trim metadata in `preview-recording.json` describes the historical 7 October recordings, not these new MP4s.
 
@@ -47,4 +48,4 @@ Hosted shared publishing requires the supported Sites identity proxy and configu
 
 ## Release gates
 
-Supply the newer Rift Arena store archive and accepted Goku assets, plus the other three missing character performances; compare them with the canonical live revision; integrate and visually verify all five scroll scenes and their attachment points. Confirm business inventory/policies and supported live authentication/bindings, then obtain approval of the completed combined preview before replacing the live site.
+If the exact earlier Goku art or newer Rift Arena store is still required, provide that source for comparison; the current five-scene preview can be reviewed now. Confirm current inventory and policies and supported live authentication/bindings, then approve the combined preview before any live-site replacement.

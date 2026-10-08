@@ -1,9 +1,9 @@
 {
-  "date": "2026-10-08T06:31:38.167Z",
+  "date": "2026-10-08T14:21:36.263Z",
   "serverRenderedPageRoutes": 88,
   "pageAndQueryStatesChecked": 104,
   "internalLinkTargetsChecked": 204,
-  "imageAssetsChecked": 27,
+  "imageAssetsChecked": 28,
   "exportedHTMLPages": 90,
   "staticAdminPage": "Direct /admin entry included with a loading screen",
   "netlifyClient": "Same React interface with device-local IndexedDB cart, drafts and uploads",

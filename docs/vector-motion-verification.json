@@ -1,0 +1,1030 @@
+{
+  "scope": "Built storefront in Linux headless Chromium; desktop and emulated mobile. Geometry checks inspect 1001 deterministic frames per new vector character. Sound checks inspect Web Audio scheduling, not listening quality. No physical-phone FPS or perfection claim.",
+  "url": "http://127.0.0.1:4175",
+  "checks": [
+    {
+      "check": "Four original vector characters: 4004 pure poses passed constant bone length, attachment, joint-continuity and Ronaldo boot/ball release equations"
+    },
+    {
+      "check": "desktop: goku vector frame/limb metadata, 55 bounded rendered poses and deterministic reverse seeking",
+      "renderer": "actual SVG",
+      "poses": 9
+    },
+    {
+      "check": "desktop: goku play/pause/reset and native forward/reverse scroll use one progress controller"
+    },
+    {
+      "check": "desktop: spider-man vector frame/limb metadata, 55 bounded rendered poses and deterministic reverse seeking",
+      "renderer": "actual SVG",
+      "poses": 9
+    },
+    {
+      "check": "desktop: spider-man play/pause/reset and native forward/reverse scroll use one progress controller"
+    },
+    {
+      "check": "desktop: Wolverine original GLB preserved; nine sampled poses and pixel-identical reverse seeking"
+    },
+    {
+      "check": "desktop: wolverine play/pause/reset and native forward/reverse scroll use one progress controller"
+    },
+    {
+      "check": "desktop: harry-potter vector frame/limb metadata, 55 bounded rendered poses and deterministic reverse seeking",
+      "renderer": "actual SVG",
+      "poses": 9
+    },
+    {
+      "check": "desktop: harry-potter play/pause/reset and native forward/reverse scroll use one progress controller"
+    },
+    {
+      "check": "desktop: ronaldo vector frame/limb metadata, 55 bounded rendered poses and deterministic reverse seeking",
+      "renderer": "actual SVG",
+      "poses": 9
+    },
+    {
+      "check": "desktop: ronaldo play/pause/reset and native forward/reverse scroll use one progress controller"
+    },
+    {
+      "check": "desktop: gesture-only sound enable, all five exact action markers, hold/rewind/replay/chapter cancellation, simulated document-hidden cancellation, and mute",
+      "audio": {
+        "contexts": 1,
+        "resumes": 1,
+        "starts": 52,
+        "stops": 92,
+        "active": 0
+      }
+    },
+    {
+      "check": "desktop: offscreen playback stops; no runaway scene timer"
+    },
+    {
+      "check": "desktop: route exit disposes character renderers and stops sound"
+    },
+    {
+      "check": "mobile: goku vector frame/limb metadata, 55 bounded rendered poses and deterministic reverse seeking",
+      "renderer": "actual SVG",
+      "poses": 9
+    },
+    {
+      "check": "mobile: goku play/pause/reset and native forward/reverse scroll use one progress controller"
+    },
+    {
+      "check": "mobile: spider-man vector frame/limb metadata, 55 bounded rendered poses and deterministic reverse seeking",
+      "renderer": "actual SVG",
+      "poses": 9
+    },
+    {
+      "check": "mobile: spider-man play/pause/reset and native forward/reverse scroll use one progress controller"
+    },
+    {
+      "check": "mobile: Wolverine original GLB preserved; nine sampled poses and pixel-identical reverse seeking"
+    },
+    {
+      "check": "mobile: wolverine play/pause/reset and native forward/reverse scroll use one progress controller"
+    },
+    {
+      "check": "mobile: harry-potter vector frame/limb metadata, 55 bounded rendered poses and deterministic reverse seeking",
+      "renderer": "actual SVG",
+      "poses": 9
+    },
+    {
+      "check": "mobile: harry-potter play/pause/reset and native forward/reverse scroll use one progress controller"
+    },
+    {
+      "check": "mobile: ronaldo vector frame/limb metadata, 55 bounded rendered poses and deterministic reverse seeking",
+      "renderer": "actual SVG",
+      "poses": 9
+    },
+    {
+      "check": "mobile: ronaldo play/pause/reset and native forward/reverse scroll use one progress controller"
+    },
+    {
+      "check": "mobile: gesture-only sound enable, all five exact action markers, hold/rewind/replay/chapter cancellation, simulated document-hidden cancellation, and mute",
+      "audio": {
+        "contexts": 1,
+        "resumes": 1,
+        "starts": 52,
+        "stops": 100,
+        "active": 0
+      }
+    },
+    {
+      "check": "mobile: offscreen playback stops; no runaway scene timer"
+    },
+    {
+      "check": "mobile: route exit disposes character renderers and stops sound"
+    },
+    {
+      "check": "Reduced motion removes scroll pinning and autoplay; four vector characters retain deliberate still-pose slider inspection with no unsolicited audio"
+    },
+    {
+      "check": "Eight viewport sizes, short landscape and 200% root text: no horizontal overflow; character ink remains inside the SVG/stage"
+    }
+  ],
+  "geometry": {
+    "goku": {
+      "sampledFrames": 1001,
+      "boneLengths": {
+        "left-upper-arm": 87.00000000000003,
+        "left-forearm": 88,
+        "right-upper-arm": 88.00000000000003,
+        "right-forearm": 87.00000000000004,
+        "left-thigh": 112.00000000000001,
+        "left-shin": 104.99999999999999,
+        "right-thigh": 111.99999999999999,
+        "right-shin": 105.00000000000003
+      },
+      "maxBoneLengthDeviation": 1.1368683772161603e-13,
+      "maxJointStepPer001": 0.8059528562996734,
+      "phases": [
+        "prepare",
+        "charge",
+        "attack",
+        "settle",
+        "recover"
+      ],
+      "headMovement": 32.01892466811682,
+      "attachmentChecks": "passed"
+    },
+    "spider-man": {
+      "sampledFrames": 1001,
+      "boneLengths": {
+        "spine": 122,
+        "left upper arm": 84.99999999999999,
+        "left forearm": 88.00000000000004,
+        "right upper arm": 86,
+        "right forearm": 92.00000000000001,
+        "left thigh": 102.99999999999999,
+        "left shin": 110.00000000000001,
+        "right thigh": 102.99999999999996,
+        "right shin": 110.00000000000003
+      },
+      "maxBoneLengthDeviation": 1.1368683772161603e-13,
+      "maxJointStepPer001": 1.6827897655490114,
+      "phases": [
+        "Crouch and load",
+        "Aim the wrist",
+        "Web release",
+        "Tether and follow through",
+        "Recover the stance"
+      ],
+      "headMovement": 77.62521191936371,
+      "attachmentChecks": "passed"
+    },
+    "harry-potter": {
+      "sampledFrames": 1001,
+      "boneLengths": {
+        "left upper arm": 74.00000000000001,
+        "left forearm": 64.99999999999999,
+        "right upper arm": 73,
+        "right forearm": 68,
+        "left thigh": 86.00000000000003,
+        "left shin": 87.99999999999994,
+        "right thigh": 86.00000000000004,
+        "right shin": 87.99999999999997
+      },
+      "maxBoneLengthDeviation": 1.5631940186722204e-13,
+      "maxJointStepPer001": 1.7226717558323654,
+      "phases": [
+        "Gathering focus",
+        "Extending the wand",
+        "Red spell",
+        "Follow-through",
+        "Returning to ready"
+      ],
+      "headMovement": 36.93195243015656,
+      "attachmentChecks": "passed"
+    },
+    "ronaldo": {
+      "sampledFrames": 1001,
+      "boneLengths": {
+        "leftUpperArm": 70.00000000000003,
+        "leftForearm": 65.99999999999997,
+        "rightUpperArm": 69.99999999999997,
+        "rightForearm": 66,
+        "leftThigh": 85.99999999999997,
+        "leftShin": 90.00000000000006,
+        "rightThigh": 86,
+        "rightShin": 89.99999999999999
+      },
+      "maxBoneLengthDeviation": 1.7053025658242404e-13,
+      "maxJointStepPer001": 2.4409791009812314,
+      "phases": [
+        "Set the stance",
+        "Load the striking leg",
+        "Swing into the ball",
+        "Boot meets ball",
+        "Kick and follow through",
+        "Recover the stance"
+      ],
+      "headMovement": 80.51925444028093,
+      "attachmentChecks": "passed"
+    }
+  },
+  "poses": [
+    {
+      "viewport": "desktop",
+      "character": "goku",
+      "progress": 0,
+      "phase": "prepare",
+      "file": "goku-desktop-vector-pose-0.png",
+      "source": "button-controlled progress slider"
+    },
+    {
+      "viewport": "desktop",
+      "character": "goku",
+      "progress": 0.2,
+      "phase": "prepare",
+      "file": "goku-desktop-vector-pose-1.png",
+      "source": "button-controlled progress slider"
+    },
+    {
+      "viewport": "desktop",
+      "character": "goku",
+      "progress": 0.35,
+      "phase": "charge",
+      "file": "goku-desktop-vector-pose-2.png",
+      "source": "button-controlled progress slider"
+    },
+    {
+      "viewport": "desktop",
+      "character": "goku",
+      "progress": 0.44,
+      "phase": "charge",
+      "file": "goku-desktop-vector-pose-3.png",
+      "source": "button-controlled progress slider"
+    },
+    {
+      "viewport": "desktop",
+      "character": "goku",
+      "progress": 0.48,
+      "phase": "attack",
+      "file": "goku-desktop-vector-pose-4.png",
+      "source": "button-controlled progress slider"
+    },
+    {
+      "viewport": "desktop",
+      "character": "goku",
+      "progress": 0.52,
+      "phase": "attack",
+      "file": "goku-desktop-vector-pose-5.png",
+      "source": "button-controlled progress slider"
+    },
+    {
+      "viewport": "desktop",
+      "character": "goku",
+      "progress": 0.62,
+      "phase": "attack",
+      "file": "goku-desktop-vector-pose-6.png",
+      "source": "button-controlled progress slider"
+    },
+    {
+      "viewport": "desktop",
+      "character": "goku",
+      "progress": 0.85,
+      "phase": "settle",
+      "file": "goku-desktop-vector-pose-7.png",
+      "source": "button-controlled progress slider"
+    },
+    {
+      "viewport": "desktop",
+      "character": "goku",
+      "progress": 1,
+      "phase": "recover",
+      "file": "goku-desktop-vector-pose-8.png",
+      "source": "button-controlled progress slider"
+    },
+    {
+      "viewport": "desktop",
+      "character": "spider-man",
+      "progress": 0,
+      "phase": "Crouch and load",
+      "file": "spider-man-desktop-vector-pose-0.png",
+      "source": "button-controlled progress slider"
+    },
+    {
+      "viewport": "desktop",
+      "character": "spider-man",
+      "progress": 0.2,
+      "phase": "Crouch and load",
+      "file": "spider-man-desktop-vector-pose-1.png",
+      "source": "button-controlled progress slider"
+    },
+    {
+      "viewport": "desktop",
+      "character": "spider-man",
+      "progress": 0.35,
+      "phase": "Aim the wrist",
+      "file": "spider-man-desktop-vector-pose-2.png",
+      "source": "button-controlled progress slider"
+    },
+    {
+      "viewport": "desktop",
+      "character": "spider-man",
+      "progress": 0.44,
+      "phase": "Web release",
+      "file": "spider-man-desktop-vector-pose-3.png",
+      "source": "button-controlled progress slider"
+    },
+    {
+      "viewport": "desktop",
+      "character": "spider-man",
+      "progress": 0.48,
+      "phase": "Web release",
+      "file": "spider-man-desktop-vector-pose-4.png",
+      "source": "button-controlled progress slider"
+    },
+    {
+      "viewport": "desktop",
+      "character": "spider-man",
+      "progress": 0.52,
+      "phase": "Web release",
+      "file": "spider-man-desktop-vector-pose-5.png",
+      "source": "button-controlled progress slider"
+    },
+    {
+      "viewport": "desktop",
+      "character": "spider-man",
+      "progress": 0.62,
+      "phase": "Tether and follow through",
+      "file": "spider-man-desktop-vector-pose-6.png",
+      "source": "button-controlled progress slider"
+    },
+    {
+      "viewport": "desktop",
+      "character": "spider-man",
+      "progress": 0.85,
+      "phase": "Tether and follow through",
+      "file": "spider-man-desktop-vector-pose-7.png",
+      "source": "button-controlled progress slider"
+    },
+    {
+      "viewport": "desktop",
+      "character": "spider-man",
+      "progress": 1,
+      "phase": "Recover the stance",
+      "file": "spider-man-desktop-vector-pose-8.png",
+      "source": "button-controlled progress slider"
+    },
+    {
+      "viewport": "desktop",
+      "character": "wolverine",
+      "progress": 0,
+      "file": "wolverine-desktop-vector-pose-0.png",
+      "source": "original GLB under shared progress controls"
+    },
+    {
+      "viewport": "desktop",
+      "character": "wolverine",
+      "progress": 0.2,
+      "file": "wolverine-desktop-vector-pose-1.png",
+      "source": "original GLB under shared progress controls"
+    },
+    {
+      "viewport": "desktop",
+      "character": "wolverine",
+      "progress": 0.35,
+      "file": "wolverine-desktop-vector-pose-2.png",
+      "source": "original GLB under shared progress controls"
+    },
+    {
+      "viewport": "desktop",
+      "character": "wolverine",
+      "progress": 0.44,
+      "file": "wolverine-desktop-vector-pose-3.png",
+      "source": "original GLB under shared progress controls"
+    },
+    {
+      "viewport": "desktop",
+      "character": "wolverine",
+      "progress": 0.48,
+      "file": "wolverine-desktop-vector-pose-4.png",
+      "source": "original GLB under shared progress controls"
+    },
+    {
+      "viewport": "desktop",
+      "character": "wolverine",
+      "progress": 0.52,
+      "file": "wolverine-desktop-vector-pose-5.png",
+      "source": "original GLB under shared progress controls"
+    },
+    {
+      "viewport": "desktop",
+      "character": "wolverine",
+      "progress": 0.62,
+      "file": "wolverine-desktop-vector-pose-6.png",
+      "source": "original GLB under shared progress controls"
+    },
+    {
+      "viewport": "desktop",
+      "character": "wolverine",
+      "progress": 0.85,
+      "file": "wolverine-desktop-vector-pose-7.png",
+      "source": "original GLB under shared progress controls"
+    },
+    {
+      "viewport": "desktop",
+      "character": "wolverine",
+      "progress": 1,
+      "file": "wolverine-desktop-vector-pose-8.png",
+      "source": "original GLB under shared progress controls"
+    },
+    {
+      "viewport": "desktop",
+      "character": "harry-potter",
+      "progress": 0,
+      "phase": "Gathering focus",
+      "file": "harry-potter-desktop-vector-pose-0.png",
+      "source": "button-controlled progress slider"
+    },
+    {
+      "viewport": "desktop",
+      "character": "harry-potter",
+      "progress": 0.2,
+      "phase": "Gathering focus",
+      "file": "harry-potter-desktop-vector-pose-1.png",
+      "source": "button-controlled progress slider"
+    },
+    {
+      "viewport": "desktop",
+      "character": "harry-potter",
+      "progress": 0.35,
+      "phase": "Extending the wand",
+      "file": "harry-potter-desktop-vector-pose-2.png",
+      "source": "button-controlled progress slider"
+    },
+    {
+      "viewport": "desktop",
+      "character": "harry-potter",
+      "progress": 0.44,
+      "phase": "Extending the wand",
+      "file": "harry-potter-desktop-vector-pose-3.png",
+      "source": "button-controlled progress slider"
+    },
+    {
+      "viewport": "desktop",
+      "character": "harry-potter",
+      "progress": 0.48,
+      "phase": "Extending the wand",
+      "file": "harry-potter-desktop-vector-pose-4.png",
+      "source": "button-controlled progress slider"
+    },
+    {
+      "viewport": "desktop",
+      "character": "harry-potter",
+      "progress": 0.52,
+      "phase": "Red spell",
+      "file": "harry-potter-desktop-vector-pose-5.png",
+      "source": "button-controlled progress slider"
+    },
+    {
+      "viewport": "desktop",
+      "character": "harry-potter",
+      "progress": 0.62,
+      "phase": "Red spell",
+      "file": "harry-potter-desktop-vector-pose-6.png",
+      "source": "button-controlled progress slider"
+    },
+    {
+      "viewport": "desktop",
+      "character": "harry-potter",
+      "progress": 0.85,
+      "phase": "Follow-through",
+      "file": "harry-potter-desktop-vector-pose-7.png",
+      "source": "button-controlled progress slider"
+    },
+    {
+      "viewport": "desktop",
+      "character": "harry-potter",
+      "progress": 1,
+      "phase": "Returning to ready",
+      "file": "harry-potter-desktop-vector-pose-8.png",
+      "source": "button-controlled progress slider"
+    },
+    {
+      "viewport": "desktop",
+      "character": "ronaldo",
+      "progress": 0,
+      "phase": "Set the stance",
+      "file": "ronaldo-desktop-vector-pose-0.png",
+      "source": "button-controlled progress slider"
+    },
+    {
+      "viewport": "desktop",
+      "character": "ronaldo",
+      "progress": 0.2,
+      "phase": "Set the stance",
+      "file": "ronaldo-desktop-vector-pose-1.png",
+      "source": "button-controlled progress slider"
+    },
+    {
+      "viewport": "desktop",
+      "character": "ronaldo",
+      "progress": 0.35,
+      "phase": "Load the striking leg",
+      "file": "ronaldo-desktop-vector-pose-2.png",
+      "source": "button-controlled progress slider"
+    },
+    {
+      "viewport": "desktop",
+      "character": "ronaldo",
+      "progress": 0.44,
+      "phase": "Swing into the ball",
+      "file": "ronaldo-desktop-vector-pose-3.png",
+      "source": "button-controlled progress slider"
+    },
+    {
+      "viewport": "desktop",
+      "character": "ronaldo",
+      "progress": 0.48,
+      "phase": "Swing into the ball",
+      "file": "ronaldo-desktop-vector-pose-4.png",
+      "source": "button-controlled progress slider"
+    },
+    {
+      "viewport": "desktop",
+      "character": "ronaldo",
+      "progress": 0.52,
+      "phase": "Boot meets ball",
+      "file": "ronaldo-desktop-vector-pose-5.png",
+      "source": "button-controlled progress slider"
+    },
+    {
+      "viewport": "desktop",
+      "character": "ronaldo",
+      "progress": 0.62,
+      "phase": "Kick and follow through",
+      "file": "ronaldo-desktop-vector-pose-6.png",
+      "source": "button-controlled progress slider"
+    },
+    {
+      "viewport": "desktop",
+      "character": "ronaldo",
+      "progress": 0.85,
+      "phase": "Recover the stance",
+      "file": "ronaldo-desktop-vector-pose-7.png",
+      "source": "button-controlled progress slider"
+    },
+    {
+      "viewport": "desktop",
+      "character": "ronaldo",
+      "progress": 1,
+      "phase": "Recover the stance",
+      "file": "ronaldo-desktop-vector-pose-8.png",
+      "source": "button-controlled progress slider"
+    },
+    {
+      "viewport": "mobile",
+      "character": "goku",
+      "progress": 0,
+      "phase": "prepare",
+      "file": "goku-mobile-vector-pose-0.png",
+      "source": "button-controlled progress slider"
+    },
+    {
+      "viewport": "mobile",
+      "character": "goku",
+      "progress": 0.2,
+      "phase": "prepare",
+      "file": "goku-mobile-vector-pose-1.png",
+      "source": "button-controlled progress slider"
+    },
+    {
+      "viewport": "mobile",
+      "character": "goku",
+      "progress": 0.35,
+      "phase": "charge",
+      "file": "goku-mobile-vector-pose-2.png",
+      "source": "button-controlled progress slider"
+    },
+    {
+      "viewport": "mobile",
+      "character": "goku",
+      "progress": 0.44,
+      "phase": "charge",
+      "file": "goku-mobile-vector-pose-3.png",
+      "source": "button-controlled progress slider"
+    },
+    {
+      "viewport": "mobile",
+      "character": "goku",
+      "progress": 0.48,
+      "phase": "attack",
+      "file": "goku-mobile-vector-pose-4.png",
+      "source": "button-controlled progress slider"
+    },
+    {
+      "viewport": "mobile",
+      "character": "goku",
+      "progress": 0.52,
+      "phase": "attack",
+      "file": "goku-mobile-vector-pose-5.png",
+      "source": "button-controlled progress slider"
+    },
+    {
+      "viewport": "mobile",
+      "character": "goku",
+      "progress": 0.62,
+      "phase": "attack",
+      "file": "goku-mobile-vector-pose-6.png",
+      "source": "button-controlled progress slider"
+    },
+    {
+      "viewport": "mobile",
+      "character": "goku",
+      "progress": 0.85,
+      "phase": "settle",
+      "file": "goku-mobile-vector-pose-7.png",
+      "source": "button-controlled progress slider"
+    },
+    {
+      "viewport": "mobile",
+      "character": "goku",
+      "progress": 1,
+      "phase": "recover",
+      "file": "goku-mobile-vector-pose-8.png",
+      "source": "button-controlled progress slider"
+    },
+    {
+      "viewport": "mobile",
+      "character": "spider-man",
+      "progress": 0,
+      "phase": "Crouch and load",
+      "file": "spider-man-mobile-vector-pose-0.png",
+      "source": "button-controlled progress slider"
+    },
+    {
+      "viewport": "mobile",
+      "character": "spider-man",
+      "progress": 0.2,
+      "phase": "Crouch and load",
+      "file": "spider-man-mobile-vector-pose-1.png",
+      "source": "button-controlled progress slider"
+    },
+    {
+      "viewport": "mobile",
+      "character": "spider-man",
+      "progress": 0.35,
+      "phase": "Aim the wrist",
+      "file": "spider-man-mobile-vector-pose-2.png",
+      "source": "button-controlled progress slider"
+    },
+    {
+      "viewport": "mobile",
+      "character": "spider-man",
+      "progress": 0.44,
+      "phase": "Web release",
+      "file": "spider-man-mobile-vector-pose-3.png",
+      "source": "button-controlled progress slider"
+    },
+    {
+      "viewport": "mobile",
+      "character": "spider-man",
+      "progress": 0.48,
+      "phase": "Web release",
+      "file": "spider-man-mobile-vector-pose-4.png",
+      "source": "button-controlled progress slider"
+    },
+    {
+      "viewport": "mobile",
+      "character": "spider-man",
+      "progress": 0.52,
+      "phase": "Web release",
+      "file": "spider-man-mobile-vector-pose-5.png",
+      "source": "button-controlled progress slider"
+    },
+    {
+      "viewport": "mobile",
+      "character": "spider-man",
+      "progress": 0.62,
+      "phase": "Tether and follow through",
+      "file": "spider-man-mobile-vector-pose-6.png",
+      "source": "button-controlled progress slider"
+    },
+    {
+      "viewport": "mobile",
+      "character": "spider-man",
+      "progress": 0.85,
+      "phase": "Tether and follow through",
+      "file": "spider-man-mobile-vector-pose-7.png",
+      "source": "button-controlled progress slider"
+    },
+    {
+      "viewport": "mobile",
+      "character": "spider-man",
+      "progress": 1,
+      "phase": "Recover the stance",
+      "file": "spider-man-mobile-vector-pose-8.png",
+      "source": "button-controlled progress slider"
+    },
+    {
+      "viewport": "mobile",
+      "character": "wolverine",
+      "progress": 0,
+      "file": "wolverine-mobile-vector-pose-0.png",
+      "source": "original GLB under shared progress controls"
+    },
+    {
+      "viewport": "mobile",
+      "character": "wolverine",
+      "progress": 0.2,
+      "file": "wolverine-mobile-vector-pose-1.png",
+      "source": "original GLB under shared progress controls"
+    },
+    {
+      "viewport": "mobile",
+      "character": "wolverine",
+      "progress": 0.35,
+      "file": "wolverine-mobile-vector-pose-2.png",
+      "source": "original GLB under shared progress controls"
+    },
+    {
+      "viewport": "mobile",
+      "character": "wolverine",
+      "progress": 0.44,
+      "file": "wolverine-mobile-vector-pose-3.png",
+      "source": "original GLB under shared progress controls"
+    },
+    {
+      "viewport": "mobile",
+      "character": "wolverine",
+      "progress": 0.48,
+      "file": "wolverine-mobile-vector-pose-4.png",
+      "source": "original GLB under shared progress controls"
+    },
+    {
+      "viewport": "mobile",
+      "character": "wolverine",
+      "progress": 0.52,
+      "file": "wolverine-mobile-vector-pose-5.png",
+      "source": "original GLB under shared progress controls"
+    },
+    {
+      "viewport": "mobile",
+      "character": "wolverine",
+      "progress": 0.62,
+      "file": "wolverine-mobile-vector-pose-6.png",
+      "source": "original GLB under shared progress controls"
+    },
+    {
+      "viewport": "mobile",
+      "character": "wolverine",
+      "progress": 0.85,
+      "file": "wolverine-mobile-vector-pose-7.png",
+      "source": "original GLB under shared progress controls"
+    },
+    {
+      "viewport": "mobile",
+      "character": "wolverine",
+      "progress": 1,
+      "file": "wolverine-mobile-vector-pose-8.png",
+      "source": "original GLB under shared progress controls"
+    },
+    {
+      "viewport": "mobile",
+      "character": "harry-potter",
+      "progress": 0,
+      "phase": "Gathering focus",
+      "file": "harry-potter-mobile-vector-pose-0.png",
+      "source": "button-controlled progress slider"
+    },
+    {
+      "viewport": "mobile",
+      "character": "harry-potter",
+      "progress": 0.2,
+      "phase": "Gathering focus",
+      "file": "harry-potter-mobile-vector-pose-1.png",
+      "source": "button-controlled progress slider"
+    },
+    {
+      "viewport": "mobile",
+      "character": "harry-potter",
+      "progress": 0.35,
+      "phase": "Extending the wand",
+      "file": "harry-potter-mobile-vector-pose-2.png",
+      "source": "button-controlled progress slider"
+    },
+    {
+      "viewport": "mobile",
+      "character": "harry-potter",
+      "progress": 0.44,
+      "phase": "Extending the wand",
+      "file": "harry-potter-mobile-vector-pose-3.png",
+      "source": "button-controlled progress slider"
+    },
+    {
+      "viewport": "mobile",
+      "character": "harry-potter",
+      "progress": 0.48,
+      "phase": "Extending the wand",
+      "file": "harry-potter-mobile-vector-pose-4.png",
+      "source": "button-controlled progress slider"
+    },
+    {
+      "viewport": "mobile",
+      "character": "harry-potter",
+      "progress": 0.52,
+      "phase": "Red spell",
+      "file": "harry-potter-mobile-vector-pose-5.png",
+      "source": "button-controlled progress slider"
+    },
+    {
+      "viewport": "mobile",
+      "character": "harry-potter",
+      "progress": 0.62,
+      "phase": "Red spell",
+      "file": "harry-potter-mobile-vector-pose-6.png",
+      "source": "button-controlled progress slider"
+    },
+    {
+      "viewport": "mobile",
+      "character": "harry-potter",
+      "progress": 0.85,
+      "phase": "Follow-through",
+      "file": "harry-potter-mobile-vector-pose-7.png",
+      "source": "button-controlled progress slider"
+    },
+    {
+      "viewport": "mobile",
+      "character": "harry-potter",
+      "progress": 1,
+      "phase": "Returning to ready",
+      "file": "harry-potter-mobile-vector-pose-8.png",
+      "source": "button-controlled progress slider"
+    },
+    {
+      "viewport": "mobile",
+      "character": "ronaldo",
+      "progress": 0,
+      "phase": "Set the stance",
+      "file": "ronaldo-mobile-vector-pose-0.png",
+      "source": "button-controlled progress slider"
+    },
+    {
+      "viewport": "mobile",
+      "character": "ronaldo",
+      "progress": 0.2,
+      "phase": "Set the stance",
+      "file": "ronaldo-mobile-vector-pose-1.png",
+      "source": "button-controlled progress slider"
+    },
+    {
+      "viewport": "mobile",
+      "character": "ronaldo",
+      "progress": 0.35,
+      "phase": "Load the striking leg",
+      "file": "ronaldo-mobile-vector-pose-2.png",
+      "source": "button-controlled progress slider"
+    },
+    {
+      "viewport": "mobile",
+      "character": "ronaldo",
+      "progress": 0.44,
+      "phase": "Swing into the ball",
+      "file": "ronaldo-mobile-vector-pose-3.png",
+      "source": "button-controlled progress slider"
+    },
+    {
+      "viewport": "mobile",
+      "character": "ronaldo",
+      "progress": 0.48,
+      "phase": "Swing into the ball",
+      "file": "ronaldo-mobile-vector-pose-4.png",
+      "source": "button-controlled progress slider"
+    },
+    {
+      "viewport": "mobile",
+      "character": "ronaldo",
+      "progress": 0.52,
+      "phase": "Boot meets ball",
+      "file": "ronaldo-mobile-vector-pose-5.png",
+      "source": "button-controlled progress slider"
+    },
+    {
+      "viewport": "mobile",
+      "character": "ronaldo",
+      "progress": 0.62,
+      "phase": "Kick and follow through",
+      "file": "ronaldo-mobile-vector-pose-6.png",
+      "source": "button-controlled progress slider"
+    },
+    {
+      "viewport": "mobile",
+      "character": "ronaldo",
+      "progress": 0.85,
+      "phase": "Recover the stance",
+      "file": "ronaldo-mobile-vector-pose-7.png",
+      "source": "button-controlled progress slider"
+    },
+    {
+      "viewport": "mobile",
+      "character": "ronaldo",
+      "progress": 1,
+      "phase": "Recover the stance",
+      "file": "ronaldo-mobile-vector-pose-8.png",
+      "source": "button-controlled progress slider"
+    }
+  ],
+  "errors": [],
+  "sound": [
+    {
+      "viewport": "desktop",
+      "scene": "goku",
+      "marker": "energy-charge",
+      "progress": 0.26,
+      "result": "forward crossing, held pose and rewind/replay passed"
+    },
+    {
+      "viewport": "desktop",
+      "scene": "goku",
+      "marker": "hand-beam",
+      "progress": 0.48,
+      "result": "forward crossing, held pose and rewind/replay passed"
+    },
+    {
+      "viewport": "desktop",
+      "scene": "spider-man",
+      "marker": "wrist-web",
+      "progress": 0.44,
+      "result": "forward crossing, held pose and rewind/replay passed"
+    },
+    {
+      "viewport": "desktop",
+      "scene": "wolverine",
+      "marker": "claw-strike",
+      "progress": 0.34375,
+      "result": "forward crossing, held pose and rewind/replay passed"
+    },
+    {
+      "viewport": "desktop",
+      "scene": "wolverine",
+      "marker": "grounded-landing",
+      "progress": 0.48958333333333337,
+      "result": "forward crossing, held pose and rewind/replay passed"
+    },
+    {
+      "viewport": "desktop",
+      "scene": "harry-potter",
+      "marker": "wand-spell",
+      "progress": 0.5,
+      "result": "forward crossing, held pose and rewind/replay passed"
+    },
+    {
+      "viewport": "desktop",
+      "scene": "ronaldo",
+      "marker": "boot-ball-contact",
+      "progress": 0.52,
+      "result": "forward crossing, held pose and rewind/replay passed"
+    },
+    {
+      "viewport": "mobile",
+      "scene": "goku",
+      "marker": "energy-charge",
+      "progress": 0.26,
+      "result": "forward crossing, held pose and rewind/replay passed"
+    },
+    {
+      "viewport": "mobile",
+      "scene": "goku",
+      "marker": "hand-beam",
+      "progress": 0.48,
+      "result": "forward crossing, held pose and rewind/replay passed"
+    },
+    {
+      "viewport": "mobile",
+      "scene": "spider-man",
+      "marker": "wrist-web",
+      "progress": 0.44,
+      "result": "forward crossing, held pose and rewind/replay passed"
+    },
+    {
+      "viewport": "mobile",
+      "scene": "wolverine",
+      "marker": "claw-strike",
+      "progress": 0.34375,
+      "result": "forward crossing, held pose and rewind/replay passed"
+    },
+    {
+      "viewport": "mobile",
+      "scene": "wolverine",
+      "marker": "grounded-landing",
+      "progress": 0.48958333333333337,
+      "result": "forward crossing, held pose and rewind/replay passed"
+    },
+    {
+      "viewport": "mobile",
+      "scene": "harry-potter",
+      "marker": "wand-spell",
+      "progress": 0.5,
+      "result": "forward crossing, held pose and rewind/replay passed"
+    },
+    {
+      "viewport": "mobile",
+      "scene": "ronaldo",
+      "marker": "boot-ball-contact",
+      "progress": 0.52,
+      "result": "forward crossing, held pose and rewind/replay passed"
+    }
+  ],
+  "passed": true,
+  "durationSeconds": 164.091
+}

@@ -57,6 +57,66 @@
       "sha256": "8a3a9832a39d52074053c3b2904bd3143595ca0c34755774f0056c24e908d444"
     },
     {
+      "url": "/characters/goku-2d.svg",
+      "source": "Project-authored original vector fan illustration, created for this review. Not supplied by the user archive and not a recovered earlier accepted asset.",
+      "bytes": 18446,
+      "sha256": "d519583fe5a7d7f7b406db160d4a629397208a65e30d577e123388890c6e7fd3",
+      "dimensions": [
+        760,
+        700
+      ],
+      "transparency": true,
+      "character": "Goku Ultra Instinct",
+      "rigSource": "components/game-frost/vector-goku.ts",
+      "reviewStatus": "Ready-pose poster generated from its matching packaged vector rig; browser motion QA passed.",
+      "rightsNote": "Fan art; no rightsholder or merchandise license is implied."
+    },
+    {
+      "url": "/characters/harry-potter-2d.svg",
+      "source": "Project-authored original vector fan illustration, created for this review. Not supplied by the user archive and not a recovered earlier accepted asset.",
+      "bytes": 16687,
+      "sha256": "787586c11fdd6ed9737c1559b3fe4d8f08c0241921114222be79d1ad4613477f",
+      "dimensions": [
+        760,
+        700
+      ],
+      "transparency": true,
+      "character": "Harry Potter",
+      "rigSource": "components/game-frost/vector-harry.ts",
+      "reviewStatus": "Ready-pose poster generated from its matching packaged vector rig; browser motion QA passed.",
+      "rightsNote": "Fan art; no rightsholder or merchandise license is implied."
+    },
+    {
+      "url": "/characters/ronaldo-2d.svg",
+      "source": "Project-authored original vector fan illustration, created for this review. Not supplied by the user archive and not a recovered earlier accepted asset.",
+      "bytes": 14357,
+      "sha256": "0bb6df096722333ea827c2262da1361fdf0bcaca3da01c99e24815bc8ce2503e",
+      "dimensions": [
+        760,
+        700
+      ],
+      "transparency": true,
+      "character": "Ronaldo",
+      "rigSource": "components/game-frost/vector-ronaldo.ts",
+      "reviewStatus": "Ready-pose poster generated from its matching packaged vector rig; browser motion QA passed.",
+      "rightsNote": "Fan art; no rightsholder or merchandise license is implied."
+    },
+    {
+      "url": "/characters/spider-man-2d.svg",
+      "source": "Project-authored original vector fan illustration, created for this review. Not supplied by the user archive and not a recovered earlier accepted asset.",
+      "bytes": 24026,
+      "sha256": "37d6a2c5bbf9d4d094345cfdd2382fa8254f0ba1ada069ee096ab0cd27ae9658",
+      "dimensions": [
+        760,
+        700
+      ],
+      "transparency": true,
+      "character": "Spider-Man",
+      "rigSource": "components/game-frost/vector-spiderman.ts",
+      "reviewStatus": "Ready-pose poster generated from its matching packaged vector rig; browser motion QA passed.",
+      "rightsNote": "Fan art; no rightsholder or merchandise license is implied."
+    },
+    {
       "url": "/characters/wolverine-attack.glb",
       "source": "Supplied Wolverine 3D Complete, latest GLB; optimized delivery copy and poster rendered from that copy; cached 290-sample motion envelope in asset metadata, with unchanged rig/clip/binary payload",
       "bytes": 6865876,
@@ -484,28 +544,19 @@
       "sha256": "decf1cf7bb22b5c99c4857cfcd5718ce5465c4454166317589c83fc73df74b66"
     }
   ],
-  "missingCharacters": [
-    {
-      "character": "Goku Ultra Instinct",
-      "status": "blocked",
-      "reason": "Required accepted artwork and completed performance not present in the supplied archives; no robot or torn raster puppet substituted"
-    },
-    {
-      "character": "Spider-Man",
-      "status": "blocked",
-      "reason": "Required accepted artwork and completed performance not present in the supplied archives; no robot or torn raster puppet substituted"
-    },
-    {
-      "character": "Harry Potter",
-      "status": "blocked",
-      "reason": "Required accepted artwork and completed performance not present in the supplied archives; no robot or torn raster puppet substituted"
-    },
-    {
-      "character": "Ronaldo",
-      "status": "blocked",
-      "reason": "Required accepted artwork and completed performance not present in the supplied archives; no robot or torn raster puppet substituted"
-    }
-  ],
+  "missingCharacters": [],
   "preservedProvenance": "archive-reports/recovered-asset-manifest.json; original assets retained in references/ in the source package",
-  "licenseNotes": "Product imagery and marks retain the supplied archive provenance; store reference renders are not actual-unit condition evidence."
+  "licenseNotes": "Product imagery and marks retain the supplied archive provenance; store reference renders are not actual-unit condition evidence. The four new character drawings are fan art; original drawing is not a commercial or promotional license.",
+  "notSuppliedSourceNotes": [
+    {
+      "item": "Earlier accepted Goku artwork/scene",
+      "status": "Not present in supplied archives",
+      "note": "New silver-haired Ultra Instinct vector interpretation preserves the requested direction; it is not the recovered earlier art."
+    },
+    {
+      "item": "Newer Rift Arena archive",
+      "status": "Not present in supplied files",
+      "note": "Supplied Optimized CMS store retained as the main website baseline."
+    }
+  ]
 }

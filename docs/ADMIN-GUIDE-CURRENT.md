@@ -10,7 +10,7 @@
 
 1. Products: edit name, price, stock, visibility, images, specifications and featured picks. Choose a blank price for quote-only listings. Model reference pictures cannot prove an exact unit’s seal or condition.
 2. Page content, FAQs, guides, games, services, navigation, custom pages and SEO have separate editor sections. Confirm current release information and actual business policy before publishing.
-3. Character scenes: the fixed order is Goku Ultra Instinct, Spider-Man, Wolverine, Harry Potter, Ronaldo. Ordinary fields control copy, CTA, poster and accent. Advanced fields choose renderer, motion asset, exact clip and duration. A picture is a poster; uploading it does not create a rig or attack. Preview attachment points and all poses before marking an asset ready. The supplied source lacks four performances.
+3. Character scenes: the fixed order is Goku Ultra Instinct, Spider-Man, Wolverine, Harry Potter, Ronaldo. Edit copy, CTA, poster, accent, duration and activation. The four original 2D vector rigs ship with the source; Wolverine uses the supplied GLB. Posters do not change motion. Use the Sound button to enable action effects; it stays off until clicked. The exact earlier accepted Goku artwork was not included in the archives; this build uses a new illustration in that direction.
 4. Preview shows the draft in an iframe. Save draft for persistence, then Publish changes (hosted) or Apply locally (static). Failed and stale saves retain your editor work; download a backup before reloading to merge another tab’s update.
 5. Versions & backup can restore an earlier publication to the draft. Restoring does not overwrite published content until you deliberately publish it.
 

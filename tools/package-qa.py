@@ -39,7 +39,8 @@ with tempfile.TemporaryDirectory(prefix='gamefrost-package-',dir='/workspace') a
    page.goto(base,wait_until='networkidle');assert page.locator('.showroom').count()==1
    page.get_by_role('button',name='03 Wolverine',exact=True).click()
    page.wait_for_selector('.journey-stage[data-status="ready"]',timeout=60000)
-   page.get_by_role('slider',name='Animation progress').fill('0.4');assert page.locator('canvas').count()==1
+   page.wait_for_selector('.journey-stage canvas',timeout=60000)
+   slider=page.get_by_role('slider',name='Animation progress');slider.evaluate('''(el,value)=>{const set=Object.getOwnPropertyDescriptor(HTMLInputElement.prototype,'value').set;set.call(el,String(value));el.dispatchEvent(new Event('input',{bubbles:true}));el.dispatchEvent(new Event('change',{bubbles:true}))}''','0.4');assert page.locator('canvas').count()==1
    context.close();report['checks'].append(label+': 17 important mobile routes, real 404, restored showroom section and actual GLB rendered from freshly extracted files.')
    print(label,'passed',flush=True)
   finally:server.terminate();server.wait(timeout=10)

@@ -1,0 +1,124 @@
+{
+  "scope": "Actual production build in Chromium, software renderer, original screencast timestamps, no speeding up. Each MP4 contains browser-synthesized effects captured from the same timeline. Emulated phone is not a physical-device test.",
+  "recordings": [
+    {
+      "viewport": "desktop",
+      "frames": 233,
+      "file": "five-scene-desktop-review.mp4",
+      "bytes": 841082,
+      "audioTrack": "Browser-synthesized effects, synchronized to the five action timelines.",
+      "note": "The interactive website also offers an independent Sound on/off control."
+    },
+    {
+      "viewport": "mobile",
+      "frames": 558,
+      "file": "five-scene-mobile-review.mp4",
+      "bytes": 580132,
+      "audioTrack": "Browser-synthesized effects, synchronized to the five action timelines.",
+      "note": "The interactive website also offers an independent Sound on/off control."
+    }
+  ],
+  "soundEvents": [
+    {
+      "scene": "goku",
+      "marker": "energy-charge",
+      "progress": 0.28470833333333334,
+      "audioTime": 2.507950113378685,
+      "observedAt": 5341.800000000745
+    },
+    {
+      "scene": "goku",
+      "marker": "hand-beam",
+      "progress": 0.5138541666666667,
+      "audioTime": 3.5963854875283445,
+      "observedAt": 6431.199999999255
+    },
+    {
+      "scene": "spider-man",
+      "marker": "wrist-web",
+      "progress": 0.45135708333333313,
+      "audioTime": 9.238834467120181,
+      "observedAt": 12078.10000000149
+    },
+    {
+      "scene": "wolverine",
+      "marker": "claw-strike",
+      "progress": 0.37150708333333343,
+      "audioTime": 18.907043083900227,
+      "observedAt": 21931.10000000149
+    },
+    {
+      "scene": "wolverine",
+      "marker": "grounded-landing",
+      "progress": 0.5173404166666667,
+      "audioTime": 19.606544217687077,
+      "observedAt": 22628
+    },
+    {
+      "scene": "harry-potter",
+      "marker": "wand-spell",
+      "progress": 0.5346875,
+      "audioTime": 25.437655328798186,
+      "observedAt": 28548.800000000745
+    },
+    {
+      "scene": "ronaldo",
+      "marker": "boot-ball-contact",
+      "progress": 0.5346945833333325,
+      "audioTime": 30.9378820861678,
+      "observedAt": 34046.199999999255
+    },
+    {
+      "scene": "goku",
+      "marker": "energy-charge",
+      "progress": 0.26388208333333335,
+      "audioTime": 1.47756462585034,
+      "observedAt": 2522.89999999851
+    },
+    {
+      "scene": "goku",
+      "marker": "hand-beam",
+      "progress": 0.4860695833333332,
+      "audioTime": 2.536975056689342,
+      "observedAt": 3584.89999999851
+    },
+    {
+      "scene": "spider-man",
+      "marker": "wrist-web",
+      "progress": 0.45137499999999997,
+      "audioTime": 7.39865306122449,
+      "observedAt": 8544
+    },
+    {
+      "scene": "wolverine",
+      "marker": "claw-strike",
+      "progress": 0.3645558333333338,
+      "audioTime": 16.027768707482995,
+      "observedAt": 17748.5
+    },
+    {
+      "scene": "wolverine",
+      "marker": "grounded-landing",
+      "progress": 0.5104100000000001,
+      "audioTime": 16.677927437641724,
+      "observedAt": 18456.800000000745
+    },
+    {
+      "scene": "harry-potter",
+      "marker": "wand-spell",
+      "progress": 0.5138541666666671,
+      "audioTime": 21.766000000000002,
+      "observedAt": 23812.099999997765
+    },
+    {
+      "scene": "ronaldo",
+      "marker": "boot-ball-contact",
+      "progress": 0.5242708333333335,
+      "audioTime": 26.79602267573696,
+      "observedAt": 28999.5
+    }
+  ],
+  "errors": [],
+  "passed": true,
+  "date": "2026-10-08"
+}

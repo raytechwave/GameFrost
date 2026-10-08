@@ -1,5 +1,5 @@
 {
-  "scope": "Chromium software WebGL; desktop and emulated mobile. Four missing performances are not certified.",
+  "scope": "Earlier showroom and Wolverine checks run in Chromium software WebGL on desktop and emulated mobile. The complete five-scene vector and sound checks are in vector-motion-verification.json; these reports do not certify physical-phone frame rates.",
   "checks": [
     {
       "viewport": "desktop",

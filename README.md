@@ -1,10 +1,12 @@
-# GAME FROST — source and integration review
+# GAME FROST — five-scene store review
 
-**Review candidate, not a finished five-character release.** The supplied Optimized CMS website is the store baseline; the latest Wolverine GLB is integrated. Goku is first in the explicit chapter registry, followed by Spider-Man, Wolverine, Harry Potter and Ronaldo. Four accepted character performances were not supplied and remain blocked, with no robot or raster-limb substitutions. Read `docs/completion-audit.md` and `docs/QA-REPORT.md` before approving any live replacement.
+This review build combines the supplied gaming store, its six-room 3D showroom, and the complete five-character journey in the requested order: Goku Ultra Instinct → Spider-Man → Wolverine → Harry Potter → Ronaldo. The supplied Wolverine 3D rig remains in place. The other four scenes use original connected vector rigs created for this review, as authorized; they preserve the requested character direction but do not recover the earlier accepted Goku artwork, which was not in the supplied archives.
+
+Scroll or use the chapter buttons to move through the action. Playback, pause, replay, reset and the progress controls share the same timeline. Sound effects are synthesized in the browser and play only after a visitor enables Sound. The desktop/mobile preview MP4s include the synchronized synthesized effects; the website also has an independent Sound on/off control.
 
 The existing live GAME FROST Site has not been changed. This package does not publish it.
 
-**8 October correction:** the six-department 3D showroom is restored to the homepage below the journey. The journey now follows native scrolling and scrubs the supplied Wolverine clip; short layouts and reduced motion keep accessible chapter controls. This restores store placement and scroll control, not the four absent character performances. See `docs/SCENE-RECOVERY.md` and `docs/scroll-showroom-verification.json`.
+The journey and showroom appear together on the homepage; `/showroom` remains available. Reduced motion disables automatic movement and scroll pinning while retaining pose inspection and chapter controls. Read `docs/vector-motion-verification.json` for desktop/mobile animation, attachment, sound and layout results. Software browser checks do not certify physical-phone frame rate.
 
 ## Download from GitHub
 
@@ -48,7 +50,7 @@ npm run verify:backend
 node scripts/verify-portable.mjs
 ```
 
-`build:netlify` builds the hosted Worker and frontend, writes the current default content snapshot, builds/pre-renders the static edition, creates the hosted admin export kit, and measures compressed bundle sizes. Browser QA tools additionally require Python Playwright, Pillow, Chromium and ffmpeg. The texture optimizer is optional; optimized deliverable assets are already included.
+`build:netlify` regenerates the vector ready-pose posters from their rigs, builds the hosted Worker and frontend, writes the current default content snapshot, builds/pre-renders the static edition, creates the hosted admin export kit, and measures compressed bundle sizes. Browser QA tools additionally require Python Playwright, Pillow, Chromium and ffmpeg. The texture optimizer is optional; optimized deliverable assets are already included.
 
 ## Hosted shared edition
 
@@ -63,9 +65,9 @@ Hosted `/admin` uses the confirmed original owner account. Products, content, sc
 - `VIEWING-INSTRUCTIONS.md`: quick opening/deployment instructions.
 - `docs/CLOUD-SETUP.md`: saved environment draft and current-instance development readiness.
 - `docs/ADMIN-GUIDE-CURRENT.md`: editing, preview/publish, request queue, backup/restore and hosting distinctions.
-- `docs/QA-REPORT.md`: current checks, measurements and remaining release blockers.
+- `docs/QA-REPORT.md`: current checks and measurements.
 - `docs/asset-manifest.json`: bundled URLs, dimensions, transparency, hashes and provenance.
-- `outputs/preview/`: desktop/mobile recordings and pose sheets in the separate review evidence ZIP.
+- `outputs/preview/`: desktop/mobile five-scene recordings and pose sheets in the separate review evidence ZIP.
 - `references/`: original Wolverine GLB, FBX/textures, supplied animation code, credits/license notes and completion plan. The store imports its own single Three.js runtime, not the standalone preview bundle.
 - `docs/archive-reports/` and `docs/ORIGINAL-README.md`: historical material from the supplied archive; it does not certify this build.
 

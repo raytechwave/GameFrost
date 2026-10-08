@@ -17,8 +17,8 @@ with zipfile.ZipFile(DROP,'w',zipfile.ZIP_DEFLATED,compresslevel=9) as archive:
   if file.is_file() and '.vite' not in file.parts:archive.write(file,file.relative_to(ROOT/'netlify-dist').as_posix())
 with zipfile.ZipFile(PREVIEW,'w',zipfile.ZIP_DEFLATED,compresslevel=9) as archive:
  for file in sorted((ROOT/'outputs/preview').iterdir()):
-  if file.is_file() and file.suffix in {'.mp4','.jpg','.png','.html'} and file.name not in {'poster-source.png','wolverine-stage.png','reviews-overflow-before.png','text-resize-before.png','hosted-product-inspection.png','mobile-recording-frames.jpg'}:archive.write(file,file.name)
- for name in ['QA-REPORT.md','ADMIN-GUIDE-CURRENT.md','completion-audit.md','SCENE-RECOVERY.md','scroll-showroom-verification.json','corrective-route-verification.json','upload-inventory.json','motion-envelope-verification.json','corrective-package-verification.json']:archive.write(ROOT/'docs'/name,name)
+  if file.is_file() and file.suffix in {'.mp4','.jpg','.png','.html'} and file.name not in {'poster-source.png','wolverine-stage.png','reviews-overflow-before.png','text-resize-before.png','hosted-product-inspection.png','mobile-recording-frames.jpg','combined-desktop-review.mp4','combined-mobile-review.mp4'}:archive.write(file,file.name)
+ for name in ['QA-REPORT.md','ADMIN-GUIDE-CURRENT.md','completion-audit.md','SCENE-RECOVERY.md','scroll-showroom-verification.json','corrective-route-verification.json','upload-inventory.json','motion-envelope-verification.json','corrective-package-verification.json','vector-motion-verification.json','five-scene-preview.json','2D-ASSET-RESEARCH.md','asset-manifest.json','final-performance.json','build-revision.json']:archive.write(ROOT/'docs'/name,name)
 result=[]
 for file in [SOURCE,DROP,PREVIEW]:
  with zipfile.ZipFile(file) as archive:assert archive.testzip() is None
