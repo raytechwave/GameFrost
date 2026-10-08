@@ -4,6 +4,8 @@
 
 The existing live GAME FROST Site has not been changed. This package does not publish it.
 
+**8 October correction:** the six-department 3D showroom is restored to the homepage below the journey. The journey now follows native scrolling and scrubs the supplied Wolverine clip; short layouts and reduced motion keep accessible chapter controls. This restores store placement and scroll control, not the four absent character performances. See `docs/SCENE-RECOVERY.md` and `docs/scroll-showroom-verification.json`.
+
 ## Download from GitHub
 
 The [delivery folder](deliverables/README.md) contains direct downloads for the **Source ZIP**, **Netlify Drop ZIP** and **desktop/mobile preview ZIP**. The Source ZIP includes the prebuilt website; extract that package for the launcher instructions below. GitHub's Code → Download ZIP and a Git clone contain repository source and the delivery packages, so they require a build before running the source-folder launcher. GitHub Pages is not configured, and uploading this repository does not deploy or replace the live website.

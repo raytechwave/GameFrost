@@ -1,0 +1,85 @@
+{
+  "scope": "Exact original uploads available in this cloud workspace; the completion plan is a handoff, not embedded source.",
+  "archives": [
+    {
+      "file": "wolverine-rigged-deadpool-and-wolverine.zip",
+      "bytes": 7159044,
+      "sha256": "ac6fc9560895f31fe0c7af1e3a93e326a8ac9f2a43fd7f4c229513803fd0e546",
+      "entries": 7,
+      "motionFiles": [
+        "source/LOGAN LIVE ACTION .fbx"
+      ],
+      "characterFilenameMatches": {
+        "goku": [],
+        "spider": [],
+        "wolverine": [
+          "textures/Wolverine_Gauntlet_001_C.png",
+          "textures/wolverine_innards_d.jpg",
+          "textures/Wolverine_Body_001_C.png",
+          "textures/wolverine_hair_d.tga.png",
+          "textures/T_Wolverine_Body_d.tga.png",
+          "textures/Wolverine_Boots_001_C.png"
+        ],
+        "harry": [],
+        "ronaldo": [],
+        "rift": []
+      }
+    },
+    {
+      "file": "Wolverine-3D-Complete.zip",
+      "bytes": 20748259,
+      "sha256": "15aa102e4b92ad806c3034301adaa80216df133aa91a7651d61b5afce9f29922",
+      "entries": 18,
+      "motionFiles": [
+        "Wolverine-Claw-Attack.glb",
+        "source/original-model/source/LOGAN LIVE ACTION .fbx"
+      ],
+      "characterFilenameMatches": {
+        "goku": [],
+        "spider": [],
+        "wolverine": [
+          "Wolverine-Claw-Attack.glb",
+          "source/original-model/textures/T_Wolverine_Body_d.tga.png",
+          "source/original-model/textures/Wolverine_Body_001_C.png",
+          "source/original-model/textures/Wolverine_Boots_001_C.png",
+          "source/original-model/textures/Wolverine_Gauntlet_001_C.png",
+          "source/original-model/textures/wolverine_hair_d.tga.png",
+          "source/original-model/textures/wolverine_innards_d.jpg"
+        ],
+        "harry": [],
+        "ronaldo": [],
+        "rift": []
+      }
+    },
+    {
+      "file": "GAME-FROST-Optimized-CMS-Complete.zip",
+      "bytes": 22367296,
+      "sha256": "e577caca0c63d157e1a316f51d6793c60b75c90b0719660e7d1eab0e2ecd5ed6",
+      "entries": 852,
+      "motionFiles": [],
+      "characterFilenameMatches": {
+        "goku": [],
+        "spider": [
+          "GAME-FROST-Optimized-CMS-Complete/NETLIFY-DROP/games/spider-man-2/index.html",
+          "GAME-FROST-Optimized-CMS-Complete/NETLIFY-DROP/images/spider-man-2.webp",
+          "GAME-FROST-Optimized-CMS-Complete/offline-preview/games--spider-man-2.html",
+          "GAME-FROST-Optimized-CMS-Complete/website/dist/client/admin-kit/images/spider-man-2.webp",
+          "GAME-FROST-Optimized-CMS-Complete/website/dist/client/images/spider-man-2.webp",
+          "GAME-FROST-Optimized-CMS-Complete/website/public/images/spider-man-2.webp"
+        ],
+        "wolverine": [],
+        "harry": [],
+        "ronaldo": [],
+        "rift": []
+      }
+    }
+  ],
+  "missingReferencedSources": [
+    "Canonical GAME FROST Site source revision 12",
+    "Rift Arena Animation Fix Complete archive",
+    "Accepted Goku beam-on/off artwork and scene",
+    "Spider-Man scene",
+    "Harry Potter red wand-spell scene",
+    "Ronaldo foot/ball scene"
+  ]
+}

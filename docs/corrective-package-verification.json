@@ -1,0 +1,181 @@
+{
+  "scope": "Freshly extracted current ZIPs, Source ZIP launcher and Chromium emulated mobile. Dependencies were not reinstalled in this correction.",
+  "checks": [
+    "Source ZIP included build: 17 important mobile routes, real 404, restored showroom section and actual GLB rendered from freshly extracted files.",
+    "Drop ZIP: 17 important mobile routes, real 404, restored showroom section and actual GLB rendered from freshly extracted files.",
+    "All three ZIPs pass CRC checks; source/drop exclude credentials, Git metadata and dependencies."
+  ],
+  "routes": [
+    {
+      "edition": "Source ZIP included build",
+      "path": "/",
+      "http": 200
+    },
+    {
+      "edition": "Source ZIP included build",
+      "path": "/shop",
+      "http": 200
+    },
+    {
+      "edition": "Source ZIP included build",
+      "path": "/shop/playstation/ps5-slim-disc",
+      "http": 200
+    },
+    {
+      "edition": "Source ZIP included build",
+      "path": "/cart",
+      "http": 200
+    },
+    {
+      "edition": "Source ZIP included build",
+      "path": "/checkout",
+      "http": 200
+    },
+    {
+      "edition": "Source ZIP included build",
+      "path": "/trade-in",
+      "http": 200
+    },
+    {
+      "edition": "Source ZIP included build",
+      "path": "/services",
+      "http": 200
+    },
+    {
+      "edition": "Source ZIP included build",
+      "path": "/reviews",
+      "http": 200
+    },
+    {
+      "edition": "Source ZIP included build",
+      "path": "/new-games",
+      "http": 200
+    },
+    {
+      "edition": "Source ZIP included build",
+      "path": "/about",
+      "http": 200
+    },
+    {
+      "edition": "Source ZIP included build",
+      "path": "/visit",
+      "http": 200
+    },
+    {
+      "edition": "Source ZIP included build",
+      "path": "/guides",
+      "http": 200
+    },
+    {
+      "edition": "Source ZIP included build",
+      "path": "/faq",
+      "http": 200
+    },
+    {
+      "edition": "Source ZIP included build",
+      "path": "/policies",
+      "http": 200
+    },
+    {
+      "edition": "Source ZIP included build",
+      "path": "/account",
+      "http": 200
+    },
+    {
+      "edition": "Source ZIP included build",
+      "path": "/admin",
+      "http": 200
+    },
+    {
+      "edition": "Source ZIP included build",
+      "path": "/showroom",
+      "http": 200
+    },
+    {
+      "edition": "Drop ZIP",
+      "path": "/",
+      "http": 200
+    },
+    {
+      "edition": "Drop ZIP",
+      "path": "/shop",
+      "http": 200
+    },
+    {
+      "edition": "Drop ZIP",
+      "path": "/shop/playstation/ps5-slim-disc",
+      "http": 200
+    },
+    {
+      "edition": "Drop ZIP",
+      "path": "/cart",
+      "http": 200
+    },
+    {
+      "edition": "Drop ZIP",
+      "path": "/checkout",
+      "http": 200
+    },
+    {
+      "edition": "Drop ZIP",
+      "path": "/trade-in",
+      "http": 200
+    },
+    {
+      "edition": "Drop ZIP",
+      "path": "/services",
+      "http": 200
+    },
+    {
+      "edition": "Drop ZIP",
+      "path": "/reviews",
+      "http": 200
+    },
+    {
+      "edition": "Drop ZIP",
+      "path": "/new-games",
+      "http": 200
+    },
+    {
+      "edition": "Drop ZIP",
+      "path": "/about",
+      "http": 200
+    },
+    {
+      "edition": "Drop ZIP",
+      "path": "/visit",
+      "http": 200
+    },
+    {
+      "edition": "Drop ZIP",
+      "path": "/guides",
+      "http": 200
+    },
+    {
+      "edition": "Drop ZIP",
+      "path": "/faq",
+      "http": 200
+    },
+    {
+      "edition": "Drop ZIP",
+      "path": "/policies",
+      "http": 200
+    },
+    {
+      "edition": "Drop ZIP",
+      "path": "/account",
+      "http": 200
+    },
+    {
+      "edition": "Drop ZIP",
+      "path": "/admin",
+      "http": 200
+    },
+    {
+      "edition": "Drop ZIP",
+      "path": "/showroom",
+      "http": 200
+    }
+  ],
+  "errors": []
+}

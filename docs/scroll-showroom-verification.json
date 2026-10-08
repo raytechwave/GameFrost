@@ -1,0 +1,135 @@
+{
+  "scope": "Chromium software WebGL; desktop and emulated mobile. Four missing performances are not certified.",
+  "checks": [
+    {
+      "viewport": "desktop",
+      "modelReadyWaitSeconds": 3.805,
+      "note": "Software renderer; not a physical device loading benchmark."
+    },
+    "desktop: eight actual scroll-driven poses, exact same rendered pixels after reverse seeking, one character canvas.",
+    "desktop: all five chapter buttons change document scroll in order; outgoing GLB disposed; manual playback/reset still work.",
+    "desktop: restored homepage showroom, all six departments, native entry link, free roam, product inspection, fullscreen/Escape; one visible 3D renderer.",
+    {
+      "viewport": "mobile",
+      "modelReadyWaitSeconds": 2.395,
+      "note": "Software renderer; not a physical device loading benchmark."
+    },
+    "mobile: eight actual scroll-driven poses, exact same rendered pixels after reverse seeking, one character canvas.",
+    "mobile: all five chapter buttons change document scroll in order; outgoing GLB disposed; manual playback/reset still work.",
+    "mobile: restored homepage showroom, all six departments, native entry link, free roam, product inspection, fullscreen/Escape; one visible 3D renderer.",
+    "Reduced motion retains a poster and accessible chapter buttons; no automatic model load or scroll pinning.",
+    "Model download failure preserves the real-rig poster and usable showroom/store navigation.",
+    "Eight viewport sizes plus 200% root text: no horizontal overflow; short/enlarged layouts retain natural flow."
+  ],
+  "errors": [],
+  "poses": [
+    {
+      "viewport": "desktop",
+      "seconds": 0,
+      "file": "wolverine-desktop-pose-0.png",
+      "source": "native scroll"
+    },
+    {
+      "viewport": "desktop",
+      "seconds": 0.8,
+      "file": "wolverine-desktop-pose-1.png",
+      "source": "native scroll"
+    },
+    {
+      "viewport": "desktop",
+      "seconds": 1.35,
+      "file": "wolverine-desktop-pose-2.png",
+      "source": "native scroll"
+    },
+    {
+      "viewport": "desktop",
+      "seconds": 1.65,
+      "file": "wolverine-desktop-pose-3.png",
+      "source": "native scroll"
+    },
+    {
+      "viewport": "desktop",
+      "seconds": 1.94,
+      "file": "wolverine-desktop-pose-4.png",
+      "source": "native scroll"
+    },
+    {
+      "viewport": "desktop",
+      "seconds": 2.35,
+      "file": "wolverine-desktop-pose-5.png",
+      "source": "native scroll"
+    },
+    {
+      "viewport": "desktop",
+      "seconds": 3.5,
+      "file": "wolverine-desktop-pose-6.png",
+      "source": "native scroll"
+    },
+    {
+      "viewport": "desktop",
+      "seconds": 4.8,
+      "file": "wolverine-desktop-pose-7.png",
+      "source": "native scroll"
+    },
+    {
+      "viewport": "mobile",
+      "seconds": 0,
+      "file": "wolverine-mobile-pose-0.png",
+      "source": "native scroll"
+    },
+    {
+      "viewport": "mobile",
+      "seconds": 0.8,
+      "file": "wolverine-mobile-pose-1.png",
+      "source": "native scroll"
+    },
+    {
+      "viewport": "mobile",
+      "seconds": 1.35,
+      "file": "wolverine-mobile-pose-2.png",
+      "source": "native scroll"
+    },
+    {
+      "viewport": "mobile",
+      "seconds": 1.65,
+      "file": "wolverine-mobile-pose-3.png",
+      "source": "native scroll"
+    },
+    {
+      "viewport": "mobile",
+      "seconds": 1.94,
+      "file": "wolverine-mobile-pose-4.png",
+      "source": "native scroll"
+    },
+    {
+      "viewport": "mobile",
+      "seconds": 2.35,
+      "file": "wolverine-mobile-pose-5.png",
+      "source": "native scroll"
+    },
+    {
+      "viewport": "mobile",
+      "seconds": 3.5,
+      "file": "wolverine-mobile-pose-6.png",
+      "source": "native scroll"
+    },
+    {
+      "viewport": "mobile",
+      "seconds": 4.8,
+      "file": "wolverine-mobile-pose-7.png",
+      "source": "native scroll"
+    }
+  ],
+  "recordings": [
+    {
+      "viewport": "desktop",
+      "frames": 185,
+      "description": "CDP screencast with original frame timestamps; untrimmed software WebGL pace, no sped-up playback."
+    },
+    {
+      "viewport": "mobile",
+      "frames": 352,
+      "description": "CDP screencast with original frame timestamps; untrimmed software WebGL pace, no sped-up playback."
+    }
+  ]
+}

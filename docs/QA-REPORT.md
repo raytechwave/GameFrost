@@ -1,8 +1,21 @@
-# GAME FROST integration review — 7 October 2026
+# GAME FROST integration review — corrected 8 October 2026
 
 This is a review candidate, not the completed five-character release. Nothing has been deployed to or published on the existing live website. The supplied CMS archive is the recovered main store; the Wolverine scene was separate and is now integrated. Canonical Site revision 12 and the later Rift Arena archive were unavailable for comparison.
 
-## Current verification
+## 8 October corrective verification
+
+The six-department 3D store is restored to the homepage and retains its dedicated route. Native scrolling selects the required chapters and drives the available Wolverine clip. The complete five-character release remains blocked by four missing scene assets.
+
+- Hosted/static builds and TypeScript checks pass. The static exporter checks 104 page/query states.
+- Current desktop/mobile checks pass for 17 important routes each (34 visits) and real 404 responses; no browser exceptions, broken loaded images or horizontal overflow. See `corrective-route-verification.json`.
+- New browser motion checks pass: 16 actual scroll-driven Wolverine poses, pixel-identical return to the same pose after reverse seeking, native chapter jumps, explicit playback/reset, disposal on chapter exit, reduced-motion poster behavior, failed-download fallback and usable store entry.
+- The restored showroom passes all six department selections, free roam, movement controls, product inspection, fullscreen/Escape and shopping navigation on desktop and emulated mobile.
+- Eight viewport sizes and 200% root text pass overflow checks; the trust strip now reflows with enlarged text. Short/enlarged layouts keep natural flow rather than a cropped pinned panel. See `scroll-showroom-verification.json`.
+- Cached motion-envelope metadata samples 290 actual poses. Every rig/clip/geometry/texture binary byte is unchanged from the previous delivery. See `motion-envelope-verification.json`.
+- Independently extracted Source and Drop ZIPs pass 17 important mobile routes each, real 404 and actual GLB rendering. The Source ZIP’s included launcher was used; dependencies were not reinstalled for this correction. All three ZIPs pass CRC checks. See `corrective-package-verification.json`.
+- Current recordings are untrimmed CDP screencasts encoded with installed system FFmpeg. Frame timestamps and software rendering pace are retained. These replace the earlier presentation recordings. Current pose sheets and showroom screenshots were visually inspected.
+
+## 7 October verification of the preceding baseline
 
 - Frozen install with the original lockfile, pnpm 11.25.0 and Node 24.19.0; hosted and static production builds pass. TypeScript `--noEmit` passes.
 - Isolated Worker tests: 33 CMS checks and 28 customer-request checks pass, including access isolation, draft/published separation, stale conflicts, upload validation, server-calculated prices, idempotent submission and owner workflow status conflicts. These exercise real D1/R2 test bindings, not the live database.
@@ -16,15 +29,15 @@ This is a review candidate, not the completed five-character release. Nothing ha
 
 ## Character evidence and limitations
 
-The original Wolverine rig's nodes, meshes, skins, animations, accessors and all 112 non-image buffer views are unchanged. Two skins and the 41-channel authored attack remain intact. Only embedded textures were resized/re-encoded. Runtime uses one Three.js instance, full animation-envelope camera framing and a transparent canvas/poster, with explicit playback/reset and seek controls. No extra floating sparks, blade echoes or detached scratch effects were added.
+The original Wolverine rig's nodes, meshes, skins, animations, accessors and all 112 non-image buffer views are unchanged. Two skins and the 41-channel authored attack remain intact. Only embedded textures were resized/re-encoded. Runtime uses one Three.js instance, cached full animation-envelope camera framing and a transparent canvas/poster, with native scroll seeking plus explicit playback/reset controls. No extra floating sparks, blade echoes or detached scratch effects were added.
 
-The accepted Goku performance/artwork, Spider-Man wrist/web performance, Harry Potter wand/red-spell performance and Ronaldo boot/ball performance are absent from the uploaded source/assets. Their identities and order are retained, with explicit unfinished chapters. Full consecutive scroll choreography and those four attack attachments cannot be certified or completed from these files. No invented substitute characters are presented as finished work.
+The accepted Goku performance/artwork, Spider-Man wrist/web performance, Harry Potter wand/red-spell performance and Ronaldo boot/ball performance are absent from the uploaded source/assets. Their identities and order are retained, with explicit unfinished chapters. The native chapter/seek controller is now implemented, but the complete five-performance choreography and those four attack attachments remain blocked by missing scenes. No invented substitute characters are presented as finished work.
 
 ## Performance
 
-See `final-performance.json` for the current exact build sizes. Initial shopping/home JavaScript is approximately 155 KB gzip. All optional route/admin/Three.js JavaScript totals approximately 399 KB gzip, exceeding the handoff's 250 KB total budget. Three.js and the model are loaded only by explicit character activation. The model is 6,866,136 bytes versus 12,475,700 originally; gzip size 1,653,406 depends on hosting compression. Original rig/reference sources are included for rollback.
+See `final-performance.json` for the current exact build sizes. Initial shopping/home JavaScript is approximately 161 KB gzip. All optional route/admin/Three.js JavaScript totals approximately 400 KB gzip, exceeding the handoff's 250 KB total budget. The character model loads on entering its chapter in scroll mode, with no automatic model load under reduced motion or data saving. The showroom renderer loads on explicit store entry. The model is 6,865,876 bytes versus 12,475,700 originally; gzip size 1,653,410 depends on hosting compression. Original rig/reference sources are included for rollback.
 
-Stable-viewport browser walkthroughs are included in the evidence ZIP. Their MP4 presentations shorten the model-loading wait without speeding up the attack; `preview-recording.json` records the cut boundaries. The cloud software renderer took roughly 15–24 seconds to prepare the model in these recordings; that is not a physical-device load-time benchmark.
+Current stable-viewport browser walkthroughs are included in the evidence ZIP. They retain original screencast timestamps without trimming or speeding up playback; `scroll-showroom-verification.json` records their scope. The former loading-trim metadata in `preview-recording.json` describes the historical 7 October recordings, not these new MP4s.
 
 These are build sizes and software-WebGL browser checks. No physical-phone frame-rate target, field Core Web Vitals, low-end device test or live authentication/payment integration is claimed.
 

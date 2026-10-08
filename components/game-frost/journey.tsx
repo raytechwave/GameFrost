@@ -7,7 +7,7 @@ import {scenesFor,type CharacterScene} from '@/lib/scenes';
 import type {SceneController} from './character-stage';
 import './journey.css';
 
-function Performance({record}:{record:CharacterScene}){
+function Performance({record,scrollProgress}:{record:CharacterScene;scrollProgress:number|null}){
  const host=useRef<HTMLDivElement>(null),controller=useRef<SceneController|null>(null),frame=useRef(0),progressRef=useRef(0);
  const [loaded,setLoaded]=useState(false),[status,setStatus]=useState('poster'),[progress,setProgress]=useState(0),[playing,setPlaying]=useState(false),[reduced,setReduced]=useState(false);
  const [visible,setVisible]=useState(true),[background,setBackground]=useState(false);
@@ -22,6 +22,9 @@ function Performance({record}:{record:CharacterScene}){
  return()=>{cancelled=true;cancelAnimationFrame(frame.current);host.current?.removeEventListener('gf-context-lost',lose);controller.current?.dispose();controller.current=null};
  },[loaded,record.asset,record.clip,record.renderer]);
  function seek(p:number){progressRef.current=p;setProgress(p);controller.current?.seek(p);if(video.current&&Number.isFinite(video.current.duration))video.current.currentTime=p*video.current.duration}
+ // Native scrolling and manual playback use the same deterministic pose controller.
+ useEffect(()=>{if(scrollProgress===null||reduced)return;setPlaying(false);seek(scrollProgress)},[scrollProgress,reduced,status]);
+ useEffect(()=>{if(scrollProgress===null||reduced||record.status!=='ready'||!record.active||record.renderer==='poster')return;const connection=(navigator as any).connection;if(connection?.saveData||/2g/.test(connection?.effectiveType||''))return;setLoaded(true)},[scrollProgress!==null,reduced,record.status,record.active,record.renderer]);
  useEffect(()=>{if(!playing)return;if(reduced||!visible||background||status!=='ready'){setPlaying(false);return}let last=0;
  const tick=(time:number)=>{if(!last)last=time;const p=Math.min(1,progressRef.current+(time-last)/1000/record.duration);last=time;seek(p);if(p<1)frame.current=requestAnimationFrame(tick);else setPlaying(false)};
  frame.current=requestAnimationFrame(tick);return()=>cancelAnimationFrame(frame.current);
@@ -46,18 +49,32 @@ function Performance({record}:{record:CharacterScene}){
   </div>}
  </div>
 }
-export function Journey(){const{document}=useContent();const scenes=scenesFor(document);const[index,setIndex]=useState(0);const record=scenes[index];
- return <section className="journey" id="showroom" style={{'--scene-accent':record.accent} as React.CSSProperties} aria-label="GAME FROST character journey">
-  <div className="shell journey-top"><span className="eyebrow">GAME FROST / PLAYER SELECT</span><Link href="/shop" className="text-link">Skip to the store <ArrowRight size={15}/></Link></div>
+export function Journey(){const{document:content}=useContent();const scenes=scenesFor(content);const[index,setIndex]=useState(0);const record=scenes[index];
+ const root=useRef<HTMLElement>(null),panel=useRef<HTMLDivElement>(null),step=useRef(1),headerHeight=useRef(80),scrollFrame=useRef(0);
+ const [progress,setProgress]=useState(0),[scrolling,setScrolling]=useState(false),[trackHeight,setTrackHeight]=useState<number>(),[top,setTop]=useState(80);
+ useEffect(()=>{
+  const media=matchMedia('(prefers-reduced-motion: reduce)');let enabled=false;
+  const update=()=>{scrollFrame.current=0;if(!enabled||!root.current)return;const distance=Math.max(0,headerHeight.current-root.current.getBoundingClientRect().top);const position=Math.min(5,distance/step.current+.001);const chapter=Math.min(4,Math.floor(position));const local=position-chapter;setIndex(chapter);setProgress(Math.round(Math.max(0,Math.min(1,(local-.08)/.8))*10000)/10000);document.documentElement.dataset.journeyActive=distance<step.current*5?'true':'false'};
+  const queue=()=>{if(!scrollFrame.current)scrollFrame.current=requestAnimationFrame(update)};
+  const measure=()=>{if(!panel.current)return;const header=document.querySelector('.site-header');const height=header?.getBoundingClientRect().height??80;headerHeight.current=height;setTop(height);document.documentElement.style.setProperty('--gf-header-height',`${height}px`);const available=window.innerHeight-height;const motionOff=media.matches||document.documentElement.dataset.motion==='off';const fits=available>=600&&panel.current.scrollHeight<=available+2;enabled=!motionOff&&fits;step.current=Math.max(600,window.innerHeight*.95);setScrolling(enabled);setTrackHeight(enabled?panel.current.offsetHeight+step.current*5:undefined);if(!enabled)delete document.documentElement.dataset.journeyActive;queue()};
+  const ro=new ResizeObserver(measure);if(panel.current)ro.observe(panel.current);const header=document.querySelector('.site-header');if(header)ro.observe(header);
+  window.addEventListener('scroll',queue,{passive:true});window.addEventListener('resize',measure);window.addEventListener('gf-motion',measure);media.addEventListener('change',measure);measure();
+  return()=>{ro.disconnect();cancelAnimationFrame(scrollFrame.current);window.removeEventListener('scroll',queue);window.removeEventListener('resize',measure);window.removeEventListener('gf-motion',measure);media.removeEventListener('change',measure);delete document.documentElement.dataset.journeyActive;document.documentElement.style.removeProperty('--gf-header-height')};
+ },[]);
+ function choose(chapter:number){if(scrolling&&root.current){const start=window.scrollY+root.current.getBoundingClientRect().top-headerHeight.current;window.scrollTo({top:start+step.current*(chapter+.001),behavior:'instant'})}else{setIndex(chapter);setProgress(0)}}
+ return <section ref={root} className={`journey ${scrolling?'is-scroll':''}`} id="character-journey" data-chapter={record.id} data-progress={progress} style={{'--scene-accent':record.accent,'--journey-top':`${top}px`,height:trackHeight} as React.CSSProperties} aria-label="GAME FROST character journey">
+  <div ref={panel} className="journey-panel">
+  <div className="shell journey-top"><span className="eyebrow">GAME FROST / FIVE CHAPTERS</span><Link href="#showroom" className="text-link">Enter the 3D store <ArrowRight size={15}/></Link></div>
   <div className="shell journey-layout">
    <div className="journey-copy"><div className="journey-chapter"><span>{String(index+1).padStart(2,'0')}</span> / 05 · {record.name}</div>
     <h1>{record.title}</h1><p>{record.copy}</p><div className="action-row"><Link className="btn" href={record.href}>{record.cta} <ArrowRight size={17}/></Link><Link className="text-link" href="/shop">All products</Link></div>
     <div className="journey-detail"><span>ORIGINAL SEALS</span><span>CONSOLES · GAMES · GEAR</span><span>KARACHI, PK</span></div>
     {record.status==='asset-needed'&&<p className="journey-review-note">Integration preview: the accepted {record.name} assets were not included in the supplied website archive. This chapter remains unfinished.</p>}
    </div>
-   <Performance key={record.id} record={record}/>
+   <Performance key={record.id} record={record} scrollProgress={scrolling?progress:null}/>
   </div>
-  <nav className="shell journey-nav" aria-label="Character chapters">{scenes.map((s,i)=><button key={s.id} aria-current={i===index?'step':undefined} onClick={()=>setIndex(i)}><small>{String(i+1).padStart(2,'0')}</small><span>{s.name}</span>{i===index&&<ChevronRight size={16}/>}</button>)}</nav>
-  <div className="shell journey-next"><span>Choose a chapter. Keep scrolling to shop.</span><button onClick={()=>setIndex((index+1)%5)} className="text-link">Next chapter <ArrowRight size={16}/></button></div>
+  <nav className="shell journey-nav" aria-label="Character chapters">{scenes.map((s,i)=><button key={s.id} aria-current={i===index?'step':undefined} onClick={()=>choose(i)}><small>{String(i+1).padStart(2,'0')}</small><span>{s.name}</span>{i===index&&<ChevronRight size={16}/>}</button>)}</nav>
+  <div className="shell journey-next"><span>{scrolling?'Scroll to advance the action and enter the next chapter.':'Choose a chapter. The 3D store is directly below.'}</span>{index<4?<button onClick={()=>choose(index+1)} className="text-link">Next chapter <ArrowRight size={16}/></button>:<Link href="#showroom" className="text-link">Enter the store <ArrowRight size={16}/></Link>}</div>
+  </div>
  </section>
 }

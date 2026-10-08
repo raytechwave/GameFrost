@@ -18,7 +18,7 @@ with zipfile.ZipFile(DROP,'w',zipfile.ZIP_DEFLATED,compresslevel=9) as archive:
 with zipfile.ZipFile(PREVIEW,'w',zipfile.ZIP_DEFLATED,compresslevel=9) as archive:
  for file in sorted((ROOT/'outputs/preview').iterdir()):
   if file.is_file() and file.suffix in {'.mp4','.jpg','.png','.html'} and file.name not in {'poster-source.png','wolverine-stage.png','reviews-overflow-before.png','text-resize-before.png','hosted-product-inspection.png','mobile-recording-frames.jpg'}:archive.write(file,file.name)
- for name in ['QA-REPORT.md','ADMIN-GUIDE-CURRENT.md','completion-audit.md']:archive.write(ROOT/'docs'/name,name)
+ for name in ['QA-REPORT.md','ADMIN-GUIDE-CURRENT.md','completion-audit.md','SCENE-RECOVERY.md','scroll-showroom-verification.json','corrective-route-verification.json','upload-inventory.json','motion-envelope-verification.json','corrective-package-verification.json']:archive.write(ROOT/'docs'/name,name)
 result=[]
 for file in [SOURCE,DROP,PREVIEW]:
  with zipfile.ZipFile(file) as archive:assert archive.testzip() is None

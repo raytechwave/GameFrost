@@ -33,7 +33,13 @@ export async function mountCharacter(host:HTMLElement,record:CharacterScene):Pro
  action.setLoop(T.LoopOnce,1);action.clampWhenFinished=true;action.play();
  // The camera fits the complete movement envelope, including the airborne head.
  const envelope=new T.Box3();
- for(let i=0;i<=32;i++){mixer.setTime(clip.duration*i/32);model.updateMatrixWorld(true);envelope.union(new T.Box3().setFromObject(model,true))}
+ const cached=gltf.asset.extras?.gameFrostMotion;
+ const finiteBounds=(v:unknown):v is number[]=>Array.isArray(v)&&v.length===3&&v.every(Number.isFinite);
+ if(cached?.clip===clip.name&&finiteBounds(cached.min)&&finiteBounds(cached.max)&&cached.min.every((v:number,i:number)=>v<cached.max[i])){
+  envelope.set(new T.Vector3().fromArray(cached.min),new T.Vector3().fromArray(cached.max));
+ }else{
+  for(let i=0;i<=32;i++){mixer.setTime(clip.duration*i/32);model.updateMatrixWorld(true);envelope.union(new T.Box3().setFromObject(model,true))}
+ }
  mixer.setTime(0);
  const center=envelope.getCenter(new T.Vector3()),size=envelope.getSize(new T.Vector3());
  let disposed=false,p=0;

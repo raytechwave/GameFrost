@@ -9,3 +9,25 @@
 @media(prefers-reduced-motion:reduce){.journey *{scroll-behavior:auto!important}}
 
 :root[data-theme=light] .journey-chapter span{color:#735014}
+
+/* One pinned stage follows native document scrolling. Short viewports and
+   enlarged text keep a natural-height panel with keyboard chapter controls. */
+.journey-panel{background:radial-gradient(ellipse at 77% 45%,color-mix(in srgb,var(--scene-accent) 9%,transparent),transparent 55%),var(--background)}
+.journey{overflow-anchor:none}html{scroll-padding-top:var(--gf-header-height,115px)}
+:root[data-journey-active=true] .floating-wa{visibility:hidden}
+.journey.is-scroll .journey-panel{position:sticky;top:var(--journey-top);}
+.journey-layout{min-height:0}.journey-stage{height:clamp(260px,calc(100svh - var(--journey-top,80px) - 260px),480px)}
+.journey-copy{padding:35px 0 28px}.journey-copy h1{font-size:clamp(2rem,4.2vw,4rem)}
+.journey-top .text-link{white-space:normal}.journey-next>span{max-width:70%}
+@media(max-width:600px){
+ .journey-top{padding-top:16px}.journey-top .text-link{font-size:.68rem}
+ .journey-copy{padding:20px 0 8px}.journey-copy h1{font-size:clamp(1.6rem,7vw,2.2rem)}
+ .journey-chapter{margin-bottom:12px}.journey-copy>p{font-size:.8rem;margin-top:12px;line-height:1.55}
+ .journey-copy .action-row{margin-top:16px;gap:14px}.journey-copy .action-row .btn{min-height:44px;padding:10px 16px;font-size:.8rem}
+ .journey-detail{display:none}.journey-copy .journey-review-note{font-size:.65rem;margin-top:12px}
+ .journey-stage,.journey-stage:has(.journey-pending){height:clamp(180px,calc(100svh - var(--journey-top,80px) - 470px),300px)}
+ .journey-pending{height:100%;padding:12px}.journey-outline{font-size:90px}.journey-pending p{margin-top:12px}
+ .journey-nav button{min-height:54px;padding:12px 10px}.journey-nav{scrollbar-width:none}
+ .journey-controls{padding-bottom:8px;min-height:48px}.journey-next{padding-block:12px;align-items:flex-start}
+ .journey-next .text-link{font-size:.65rem;white-space:normal;text-align:right}
+}

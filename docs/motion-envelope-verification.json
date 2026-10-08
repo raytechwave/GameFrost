@@ -1,0 +1,33 @@
+{
+  "scope": "Camera metadata correction; structural and byte comparison against the previous GitHub GLB, plus current browser visual checks",
+  "unchanged": [
+    "nodes",
+    "meshes",
+    "skins",
+    "animations",
+    "accessors",
+    "bufferViews",
+    "images",
+    "textures"
+  ],
+  "entireBinaryPayloadUnchanged": true,
+  "binarySHA256": "7c752e0dee653d6db250548235915874d84d6598a2b30ea54ec37ff3819b9d7e",
+  "assetSHA256": "5d262c55465c6122b3e1be9a0c299d99e23c5a00294418283e10ec4e4bccebbd",
+  "bytes": 6865876,
+  "gzipBytes": 1653410,
+  "motionEnvelope": {
+    "clip": "Wolverine - crouch, leap, screen strike, landing and facial performance",
+    "samples": 290,
+    "min": [
+      -0.6750766282751436,
+      -0.03458801063952651,
+      -0.3561050315536546
+    ],
+    "max": [
+      0.518989395026039,
+      1.9620952830260336,
+      1.5279640885000048
+    ]
+  },
+  "reference": "The original authored GLB is preserved separately in references/. Four absent characters remain outside this verification."
+}

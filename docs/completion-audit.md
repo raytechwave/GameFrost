@@ -15,7 +15,8 @@ The plan is an implementation handoff, not evidence that its referenced features
 | Wolverine | character-stage.ts, public/characters | Integrated | Original hierarchy, two skins, geometry and 41 animation channels preserved; current motion report and pose sheets |
 | Harry Potter | lib/scenes.ts | Blocked | No full-body wand animation supplied; red Expelliarmus direction retained in the record |
 | Ronaldo | lib/scenes.ts | Blocked | No boot/ball-contact performance supplied |
-| Five consecutive scroll scenes | journey.tsx | Incomplete | Review uses ordered chapter selection and deterministic playback/seek for the available asset. Full five-scene scroll choreography awaits the missing performances |
+| Native scroll chapter controller | journey.tsx | Implemented; see current scroll/showroom verification | Required order, forward/reverse deterministic seeking for Wolverine, native chapter jumps and accessible reduced/short-layout controls. Four missing performances still block the complete journey |
+| 3D store placement | home.tsx, showroom.tsx | Restored to homepage | Six-department showroom follows the journey and retains `/showroom`; GPU room loads on entry |
 | Store routes/catalog/cart | router.tsx, shop.tsx, flows.tsx | Implemented | Browser route/layout report, URL filter persistence, cart/checkout checks |
 | Shared draft/publish/media | cms-server.ts, api/admin | Verified in isolated backend | Current CMS tests and two-session browser test. Actual live dispatch login and live DB/R2 not exercised |
 | Scene admin | scene-editor.tsx | Implemented | CTA, copy, poster, accent, asset/clip settings, constrained duration and draft preview |

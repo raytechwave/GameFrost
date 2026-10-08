@@ -1,0 +1,244 @@
+{
+  "scope": "Current corrected static build, Chromium desktop and emulated mobile; route/layout smoke, not physical-device performance",
+  "routes": [
+    {
+      "path": "/",
+      "width": 1440,
+      "http": 200,
+      "horizontalOverflow": false,
+      "brokenImages": []
+    },
+    {
+      "path": "/showroom",
+      "width": 1440,
+      "http": 200,
+      "horizontalOverflow": false,
+      "brokenImages": []
+    },
+    {
+      "path": "/shop",
+      "width": 1440,
+      "http": 200,
+      "horizontalOverflow": false,
+      "brokenImages": []
+    },
+    {
+      "path": "/shop/playstation/ps5-slim-disc",
+      "width": 1440,
+      "http": 200,
+      "horizontalOverflow": false,
+      "brokenImages": []
+    },
+    {
+      "path": "/services",
+      "width": 1440,
+      "http": 200,
+      "horizontalOverflow": false,
+      "brokenImages": []
+    },
+    {
+      "path": "/trade-in",
+      "width": 1440,
+      "http": 200,
+      "horizontalOverflow": false,
+      "brokenImages": []
+    },
+    {
+      "path": "/new-games",
+      "width": 1440,
+      "http": 200,
+      "horizontalOverflow": false,
+      "brokenImages": []
+    },
+    {
+      "path": "/reviews",
+      "width": 1440,
+      "http": 200,
+      "horizontalOverflow": false,
+      "brokenImages": []
+    },
+    {
+      "path": "/about",
+      "width": 1440,
+      "http": 200,
+      "horizontalOverflow": false,
+      "brokenImages": []
+    },
+    {
+      "path": "/visit",
+      "width": 1440,
+      "http": 200,
+      "horizontalOverflow": false,
+      "brokenImages": []
+    },
+    {
+      "path": "/guides",
+      "width": 1440,
+      "http": 200,
+      "horizontalOverflow": false,
+      "brokenImages": []
+    },
+    {
+      "path": "/faq",
+      "width": 1440,
+      "http": 200,
+      "horizontalOverflow": false,
+      "brokenImages": []
+    },
+    {
+      "path": "/checkout",
+      "width": 1440,
+      "http": 200,
+      "horizontalOverflow": false,
+      "brokenImages": []
+    },
+    {
+      "path": "/cart",
+      "width": 1440,
+      "http": 200,
+      "horizontalOverflow": false,
+      "brokenImages": []
+    },
+    {
+      "path": "/account",
+      "width": 1440,
+      "http": 200,
+      "horizontalOverflow": false,
+      "brokenImages": []
+    },
+    {
+      "path": "/policies",
+      "width": 1440,
+      "http": 200,
+      "horizontalOverflow": false,
+      "brokenImages": []
+    },
+    {
+      "path": "/admin",
+      "width": 1440,
+      "http": 200,
+      "horizontalOverflow": false,
+      "brokenImages": []
+    },
+    {
+      "path": "/",
+      "width": 390,
+      "http": 200,
+      "horizontalOverflow": false,
+      "brokenImages": []
+    },
+    {
+      "path": "/showroom",
+      "width": 390,
+      "http": 200,
+      "horizontalOverflow": false,
+      "brokenImages": []
+    },
+    {
+      "path": "/shop",
+      "width": 390,
+      "http": 200,
+      "horizontalOverflow": false,
+      "brokenImages": []
+    },
+    {
+      "path": "/shop/playstation/ps5-slim-disc",
+      "width": 390,
+      "http": 200,
+      "horizontalOverflow": false,
+      "brokenImages": []
+    },
+    {
+      "path": "/services",
+      "width": 390,
+      "http": 200,
+      "horizontalOverflow": false,
+      "brokenImages": []
+    },
+    {
+      "path": "/trade-in",
+      "width": 390,
+      "http": 200,
+      "horizontalOverflow": false,
+      "brokenImages": []
+    },
+    {
+      "path": "/new-games",
+      "width": 390,
+      "http": 200,
+      "horizontalOverflow": false,
+      "brokenImages": []
+    },
+    {
+      "path": "/reviews",
+      "width": 390,
+      "http": 200,
+      "horizontalOverflow": false,
+      "brokenImages": []
+    },
+    {
+      "path": "/about",
+      "width": 390,
+      "http": 200,
+      "horizontalOverflow": false,
+      "brokenImages": []
+    },
+    {
+      "path": "/visit",
+      "width": 390,
+      "http": 200,
+      "horizontalOverflow": false,
+      "brokenImages": []
+    },
+    {
+      "path": "/guides",
+      "width": 390,
+      "http": 200,
+      "horizontalOverflow": false,
+      "brokenImages": []
+    },
+    {
+      "path": "/faq",
+      "width": 390,
+      "http": 200,
+      "horizontalOverflow": false,
+      "brokenImages": []
+    },
+    {
+      "path": "/checkout",
+      "width": 390,
+      "http": 200,
+      "horizontalOverflow": false,
+      "brokenImages": []
+    },
+    {
+      "path": "/cart",
+      "width": 390,
+      "http": 200,
+      "horizontalOverflow": false,
+      "brokenImages": []
+    },
+    {
+      "path": "/account",
+      "width": 390,
+      "http": 200,
+      "horizontalOverflow": false,
+      "brokenImages": []
+    },
+    {
+      "path": "/policies",
+      "width": 390,
+      "http": 200,
+      "horizontalOverflow": false,
+      "brokenImages": []
+    },
+    {
+      "path": "/admin",
+      "width": 390,
+      "http": 200,
+      "horizontalOverflow": false,
+      "brokenImages": []
+    }
+  ],
+  "errors": []
+}
